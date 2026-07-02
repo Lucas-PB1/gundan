@@ -1,5 +1,5 @@
 export const EXPORT_LABELS = {
-  exportPdf: 'Baixar PDF',
+  exportPdf: 'Salvar PDF…',
   exportPdfBusy: 'Gerando PDF…',
   exportJson: 'Exportar JSON',
   importJson: 'Importar JSON',

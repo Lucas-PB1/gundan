@@ -1,3 +1,5 @@
+import { downloadBlob, saveBlobWithPicker } from './saveFile';
+
 function slugify(name: string): string {
   return (
     name
@@ -59,17 +61,13 @@ async function withPdfCaptureVisible<T>(
   }
 }
 
-/** Captura um elemento HTML e gera PDF A4 para download. */
-export async function exportPilotSheetPdf(
-  element: HTMLElement,
-  filename: string,
-): Promise<void> {
+async function buildPilotSheetPdfBlob(element: HTMLElement): Promise<Blob> {
   const [{ default: html2canvas }, { default: jsPDF }] = await Promise.all([
     import('html2canvas'),
     import('jspdf'),
   ]);
 
-  await withPdfCaptureVisible(element, async () => {
+  return withPdfCaptureVisible(element, async () => {
     const canvas = await html2canvas(element, {
       scale: 2.5,
       backgroundColor: '#ffffff',
@@ -108,17 +106,24 @@ export async function exportPilotSheetPdf(
       remaining -= pageHeight;
     }
 
-    pdf.save(filename);
+    return pdf.output('blob');
   });
 }
 
-function downloadBlob(blob: Blob, filename: string): void {
-  const url = URL.createObjectURL(blob);
-  const anchor = document.createElement('a');
-  anchor.href = url;
-  anchor.download = filename;
-  anchor.click();
-  URL.revokeObjectURL(url);
+/** Gera o PDF e abre o diálogo para escolher onde salvar (com fallback para download). */
+export async function exportPilotSheetPdf(
+  element: HTMLElement,
+  filename: string,
+): Promise<'saved' | 'cancelled' | 'downloaded'> {
+  const blob = await buildPilotSheetPdfBlob(element);
+  const result = await saveBlobWithPicker(blob, filename);
+
+  if (result === 'saved' || result === 'cancelled') {
+    return result === 'saved' ? 'saved' : 'cancelled';
+  }
+
+  downloadBlob(blob, filename);
+  return 'downloaded';
 }
 
 export function downloadPilotJson(pilot: unknown, filename: string): void {
