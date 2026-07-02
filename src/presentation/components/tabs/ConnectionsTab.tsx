@@ -93,12 +93,12 @@ function ConnectionCard({
         <>
           <div className="mb-3">
             <TickClock
-              label="Connection Clock"
+              label="Relógio de conexão"
               ticks={connection.ticks}
               onChange={(t) => onChange({ ...connection, ticks: t })}
             />
           </div>
-          <Field label="Beliefs">
+          <Field label="Crenças">
             {connection.beliefs.map((belief, i) => (
               <div key={i} className="mb-2 flex gap-2">
                 <input
@@ -131,7 +131,7 @@ function ConnectionCard({
               className="mt-1 text-xs text-cyan-400 hover:text-cyan-300"
               onClick={() => onChange({ ...connection, beliefs: [...connection.beliefs, ''] })}
             >
-              + Belief
+              + Crença
             </button>
           </Field>
         </>
@@ -204,9 +204,9 @@ export function ConnectionsTab({
   return (
     <div className="flex flex-col gap-4">
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Connection Sheet</h3>
+        <h3 className={sectionTitleClass}>Ficha de conexões</h3>
         <p className="mb-3 text-xs text-slate-500">
-          Relógio de 4 ticks por piloto do esquadrão. Aliados usam descrição em vez de Beliefs.
+          Relógio de 4 ticks por piloto do esquadrão. Aliados usam descrição em vez de crenças.
           Rivais seguem as mesmas regras com narrativa antagonista.
         </p>
         <div className="flex flex-wrap gap-2">

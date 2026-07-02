@@ -114,6 +114,17 @@ export function usePilotStorage() {
     [commitPilot],
   );
 
+  const resetPilot = useCallback(
+    (id: string) => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+      const fresh = createEmptyPilotSheet(id);
+      setDraft(null);
+      commitPilot(fresh);
+      setActiveId(id);
+    },
+    [commitPilot],
+  );
+
   const otherPilots = pilots.filter((p) => p.id !== activeId);
 
   return {
@@ -128,5 +139,6 @@ export function usePilotStorage() {
     updatePilot,
     commitPilot,
     importPilot,
+    resetPilot,
   };
 }

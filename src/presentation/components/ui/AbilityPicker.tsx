@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getAbilityDescription } from '../../../shared/data/beamSaberHelpData';
+import { getAbilityDescription, getAbilityLabel } from '../../../shared/data/beamSaberHelpData';
 
 export function AbilityPicker({
   playbookId,
@@ -36,14 +36,16 @@ export function AbilityPicker({
             onMouseEnter={() => setHovered(name)}
             onMouseLeave={() => setHovered(null)}
           >
-            {name}
+            {getAbilityLabel(playbookId, name)}
           </button>
         ))}
       </div>
       <div className="ability-picker__detail hud-info-box">
         {displayDesc ? (
           <>
-            <div className="mb-1 font-semibold text-[var(--hud-accent)]">{displayName}</div>
+            <div className="mb-1 font-semibold text-[var(--hud-accent)]">
+              {displayName ? getAbilityLabel(playbookId, displayName) : ''}
+            </div>
             <p className="m-0 text-[0.8rem] leading-relaxed">{displayDesc}</p>
           </>
         ) : (

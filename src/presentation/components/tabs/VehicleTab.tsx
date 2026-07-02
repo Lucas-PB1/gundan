@@ -1,55 +1,12 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
 import { TickClock, XpTrack } from '../ui/TickClock';
-import type { PilotSheet, VehicleQuirk } from '../../../domain/entities/PilotSheet';
-import { EXAMPLE_QUIRKS } from '../../../shared/data/beamSaberGearData';
+import { InfoTip } from '../ui/InfoTip';
+import { QuirkRow } from '../ui/QuirkRow';
+import type { PilotSheet } from '../../../domain/entities/PilotSheet';
+import { FIELD_HELP } from '../../../shared/data/beamSaberHelpData';
+import { QUIRK_RULES_SUMMARY } from '../../../shared/data/beamSaberQuirkData';
 import { VEHICLE_ATTRIBUTES } from '../../../shared/data/beamSaberPilotData';
-
-function QuirkRow({
-  quirk,
-  index,
-  onChange,
-}: {
-  quirk: VehicleQuirk;
-  index: number;
-  onChange: (q: VehicleQuirk) => void;
-}) {
-  return (
-    <div className="rounded-lg border border-slate-800 bg-slate-900/30 p-3">
-      <div className="mb-2 flex items-center justify-between">
-        <span className="text-xs font-medium text-slate-500">Quirk {index + 1}</span>
-        <label className="flex items-center gap-1 text-xs text-slate-400">
-          <input
-            type="checkbox"
-            checked={quirk.exhausted}
-            onChange={(e) => onChange({ ...quirk, exhausted: e.target.checked })}
-          />
-          Exhausted
-        </label>
-      </div>
-      <div className="grid gap-2 sm:grid-cols-3">
-        <input
-          list="example-quirks"
-          className={inputClass}
-          placeholder="Nome"
-          value={quirk.name}
-          onChange={(e) => onChange({ ...quirk, name: e.target.value })}
-        />
-        <input
-          className={inputClass}
-          placeholder="Descritor +"
-          value={quirk.descriptor1}
-          onChange={(e) => onChange({ ...quirk, descriptor1: e.target.value })}
-        />
-        <input
-          className={inputClass}
-          placeholder="Descritor −"
-          value={quirk.descriptor2}
-          onChange={(e) => onChange({ ...quirk, descriptor2: e.target.value })}
-        />
-      </div>
-    </div>
-  );
-}
+import { attrLabel } from '../../../shared/i18n/pt';
 
 export function VehicleTab({
   pilot,
@@ -58,7 +15,7 @@ export function VehicleTab({
   pilot: PilotSheet;
   onChange: (p: PilotSheet) => void;
 }) {
-  const updateQuirk = (index: number, q: VehicleQuirk) => {
+  const updateQuirk = (index: number, q: typeof pilot.quirks[0]) => {
     const quirks = [...pilot.quirks];
     quirks[index] = q;
     onChange({ ...pilot, quirks });
@@ -91,18 +48,19 @@ export function VehicleTab({
       </div>
 
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Damage (veículo)</h3>
+        <h3 className={sectionTitleClass}>Dano (veículo)</h3>
         <div className="grid gap-3 sm:grid-cols-2">
-          <Field label="Nível 1">
+          <Field label="Nível 1 — efeito reduzido">
             <input
               className={inputClass}
+              placeholder="Ex.: Hidráulica vazando"
               value={pilot.vehicleDamage.level1}
               onChange={(e) =>
                 onChange({ ...pilot, vehicleDamage: { ...pilot.vehicleDamage, level1: e.target.value } })
               }
             />
           </Field>
-          <Field label="Nível 2">
+          <Field label="Nível 2 — −1d">
             <input
               className={inputClass}
               value={pilot.vehicleDamage.level2}
@@ -111,7 +69,7 @@ export function VehicleTab({
               }
             />
           </Field>
-          <Field label="Nível 3">
+          <Field label="Nível 3 — só com peculiaridade">
             <input
               className={inputClass}
               value={pilot.vehicleDamage.level3}
@@ -134,20 +92,21 @@ export function VehicleTab({
       </section>
 
       <section className={sectionClass}>
-        <div className="mb-3 flex items-center justify-between">
-          <h3 className={sectionTitleClass.replace('mb-3', '')}>Quirks (4 iniciais)</h3>
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+          <h3 className={`${sectionTitleClass.replace('mb-3', '')} flex items-center`}>
+            Peculiaridades (4 iniciais)
+            <InfoTip text={FIELD_HELP.quirks} />
+          </h3>
           <button
             type="button"
             onClick={refreshQuirks}
             className="text-xs text-cyan-400 hover:text-cyan-300"
           >
-            Refresh all
+            Renovar todas
           </button>
         </div>
-        <datalist id="example-quirks">
-          {EXAMPLE_QUIRKS.map((q) => <option key={q} value={q} />)}
-        </datalist>
-        <div className="flex flex-col gap-2">
+        <p className="mb-3 text-[0.72rem] leading-relaxed text-[var(--hud-muted)]">{QUIRK_RULES_SUMMARY}</p>
+        <div className="flex flex-col gap-3">
           {pilot.quirks.map((q, i) => (
             <QuirkRow key={i} quirk={q} index={i} onChange={(next) => updateQuirk(i, next)} />
           ))}
@@ -155,17 +114,17 @@ export function VehicleTab({
       </section>
 
       <TickClock
-        label="Breakdown"
+        label="Colapso"
         ticks={pilot.breakdownTicks}
         max={4}
         onChange={(t) => onChange({ ...pilot, breakdownTicks: t })}
       />
 
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Enhance track & XP de veículo</h3>
+        <h3 className={sectionTitleClass}>Trilha de aprimoramento e XP de veículo</h3>
         <div className="grid gap-4 sm:grid-cols-2">
           <XpTrack
-            label="Enhance (4 = novo Quirk ou +1 ação)"
+            label="Aprimoramento (4 = nova peculiaridade ou +1 ação)"
             value={pilot.vehicleEnhanceXp}
             max={4}
             onChange={(v) => onChange({ ...pilot, vehicleEnhanceXp: v })}
@@ -173,7 +132,7 @@ export function VehicleTab({
           {VEHICLE_ATTRIBUTES.map((attr) => (
             <XpTrack
               key={attr}
-              label={`${attr} (Desperate = +1 XP)`}
+              label={`${attrLabel(attr)} (Desesperado = +1 XP)`}
               value={pilot.vehicleAttributeXp[attr]}
               max={6}
               onChange={(v) =>

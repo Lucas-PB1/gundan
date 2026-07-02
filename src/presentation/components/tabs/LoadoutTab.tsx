@@ -7,10 +7,10 @@ import {
   LOAD_MODES,
   type GearItem,
 } from '../../../shared/data/beamSaberGearData';
+import { loadLabel as formatLoad, loadModeLabel } from '../../../shared/i18n/pt';
 
 function gearLabel(item: GearItem): string {
-  const loadLabel = item.load === 0 ? 'Load 0' : `Load ${item.load}`;
-  return `${item.name} [${loadLabel}]`;
+  return `${item.name} [${formatLoad(item.load)}]`;
 }
 
 export function LoadoutTab({
@@ -75,7 +75,7 @@ export function LoadoutTab({
   return (
     <div className="flex flex-col gap-4">
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Loadout da missão</h3>
+        <h3 className={sectionTitleClass}>Equipamento da missão</h3>
         <div className="mb-3 flex flex-wrap items-center gap-4">
           <Field label="Modo de carga">
             <select
@@ -87,7 +87,7 @@ export function LoadoutTab({
             >
               {LOAD_MODES.map((m) => (
                 <option key={m} value={m}>
-                  {m} (máx. {LOAD_LIMITS[m]})
+                  {loadModeLabel(m)} (máx. {LOAD_LIMITS[m]})
                 </option>
               ))}
             </select>
@@ -96,7 +96,7 @@ export function LoadoutTab({
             <span className={totalLoad > limit ? 'text-rose-400' : 'text-cyan-300'}>
               {totalLoad}
             </span>
-            <span className="text-slate-500"> / {limit} Load</span>
+            <span className="text-slate-500"> / {limit} carga</span>
           </div>
         </div>
         {equipped.length > 0 && (
@@ -109,12 +109,12 @@ export function LoadoutTab({
       </section>
 
       {!pilot.playbookId ? (
-        <p className="text-sm text-slate-500">Selecione um playbook na aba Identidade.</p>
+        <p className="text-sm text-slate-500">Selecione um arquétipo na aba Identidade.</p>
       ) : (
         <>
-          {renderGearList(playbookPilot, 'Gear especialista (piloto)')}
-          {renderGearList(standard, 'Gear padrão')}
-          {renderGearList(playbookVehicle, 'Gear especialista (veículo)')}
+          {renderGearList(playbookPilot, 'Equipamento especialista (piloto)')}
+          {renderGearList(standard, 'Equipamento padrão')}
+          {renderGearList(playbookVehicle, 'Equipamento especialista (veículo)')}
         </>
       )}
 
@@ -122,7 +122,7 @@ export function LoadoutTab({
         <textarea
           className={inputClass}
           rows={2}
-          placeholder="Gadgets, bribes, itens inventados no downtime…"
+          placeholder="Aparelhos, subornos, itens inventados no tempo livre…"
           value={pilot.customGear}
           onChange={(e) => onChange({ ...pilot, customGear: e.target.value })}
         />

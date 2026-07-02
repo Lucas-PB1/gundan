@@ -5,6 +5,7 @@ import { FIELD_HELP, SCAR_HELP } from '../../../shared/data/beamSaberHelpData';
 import { InfoTip } from '../ui/InfoTip';
 import { SCAR_CONDITIONS } from '../../../shared/data/beamSaberGearData';
 import { PILOT_ATTRIBUTES } from '../../../shared/data/beamSaberPilotData';
+import { attrLabel, scarLabel } from '../../../shared/i18n/pt';
 
 export function ConditionTab({
   pilot,
@@ -17,7 +18,7 @@ export function ConditionTab({
     <div className="flex flex-col gap-4">
       <section className={sectionClass}>
         <h3 className={`${sectionTitleClass} flex items-center`}>
-          Stress
+          Estresse
           <InfoTip text={FIELD_HELP.stress} />
         </h3>
         <div className="mb-3 flex flex-wrap gap-1">
@@ -43,7 +44,7 @@ export function ConditionTab({
               checked={pilot.armorUsed}
               onChange={(e) => onChange({ ...pilot, armorUsed: e.target.checked })}
             />
-            Armor gasto
+            Armadura gasta
             <InfoTip text={FIELD_HELP.armor} />
           </label>
           <label className="flex items-center gap-2">
@@ -52,7 +53,7 @@ export function ConditionTab({
               checked={pilot.sparkUsed}
               onChange={(e) => onChange({ ...pilot, sparkUsed: e.target.checked })}
             />
-            Spark gasto
+            Centelha gasta
             <InfoTip text={FIELD_HELP.spark} />
           </label>
         </div>
@@ -60,26 +61,26 @@ export function ConditionTab({
 
       <section className={sectionClass}>
         <h3 className={`${sectionTitleClass} flex items-center`}>
-          Harm
+          Ferimentos
           <InfoTip text={FIELD_HELP.harm} />
         </h3>
         <div className="grid gap-3 sm:grid-cols-2">
-          <Field label="Nível 1 — Less">
+          <Field label="Nível 1 — Leve">
             <input
               className={inputClass}
-              placeholder="Ex.: Bruised, Bloody"
+              placeholder="Ex.: Contusões, sangue"
               value={pilot.harm.level1}
               onChange={(e) => onChange({ ...pilot, harm: { ...pilot.harm, level1: e.target.value } })}
             />
           </Field>
-          <Field label="Nível 2 — Serious">
+          <Field label="Nível 2 — Grave">
             <input
               className={inputClass}
               value={pilot.harm.level2}
               onChange={(e) => onChange({ ...pilot, harm: { ...pilot.harm, level2: e.target.value } })}
             />
           </Field>
-          <Field label="Nível 3 — Severe">
+          <Field label="Nível 3 — Severo">
             <input
               className={inputClass}
               value={pilot.harm.level3}
@@ -99,7 +100,7 @@ export function ConditionTab({
 
       <section className={sectionClass}>
         <h3 className={`${sectionTitleClass} flex items-center`}>
-          Scars
+          Marcas
           <InfoTip text={FIELD_HELP.scars} />
         </h3>
         <div className="flex flex-wrap gap-2">
@@ -124,26 +125,26 @@ export function ConditionTab({
                     : 'border-[var(--hud-border)] text-[var(--hud-muted)] hover:border-[var(--hud-accent-dim)]'
                 }`}
               >
-                {scar}
+                {scarLabel(scar)}
               </button>
             );
           })}
         </div>
-        <p className="mt-2 text-[0.65rem] text-[var(--hud-muted)]">4ª Scar → piloto sai da guerra.</p>
+        <p className="mt-2 text-[0.65rem] text-[var(--hud-muted)]">A 4ª marca → piloto sai da guerra.</p>
       </section>
 
       <section className={sectionClass}>
         <h3 className={sectionTitleClass}>Experiência</h3>
         <div className="grid gap-4 sm:grid-cols-2">
           <XpTrack
-            label="Playbook XP"
+            label="XP de arquétipo"
             help={FIELD_HELP.playbookXp}
             value={pilot.playbookXp}
             max={8}
             onChange={(v) => onChange({ ...pilot, playbookXp: v })}
           />
           <XpTrack
-            label="General XP"
+            label="XP geral"
             value={pilot.generalXp}
             max={10}
             onChange={(v) => onChange({ ...pilot, generalXp: v })}
@@ -151,7 +152,7 @@ export function ConditionTab({
           {PILOT_ATTRIBUTES.map((attr) => (
             <XpTrack
               key={attr}
-              label={attr}
+              label={attrLabel(attr)}
               help={FIELD_HELP.attributeXp}
               value={pilot.attributeXp[attr]}
               max={6}
@@ -167,7 +168,7 @@ export function ConditionTab({
       </section>
 
       <TickClock
-        label="Healing clock (segmentos preenchidos)"
+        label="Relógio de cura (segmentos preenchidos)"
         ticks={pilot.healingClockFilled}
         max={4}
         onChange={(t) => onChange({ ...pilot, healingClockFilled: t })}

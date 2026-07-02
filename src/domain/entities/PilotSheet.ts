@@ -106,6 +106,32 @@ export function applyPlaybookStartingBonuses(
   return next;
 }
 
+export function removePlaybookStartingBonuses(
+  ratings: ActionRatings,
+  playbook: PilotPlaybook,
+): ActionRatings {
+  const next = { ...ratings };
+  for (const { actionId, bonus } of playbook.startingBonuses) {
+    next[actionId] = Math.max(0, (next[actionId] ?? 0) - bonus);
+  }
+  return next;
+}
+
+/** Troca bônus de ação ao mudar de playbook sem zerar pontos distribuídos manualmente. */
+export function swapPlaybookActionBonuses(
+  ratings: ActionRatings,
+  previousPlaybookId: string,
+  nextPlaybookId: string,
+  getPlaybook: (id: string) => PilotPlaybook | undefined,
+): ActionRatings {
+  let next = { ...ratings };
+  const previous = previousPlaybookId ? getPlaybook(previousPlaybookId) : undefined;
+  const upcoming = nextPlaybookId ? getPlaybook(nextPlaybookId) : undefined;
+  if (previous) next = removePlaybookStartingBonuses(next, previous);
+  if (upcoming) next = applyPlaybookStartingBonuses(next, upcoming);
+  return next;
+}
+
 export function createEmptyPilotSheet(id: string): PilotSheet {
   return {
     id,

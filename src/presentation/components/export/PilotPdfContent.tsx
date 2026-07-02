@@ -6,6 +6,9 @@ import {
   PILOT_ACTIONS,
   VEHICLE_ACTIONS,
 } from '../../../shared/data/beamSaberPilotData';
+import { loadLabel, loadModeLabel, scarLabel } from '../../../shared/i18n/pt';
+import { getAbilityLabel } from '../../../shared/data/beamSaberHelpData';
+import type { ScarCondition } from '../../../shared/data/beamSaberGearData';
 
 function StressBoxes({ current, max }: { current: number; max: number }) {
   return (
@@ -86,13 +89,13 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
           {pilot.ability ? (
             <>
               <dt>Habilidade</dt>
-              <dd>{pilot.ability}</dd>
+              <dd>{getAbilityLabel(pilot.playbookId, pilot.ability)}</dd>
             </>
           ) : null}
           {pilot.extraAbilities.length > 0 ? (
             <>
               <dt>Extras</dt>
-              <dd>{pilot.extraAbilities.join(', ')}</dd>
+              <dd>{pilot.extraAbilities.map((a) => getAbilityLabel(pilot.playbookId, a)).join(', ')}</dd>
             </>
           ) : null}
         </dl>
@@ -101,13 +104,13 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
       <section className="bs-pdf-doc__section">
         <h2>História</h2>
         <div className="bs-pdf-doc__grid-2">
-          <p className="bs-pdf-doc__line"><strong>History:</strong> {pilot.history || '—'}</p>
-          <p className="bs-pdf-doc__line"><strong>Tragedy:</strong> {pilot.tragedy || '—'}</p>
-          <p className="bs-pdf-doc__line"><strong>Opening:</strong> {pilot.opening || '—'}</p>
-          <p className="bs-pdf-doc__line"><strong>Drive:</strong> {pilot.drive || '—'}</p>
+          <p className="bs-pdf-doc__line"><strong>História:</strong> {pilot.history || '—'}</p>
+          <p className="bs-pdf-doc__line"><strong>Tragédia:</strong> {pilot.tragedy || '—'}</p>
+          <p className="bs-pdf-doc__line"><strong>Abertura:</strong> {pilot.opening || '—'}</p>
+          <p className="bs-pdf-doc__line"><strong>Impulso:</strong> {pilot.drive || '—'}</p>
         </div>
         <p className="bs-pdf-doc__line bs-pdf-doc__muted">
-          Drive clocks:{' '}
+          Relógios de impulso:{' '}
           <TickRow ticks={pilot.driveClocks[0]} />{' '}
           <TickRow ticks={pilot.driveClocks[1]} />
         </p>
@@ -125,45 +128,45 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
         <h2>Condição</h2>
         <div className="bs-pdf-doc__grid-2">
           <div>
-            <p className="bs-pdf-doc__line"><strong>Stress</strong> ({pilot.stress}/{pilot.stressMax})</p>
+            <p className="bs-pdf-doc__line"><strong>Estresse</strong> ({pilot.stress}/{pilot.stressMax})</p>
             <StressBoxes current={pilot.stress} max={pilot.stressMax} />
             <p className="bs-pdf-doc__line bs-pdf-doc__muted">
-              Armor: {pilot.armorUsed ? 'gasto' : 'disponível'} · Spark: {pilot.sparkUsed ? 'gasto' : 'disponível'}
+              Armadura: {pilot.armorUsed ? 'gasta' : 'disponível'} · Centelha: {pilot.sparkUsed ? 'gasta' : 'disponível'}
             </p>
           </div>
           <div className="bs-pdf-doc__grid-3">
             <div className="bs-pdf-doc__stat">
-              <span className="bs-pdf-doc__stat-label">Playbook XP</span>
+              <span className="bs-pdf-doc__stat-label">XP de arquétipo</span>
               <span className="bs-pdf-doc__stat-value">{pilot.playbookXp}/8</span>
             </div>
             <div className="bs-pdf-doc__stat">
-              <span className="bs-pdf-doc__stat-label">General XP</span>
+              <span className="bs-pdf-doc__stat-label">XP geral</span>
               <span className="bs-pdf-doc__stat-value">{pilot.generalXp}</span>
             </div>
             <div className="bs-pdf-doc__stat">
-              <span className="bs-pdf-doc__stat-label">Insight XP</span>
+              <span className="bs-pdf-doc__stat-label">XP Perspicácia</span>
               <span className="bs-pdf-doc__stat-value">{pilot.attributeXp.insight}/6</span>
             </div>
             <div className="bs-pdf-doc__stat">
-              <span className="bs-pdf-doc__stat-label">Prowess XP</span>
+              <span className="bs-pdf-doc__stat-label">XP Destreza</span>
               <span className="bs-pdf-doc__stat-value">{pilot.attributeXp.prowess}/6</span>
             </div>
             <div className="bs-pdf-doc__stat">
-              <span className="bs-pdf-doc__stat-label">Resolve XP</span>
+              <span className="bs-pdf-doc__stat-label">XP Determinação</span>
               <span className="bs-pdf-doc__stat-value">{pilot.attributeXp.resolve}/6</span>
             </div>
           </div>
         </div>
         <div className="bs-pdf-doc__harm-row">
-          <span className="bs-pdf-doc__harm-label">Harm 1</span>
+          <span className="bs-pdf-doc__harm-label">Ferimento 1</span>
           <span>{pilot.harm.level1 || '—'}</span>
         </div>
         <div className="bs-pdf-doc__harm-row">
-          <span className="bs-pdf-doc__harm-label">Harm 2</span>
+          <span className="bs-pdf-doc__harm-label">Ferimento 2</span>
           <span>{pilot.harm.level2 || '—'}</span>
         </div>
         <div className="bs-pdf-doc__harm-row">
-          <span className="bs-pdf-doc__harm-label">Harm 3</span>
+          <span className="bs-pdf-doc__harm-label">Ferimento 3</span>
           <span>{pilot.harm.level3 || '—'}</span>
         </div>
         {pilot.harm.level4 && (
@@ -171,9 +174,9 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
         )}
         {pilot.scars.length > 0 && (
           <p className="bs-pdf-doc__line">
-            <strong>Scars:</strong>{' '}
+            <strong>Marcas:</strong>{' '}
             {pilot.scars.map((s) => (
-              <span key={s} className="bs-pdf-doc__tag">{s}</span>
+              <span key={s} className="bs-pdf-doc__tag">{scarLabel(s as ScarCondition)}</span>
             ))}
           </p>
         )}
@@ -187,7 +190,7 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
               <li key={c.id}>
                 <strong>{c.name || '—'}</strong> ({CONNECTION_LABELS[c.type]})
                 {c.type !== 'ally' && (
-                  <> · Clock: <TickRow ticks={c.ticks} /></>
+                  <> · Relógio: <TickRow ticks={c.ticks} /></>
                 )}
                 {c.beliefs.filter(Boolean).length > 0 && (
                   <span className="bs-pdf-doc__muted"> — {c.beliefs.filter(Boolean).join('; ')}</span>
@@ -204,19 +207,19 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
       <section className="bs-pdf-doc__section">
         <h2>Equipamento</h2>
         <p className="bs-pdf-doc__line">
-          <strong>Load:</strong> {totalLoad}/{loadLimit} ({pilot.loadMode})
+          <strong>Carga:</strong> {totalLoad}/{loadLimit} ({loadModeLabel(pilot.loadMode)})
         </p>
         {equipped.length > 0 ? (
           <ul className="bs-pdf-doc__list">
             {equipped.map((i) => (
-              <li key={i.gearId}>{i.name} [Load {i.load}]</li>
+              <li key={i.gearId}>{i.name} [{loadLabel(i.load)}]</li>
             ))}
           </ul>
         ) : (
           <p className="bs-pdf-doc__muted">Nenhum item equipado.</p>
         )}
         {pilot.customGear && (
-          <p className="bs-pdf-doc__line"><strong>Custom:</strong> {pilot.customGear}</p>
+          <p className="bs-pdf-doc__line"><strong>Personalizado:</strong> {pilot.customGear}</p>
         )}
       </section>
 
@@ -226,22 +229,22 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
           <p className="bs-pdf-doc__line">{pilot.vehicleLook}</p>
         )}
         <div className="bs-pdf-doc__harm-row">
-          <span className="bs-pdf-doc__harm-label">Dmg 1</span>
+          <span className="bs-pdf-doc__harm-label">Dano 1</span>
           <span>{pilot.vehicleDamage.level1 || '—'}</span>
         </div>
         <div className="bs-pdf-doc__harm-row">
-          <span className="bs-pdf-doc__harm-label">Dmg 2</span>
+          <span className="bs-pdf-doc__harm-label">Dano 2</span>
           <span>{pilot.vehicleDamage.level2 || '—'}</span>
         </div>
         <div className="bs-pdf-doc__harm-row">
-          <span className="bs-pdf-doc__harm-label">Dmg 3</span>
+          <span className="bs-pdf-doc__harm-label">Dano 3</span>
           <span>{pilot.vehicleDamage.level3 || '—'}</span>
         </div>
         {pilot.vehicleDamage.level4 && (
           <p className="bs-pdf-doc__line"><strong>Destruído</strong></p>
         )}
         <p className="bs-pdf-doc__line bs-pdf-doc__muted">
-          Breakdown: <TickRow ticks={pilot.breakdownTicks} /> · Enhance XP: {pilot.vehicleEnhanceXp}/4
+          Colapso: <TickRow ticks={pilot.breakdownTicks} /> · XP de aprimoramento: {pilot.vehicleEnhanceXp}/4
         </p>
         {pilot.quirks.some((q) => q.name) && (
           <ul className="bs-pdf-doc__list">
@@ -251,7 +254,7 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
                 {q.descriptor1 || q.descriptor2
                   ? ` (${[q.descriptor1, q.descriptor2].filter(Boolean).join(' / ')})`
                   : ''}
-                {q.exhausted ? ' [exhausted]' : ''}
+                {q.exhausted ? ' [esgotada]' : ''}
               </li>
             ))}
           </ul>

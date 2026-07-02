@@ -1,5 +1,6 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
 import { AbilityPicker } from '../ui/AbilityPicker';
+import { OptionSelect } from '../ui/OptionSelect';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import {
   EXAMPLE_HISTORIES,
@@ -7,8 +8,9 @@ import {
   EXAMPLE_TRAGEDIES,
   getPlaybookById,
   PILOT_PLAYBOOKS,
+  PILOT_ACTIONS,
 } from '../../../shared/data/beamSaberPilotData';
-import { applyPlaybookStartingBonuses } from '../../../domain/entities/PilotSheet';
+import { swapPlaybookActionBonuses } from '../../../domain/entities/PilotSheet';
 import { FIELD_HELP, PLAYBOOK_HELP } from '../../../shared/data/beamSaberHelpData';
 import { TickClock } from '../ui/TickClock';
 
@@ -21,14 +23,29 @@ export function IdentityTab({
 }) {
   const playbook = getPlaybookById(pilot.playbookId);
 
+  const handlePlaybookChange = (playbookId: string) => {
+    onChange({
+      ...pilot,
+      playbookId,
+      loadout: [],
+      ability: '',
+      actionRatings: swapPlaybookActionBonuses(
+        pilot.actionRatings,
+        pilot.playbookId,
+        playbookId,
+        getPlaybookById,
+      ),
+    });
+  };
+
   return (
     <div className="flex flex-col gap-4">
       <div className="grid gap-4 lg:grid-cols-2">
-        <Field label="Playbook" help={FIELD_HELP.playbook}>
+        <Field label="Arquétipo" help={FIELD_HELP.playbook}>
           <select
-            className={inputClass}
+            className={`${inputClass} hud-select cursor-pointer`}
             value={pilot.playbookId}
-            onChange={(e) => onChange({ ...pilot, playbookId: e.target.value, loadout: [], ability: '' })}
+            onChange={(e) => handlePlaybookChange(e.target.value)}
           >
             <option value="">Selecione…</option>
             {PILOT_PLAYBOOKS.map((p) => (
@@ -39,19 +56,14 @@ export function IdentityTab({
           </select>
         </Field>
         {playbook && (
-          <div className="flex items-end">
-            <button
-              type="button"
-              onClick={() =>
-                onChange({
-                  ...pilot,
-                  actionRatings: applyPlaybookStartingBonuses(pilot.actionRatings, playbook),
-                })
-              }
-              className="hud-btn"
-            >
-              ▸ Aplicar bônus do playbook
-            </button>
+          <div className="flex items-end text-[0.72rem] text-[var(--hud-muted)]">
+            Bônus nas Ações:{' '}
+            {playbook.startingBonuses
+              .map((b) => {
+                const name = PILOT_ACTIONS.find((a) => a.id === b.actionId)?.name ?? b.actionId;
+                return `${name} +${b.bonus}`;
+              })
+              .join(' · ')}
           </div>
         )}
       </div>
@@ -75,7 +87,7 @@ export function IdentityTab({
         <Field label="Pronomes">
           <input className={inputClass} value={pilot.pronouns} onChange={(e) => onChange({ ...pilot, pronouns: e.target.value })} />
         </Field>
-        <Field label="Callsign">
+        <Field label="Indicativo">
           <input className={inputClass} value={pilot.callSign} onChange={(e) => onChange({ ...pilot, callSign: e.target.value })} />
         </Field>
       </div>
@@ -90,38 +102,47 @@ export function IdentityTab({
         />
       )}
 
-      <Field label="Aparência (Look)">
+      <Field label="Aparência">
         <textarea className={inputClass} rows={2} value={pilot.look} onChange={(e) => onChange({ ...pilot, look: e.target.value })} />
       </Field>
 
       <div className="grid gap-4 lg:grid-cols-3">
-        <Field label="History" hint="+1 ação na criação" help={FIELD_HELP.history}>
-          <input list="histories" className={inputClass} value={pilot.history} onChange={(e) => onChange({ ...pilot, history: e.target.value })} />
+        <Field label="História" hint="+1 ação na criação" help={FIELD_HELP.history}>
+          <OptionSelect
+            options={EXAMPLE_HISTORIES}
+            value={pilot.history}
+            onChange={(history) => onChange({ ...pilot, history })}
+          />
         </Field>
-        <Field label="Tragedy" help={FIELD_HELP.tragedy}>
-          <input list="tragedies" className={inputClass} value={pilot.tragedy} onChange={(e) => onChange({ ...pilot, tragedy: e.target.value })} />
+        <Field label="Tragédia" help={FIELD_HELP.tragedy}>
+          <OptionSelect
+            options={EXAMPLE_TRAGEDIES}
+            value={pilot.tragedy}
+            onChange={(tragedy) => onChange({ ...pilot, tragedy })}
+          />
         </Field>
-        <Field label="Opening" hint="+1 ação na criação" help={FIELD_HELP.opening}>
-          <input list="openings" className={inputClass} value={pilot.opening} onChange={(e) => onChange({ ...pilot, opening: e.target.value })} />
+        <Field label="Abertura" hint="+1 ação na criação" help={FIELD_HELP.opening}>
+          <OptionSelect
+            options={EXAMPLE_OPENINGS}
+            value={pilot.opening}
+            onChange={(opening) => onChange({ ...pilot, opening })}
+          />
         </Field>
       </div>
-      <datalist id="histories">{EXAMPLE_HISTORIES.map((h) => <option key={h} value={h} />)}</datalist>
-      <datalist id="tragedies">{EXAMPLE_TRAGEDIES.map((t) => <option key={t} value={t} />)}</datalist>
-      <datalist id="openings">{EXAMPLE_OPENINGS.map((o) => <option key={o} value={o} />)}</datalist>
 
-      <Field label="Drive" help={FIELD_HELP.drive}>
+      <Field label="Impulso" help={FIELD_HELP.drive}>
         <textarea className={inputClass} rows={2} value={pilot.drive} onChange={(e) => onChange({ ...pilot, drive: e.target.value })} placeholder="O que você quer mudar no mundo?" />
       </Field>
 
       <div className="grid gap-4 sm:grid-cols-2">
         <TickClock
-          label="Drive Clock α"
+          label="Relógio de impulso α"
           help={FIELD_HELP.driveClock}
           ticks={pilot.driveClocks[0]}
           onChange={(t) => onChange({ ...pilot, driveClocks: [t, pilot.driveClocks[1]] })}
         />
         <TickClock
-          label="Drive Clock β"
+          label="Relógio de impulso β"
           help={FIELD_HELP.driveClock}
           ticks={pilot.driveClocks[1]}
           onChange={(t) => onChange({ ...pilot, driveClocks: [pilot.driveClocks[0], t] })}
@@ -132,12 +153,12 @@ export function IdentityTab({
         <section className={sectionClass}>
           <h3 className={sectionTitleClass}>Todas as habilidades — {playbook.name}</h3>
           <p className="mb-3 text-[0.7rem] text-[var(--hud-muted)]">
-            Clique em uma habilidade acima para ler a regra. Veteran pode ser escolhida várias vezes.
+            Clique em uma habilidade acima para ler a regra. Veterano pode ser escolhida várias vezes.
           </p>
           <Field label="Habilidades extras obtidas">
             <input
               className={inputClass}
-              placeholder="Veteran: Bloodlust, Veteran: Ghost…"
+              placeholder="Veterano: Sede de Sangue, Veterano: Fantasma…"
               value={pilot.extraAbilities.join(', ')}
               onChange={(e) =>
                 onChange({

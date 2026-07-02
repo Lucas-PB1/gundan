@@ -17,6 +17,7 @@ export default function App() {
     deletePilot,
     updatePilot,
     importPilot,
+    resetPilot,
   } = usePilotStorage();
 
   const handleImport = async (file: File) => {
@@ -33,10 +34,10 @@ export default function App() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 lg:flex-row">
         <aside className="hud-panel w-full shrink-0 lg:w-56">
           <p className="mb-0.5 font-mono text-[0.55rem] tracking-[0.3em] text-[var(--hud-muted)]">
-            MOBILE SUIT
+            MECHA
           </p>
           <h1 className="hud-sidebar-title mb-1">BEAM SABER</h1>
-          <p className="mb-4 font-mono text-[0.6rem] text-[var(--hud-muted)]">PILOT REGISTRY · LOCAL</p>
+          <p className="mb-4 font-mono text-[0.6rem] text-[var(--hud-muted)]">REGISTRO DE PILOTOS · LOCAL</p>
           <button type="button" onClick={createPilot} className="hud-btn mb-2 w-full">
             + NOVO PILOTO
           </button>
@@ -95,7 +96,7 @@ export default function App() {
           </ul>
           {pilots.length > 0 && (
             <p className="mt-4 font-mono text-[0.6rem] text-[var(--hud-muted)]">
-              UNITS: {pilots.length}
+              UNIDADES: {pilots.length}
             </p>
           )}
         </aside>
@@ -107,11 +108,12 @@ export default function App() {
               otherPilots={otherPilots}
               savedAt={savedAt}
               onChange={updatePilot}
+              onReset={() => resetPilot(activePilot.id)}
             />
           ) : (
             <div className="hud-panel p-12 text-center">
               <p className="mb-1 font-mono text-[0.65rem] tracking-widest text-[var(--hud-accent)]">
-                AWAITING PILOT
+                AGUARDANDO PILOTO
               </p>
               <p className="mb-4 text-[var(--hud-muted)]">Nenhuma unidade registrada.</p>
               <button type="button" onClick={createPilot} className="hud-btn hud-btn--primary">

@@ -1,5 +1,4 @@
 import { InfoTip } from './InfoTip';
-import { sectionClass, sectionTitleClass } from './Field';
 
 export function TickClock({
   label,
@@ -15,9 +14,9 @@ export function TickClock({
   onChange: (ticks: number) => void;
 }) {
   return (
-    <div className={sectionClass}>
+    <div className="tick-clock">
       <div className="mb-2 flex items-center justify-between">
-        <span className={`${sectionTitleClass.replace('mb-3', '')} flex items-center`}>
+        <span className="hud-label flex items-center">
           {label}
           {help ? <InfoTip text={help} /> : null}
         </span>
@@ -28,7 +27,7 @@ export function TickClock({
           <button
             key={i}
             type="button"
-            aria-label={`Tick ${i + 1}`}
+            aria-label={`Marca ${i + 1}`}
             onClick={() => onChange(i + 1 === ticks ? i : i + 1)}
             className={`h-8 flex-1 border transition-colors ${
               i < ticks

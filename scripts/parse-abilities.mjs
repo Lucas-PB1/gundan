@@ -7,6 +7,14 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+function normalizeAbilityName(name) {
+  return name
+    .replace(/[\u2018\u2019\u201B\u2032`´]/g, "'")
+    .replace(/[\u201C\u201D]/g, '"')
+    .trim();
+}
+
 const sources = [
   path.join(__dirname, '../data/extracted/pages-59-95.txt'),
   path.join(__dirname, '../data/extracted/pages-96-150.txt'),
@@ -57,7 +65,7 @@ for (const [key, id] of Object.entries(PLAYBOOK_MAP)) {
     const m = line.match(/^[\s\uf000-\uffff\u2022\-•]*([^:]+):\s*(.+)/u);
     if (m) {
       if (current) abilities[current] = buf.trim().replace(/\s+/g, ' ');
-      current = m[1].trim();
+      current = normalizeAbilityName(m[1].trim());
       buf = m[2].trim();
     } else if (current && line.trim() && !line.startsWith('=====')) {
       buf += ' ' + line.trim();
