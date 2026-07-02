@@ -14,13 +14,17 @@ import {
 import { clearNarrativeBonus, setNarrativeBonusAction, swapPlaybookActionBonuses } from '../../../domain/entities/PilotSheet';
 import { FIELD_HELP, PLAYBOOK_HELP } from '../../../shared/data/beamSaberHelpData';
 import { TickClock } from '../ui/TickClock';
+import { CreationChecklistSummary } from '../ui/CreationChecklist';
+import { CREATION_ANCHORS, type PilotEditorNavigate } from '../../../shared/constants/pilotEditorTabs';
 
 export function IdentityTab({
   pilot,
   onChange,
+  onNavigate,
 }: {
   pilot: PilotSheet;
   onChange: (p: PilotSheet) => void;
+  onNavigate?: PilotEditorNavigate;
 }) {
   const playbook = getPlaybookById(pilot.playbookId);
 
@@ -41,7 +45,7 @@ export function IdentityTab({
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="grid gap-4 lg:grid-cols-2">
+      <div id={CREATION_ANCHORS.playbook} className="creation-anchor grid gap-4 lg:grid-cols-2">
         <Field label="Arquétipo" help={FIELD_HELP.playbook}>
           <select
             className={`${inputClass} hud-select cursor-pointer`}
@@ -81,7 +85,7 @@ export function IdentityTab({
         </div>
       )}
 
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <div id={CREATION_ANCHORS.identity} className="creation-anchor grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         <Field label="Nome">
           <input className={inputClass} value={pilot.name} onChange={(e) => onChange({ ...pilot, name: e.target.value })} />
         </Field>
@@ -94,6 +98,7 @@ export function IdentityTab({
       </div>
 
       {playbook && (
+        <div id={CREATION_ANCHORS.ability} className="creation-anchor">
         <AbilityPicker
           playbookId={playbook.id}
           abilities={playbook.abilities}
@@ -101,13 +106,17 @@ export function IdentityTab({
           onChange={(ability) => onChange({ ...pilot, ability })}
           help={FIELD_HELP.ability}
         />
+        </div>
       )}
 
       <Field label="Aparência">
         <textarea className={inputClass} rows={2} value={pilot.look} onChange={(e) => onChange({ ...pilot, look: e.target.value })} />
       </Field>
 
+      <CreationChecklistSummary pilot={pilot} onNavigate={onNavigate} />
+
       <div className="grid gap-4 lg:grid-cols-3">
+        <div id={CREATION_ANCHORS.history} className="creation-anchor">
         <Field label="História" hint="+1 ação na criação" help={FIELD_HELP.history}>
           <div className="flex flex-col gap-2">
             <OptionSelect
@@ -127,6 +136,8 @@ export function IdentityTab({
             />
           </div>
         </Field>
+        </div>
+        <div id={CREATION_ANCHORS.tragedy} className="creation-anchor">
         <Field label="Tragédia" help={FIELD_HELP.tragedy}>
           <OptionSelect
             options={EXAMPLE_TRAGEDIES}
@@ -134,6 +145,8 @@ export function IdentityTab({
             onChange={(tragedy) => onChange({ ...pilot, tragedy })}
           />
         </Field>
+        </div>
+        <div id={CREATION_ANCHORS.opening} className="creation-anchor">
         <Field label="Abertura" hint="+1 ação na criação" help={FIELD_HELP.opening}>
           <div className="flex flex-col gap-2">
             <OptionSelect
@@ -153,11 +166,14 @@ export function IdentityTab({
             />
           </div>
         </Field>
+        </div>
       </div>
 
+      <div id={CREATION_ANCHORS.drive} className="creation-anchor">
       <Field label="Impulso" help={FIELD_HELP.drive}>
         <textarea className={inputClass} rows={2} value={pilot.drive} onChange={(e) => onChange({ ...pilot, drive: e.target.value })} placeholder="O que você quer mudar no mundo?" />
       </Field>
+      </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
         <TickClock

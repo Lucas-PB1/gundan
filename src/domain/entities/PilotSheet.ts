@@ -104,7 +104,7 @@ export function createEmptyActionRatings(): ActionRatings {
 
 const NARRATIVE_ACTION_BONUS = 1;
 
-function isVehicleActionId(actionId: string): boolean {
+export function isVehicleActionId(actionId: string): boolean {
   return VEHICLE_ACTIONS.some((a) => a.id === actionId);
 }
 

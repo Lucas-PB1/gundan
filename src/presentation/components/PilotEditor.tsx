@@ -1,29 +1,22 @@
-import { useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import type { PilotSheet } from '../../domain/entities/PilotSheet';
 import { getPlaybookById } from '../../shared/data/beamSaberPilotData';
 import { EXPORT_LABELS } from '../../shared/constants/exportLabels';
+import {
+  PILOT_EDITOR_TABS,
+  type PilotEditorTabId,
+} from '../../shared/constants/pilotEditorTabs';
 import { usePilotPdfExport } from '../hooks/usePilotPdfExport';
 import { PilotPdfContent } from './export/PilotPdfContent';
 import { ActionsTab } from './tabs/ActionsTab';
 import { ConditionTab } from './tabs/ConditionTab';
 import { ConnectionsTab } from './tabs/ConnectionsTab';
+import { CreationTab } from './tabs/CreationTab';
 import { IdentityTab } from './tabs/IdentityTab';
 import { LoadoutTab } from './tabs/LoadoutTab';
 import { VehicleTab } from './tabs/VehicleTab';
 import { RollsTab } from './tabs/RollsTab';
 import '../styles/pilot-pdf.css';
-
-const TABS = [
-  { id: 'identity', label: 'Identidade' },
-  { id: 'actions', label: 'Ações' },
-  { id: 'rolls', label: 'Rolagem' },
-  { id: 'condition', label: 'Condição' },
-  { id: 'connections', label: 'Conexões' },
-  { id: 'loadout', label: 'Equip.' },
-  { id: 'vehicle', label: 'Veículo' },
-] as const;
-
-type TabId = (typeof TABS)[number]['id'];
 
 export function PilotEditor({
   pilot,
@@ -38,9 +31,31 @@ export function PilotEditor({
   onChange: (p: PilotSheet) => void;
   onReset: () => void;
 }) {
-  const [tab, setTab] = useState<TabId>('identity');
+  const [tab, setTab] = useState<PilotEditorTabId>('identity');
+  const [scrollAnchor, setScrollAnchor] = useState<string | null>(null);
   const playbook = getPlaybookById(pilot.playbookId);
   const { pdfRef, exportPdf, exportJson, exporting, error } = usePilotPdfExport(pilot);
+
+  const navigateTo = useCallback((nextTab: PilotEditorTabId, anchor?: string) => {
+    setTab(nextTab);
+    setScrollAnchor(anchor ?? null);
+  }, []);
+
+  useEffect(() => {
+    if (!scrollAnchor) return;
+
+    const timer = window.setTimeout(() => {
+      const el = document.getElementById(scrollAnchor);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        el.classList.add('creation-anchor--flash');
+        window.setTimeout(() => el.classList.remove('creation-anchor--flash'), 1400);
+      }
+      setScrollAnchor(null);
+    }, 80);
+
+    return () => window.clearTimeout(timer);
+  }, [tab, scrollAnchor]);
 
   const handleReset = () => {
     const label = pilot.callSign || pilot.name || 'esta ficha';
@@ -98,7 +113,7 @@ export function PilotEditor({
 
       <nav className="hud-tab-bar" aria-label="Seções da ficha">
         <div className="hud-tab-bar__scroll">
-          {TABS.map((t) => (
+          {PILOT_EDITOR_TABS.map((t) => (
             <button
               key={t.id}
               type="button"
@@ -111,7 +126,10 @@ export function PilotEditor({
         </div>
       </nav>
 
-      {tab === 'identity' && <IdentityTab pilot={pilot} onChange={onChange} />}
+      {tab === 'identity' && (
+        <IdentityTab pilot={pilot} onChange={onChange} onNavigate={navigateTo} />
+      )}
+      {tab === 'creation' && <CreationTab pilot={pilot} onNavigate={navigateTo} />}
       {tab === 'actions' && <ActionsTab pilot={pilot} onChange={onChange} />}
       {tab === 'rolls' && <RollsTab pilot={pilot} />}
       {tab === 'condition' && <ConditionTab pilot={pilot} onChange={onChange} />}

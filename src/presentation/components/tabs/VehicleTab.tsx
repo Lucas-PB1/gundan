@@ -7,6 +7,7 @@ import { FIELD_HELP } from '../../../shared/data/beamSaberHelpData';
 import { VEHICLE_DAMAGE_HELP, VEHICLE_DAMAGE_LEVELS } from '../../../shared/data/beamSaberDamageHelp';
 import { QUIRK_RULES_SUMMARY } from '../../../shared/data/beamSaberQuirkData';
 import { VEHICLE_ATTRIBUTES } from '../../../shared/data/beamSaberPilotData';
+import { CREATION_ANCHORS } from '../../../shared/constants/pilotEditorTabs';
 import { attrLabel } from '../../../shared/i18n/pt';
 
 export function VehicleTab({
@@ -31,7 +32,7 @@ export function VehicleTab({
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="grid gap-4 md:grid-cols-2">
+      <div id={CREATION_ANCHORS.vehicleName} className="creation-anchor grid gap-4 md:grid-cols-2">
         <Field label="Nome do veículo">
           <input
             className={inputClass}
@@ -85,7 +86,7 @@ export function VehicleTab({
         </div>
       </section>
 
-      <section className={sectionClass}>
+      <section id={CREATION_ANCHORS.quirks} className={`${sectionClass} creation-anchor`}>
         <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
           <h3 className={`${sectionTitleClass.replace('mb-3', '')} flex items-center`}>
             Peculiaridades (4 iniciais)

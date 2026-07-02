@@ -4,6 +4,7 @@ import { TickClock } from '../ui/TickClock';
 import type { PilotConnection, PilotSheet } from '../../../domain/entities/PilotSheet';
 import { newConnectionId } from '../../../domain/entities/PilotSheet';
 import { getPlaybookById } from '../../../shared/data/beamSaberPilotData';
+import { CREATION_ANCHORS } from '../../../shared/constants/pilotEditorTabs';
 
 const CONNECTION_TYPES = [
   { id: 'squad', label: 'Esquadrão' },
@@ -216,7 +217,7 @@ export function ConnectionsTab({
 
   return (
     <div className="flex flex-col gap-4">
-      <section className={sectionClass}>
+      <section id={CREATION_ANCHORS.connections} className={`${sectionClass} creation-anchor`}>
         <h3 className={sectionTitleClass}>Ficha de conexões</h3>
         <p className="mb-3 text-xs text-slate-500">
           Relógio de 4 ticks por piloto do esquadrão. Aliados usam descrição em vez de crenças.
