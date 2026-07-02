@@ -2,6 +2,7 @@ import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field'
 import { TickClock, XpTrack } from '../ui/TickClock';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import { FIELD_HELP, SCAR_HELP } from '../../../shared/data/beamSaberHelpData';
+import { XP_GAIN_CHECKLIST, XP_HELP, XP_RULES_SUMMARY } from '../../../shared/data/beamSaberXpHelp';
 import { InfoTip } from '../ui/InfoTip';
 import { SCAR_CONDITIONS } from '../../../shared/data/beamSaberGearData';
 import { PILOT_ATTRIBUTES } from '../../../shared/data/beamSaberPilotData';
@@ -134,7 +135,18 @@ export function ConditionTab({
       </section>
 
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Experiência</h3>
+        <h3 className={`${sectionTitleClass} flex items-center`}>
+          Experiência
+          <InfoTip text={XP_RULES_SUMMARY} />
+        </h3>
+        <p className="mb-3 text-[0.72rem] leading-relaxed text-[var(--hud-muted)]">
+          {XP_RULES_SUMMARY} O mestre confirma o que vale na sessão; você marca as caixas aqui.
+        </p>
+        <ul className="mb-4 list-inside list-disc text-[0.68rem] leading-relaxed text-[var(--hud-muted)]">
+          {XP_GAIN_CHECKLIST.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
         <div className="grid gap-4 sm:grid-cols-2">
           <XpTrack
             label="XP de arquétipo"
@@ -145,6 +157,7 @@ export function ConditionTab({
           />
           <XpTrack
             label="XP geral"
+            help={FIELD_HELP.generalXp}
             value={pilot.generalXp}
             max={10}
             onChange={(v) => onChange({ ...pilot, generalXp: v })}
@@ -153,7 +166,7 @@ export function ConditionTab({
             <XpTrack
               key={attr}
               label={attrLabel(attr)}
-              help={FIELD_HELP.attributeXp}
+              help={XP_HELP[attr as keyof typeof XP_HELP] ?? FIELD_HELP.attributeXp}
               value={pilot.attributeXp[attr]}
               max={6}
               onChange={(v) =>
@@ -165,6 +178,10 @@ export function ConditionTab({
             />
           ))}
         </div>
+        <p className="mt-3 text-[0.68rem] text-[var(--hud-muted)]">
+          Fluxo típico: fim da sessão → marque XP geral → mova as marcas para arquétipo ou atributo → ao
+          encher 8 (arquétipo) ou 6 (atributo), gaste o benefício e zere a trilha.
+        </p>
       </section>
 
       <TickClock

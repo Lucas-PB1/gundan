@@ -31,15 +31,19 @@ export const FIELD_HELP: Record<string, string> = {
   connections:
     'Relógio de 4 ticks por piloto/NPC. Cada tick = uma crença. Relógio cheio → verdade revelada, reset.',
   loadout:
-    'Itens declarados na missão. Cada um tem carga; não exceda o limite do modo (leve/normal/pesado).',
+    'Itens declarados na missão. Cada um tem carga; não exceda o limite do modo (leve 3 / normal 5 / pesado 6). Só o que estiver marcado existe na ficção.',
   quirks:
     'Traços únicos do mecha: nome + dois descritores (+ e −). Esgote 1 peculiaridade quando um descritor se aplica: +1d, +efeito ou agir com dano 3. Pelo menos um descritor deve poder te prejudicar (XP no fim da sessão). Todas esgotadas → colapso ou ação direta.',
   armor: 'Gasta 1 uso para ignorar ferimento ou reduzir dano de veículo (conforme regras).',
   spark: 'Recurso único por piloto. Várias habilidades permitem gastar a centelha.',
   driveClock:
     'Dois relógios de 4 marcas. Preencha ao fazer algo novo que avance seu impulso (fim de missão ou projeto longo). Relógio cheio pode ser gasto para mudar o mundo — veja regras de gastar impulso.',
-  playbookXp: '8 ticks = nova habilidade do arquétipo.',
-  attributeXp: '6 ticks em Perspicácia/Destreza/Determinação = +1 em uma ação daquele atributo.',
+  playbookXp:
+    'Marque ao treinar o arquétipo no tempo livre ou ao converter XP geral. 8 marcas = nova habilidade do arquétipo (zera a trilha).',
+  generalXp:
+    'Preencha no fim da sessão conforme o que aconteceu; depois distribua as marcas em arquétipo ou atributo.',
+  attributeXp:
+    'Marque ao agir em posição desesperada (+1 no atributo da ação) ou ao converter XP geral. 6 marcas = +1 em uma ação daquele atributo.',
 };
 
 export const PLAYBOOK_HELP: Record<string, string> = {

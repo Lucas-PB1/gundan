@@ -1,4 +1,5 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
+import { InfoTip } from '../ui/InfoTip';
 import type { LoadoutItem, PilotSheet } from '../../../domain/entities/PilotSheet';
 import { countLoad } from '../../../domain/entities/PilotSheet';
 import {
@@ -7,6 +8,11 @@ import {
   LOAD_MODES,
   type GearItem,
 } from '../../../shared/data/beamSaberGearData';
+import {
+  LOADOUT_FIELD_HELP,
+  LOADOUT_RULES_SUMMARY,
+  loadModeOptionHelp,
+} from '../../../shared/data/beamSaberLoadoutHelp';
 import { loadLabel as formatLoad, loadModeLabel } from '../../../shared/i18n/pt';
 
 function gearLabel(item: GearItem): string {
@@ -24,6 +30,7 @@ export function LoadoutTab({
   const equipped = pilot.loadout.filter((i) => i.equipped);
   const totalLoad = countLoad(pilot.loadout);
   const limit = LOAD_LIMITS[pilot.loadMode];
+  const overLimit = totalLoad > limit;
 
   const toggleGear = (gear: GearItem) => {
     const existing = pilot.loadout.find((i) => i.gearId === gear.id);
@@ -45,9 +52,16 @@ export function LoadoutTab({
   const playbookPilot = available.filter((g) => g.source === 'playbook-pilot');
   const playbookVehicle = available.filter((g) => g.source === 'playbook-vehicle');
 
-  const renderGearList = (items: GearItem[], title: string) => (
+  const renderGearList = (
+    items: GearItem[],
+    title: string,
+    help: string,
+  ) => (
     <section className={sectionClass}>
-      <h3 className={sectionTitleClass}>{title}</h3>
+      <h3 className={`${sectionTitleClass} flex items-center`}>
+        {title}
+        <InfoTip text={help} />
+      </h3>
       <div className="flex flex-col gap-1">
         {items.map((gear) => {
           const entry = pilot.loadout.find((i) => i.gearId === gear.id);
@@ -75,9 +89,15 @@ export function LoadoutTab({
   return (
     <div className="flex flex-col gap-4">
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Equipamento da missão</h3>
-        <div className="mb-3 flex flex-wrap items-center gap-4">
-          <Field label="Modo de carga">
+        <h3 className={`${sectionTitleClass} flex items-center`}>
+          Equipamento da missão
+          <InfoTip text={LOADOUT_FIELD_HELP.missionLoadout} />
+        </h3>
+        <p className="mb-3 text-[0.72rem] leading-relaxed text-[var(--hud-muted)]">
+          {LOADOUT_RULES_SUMMARY}
+        </p>
+        <div className="mb-3 flex flex-wrap items-end gap-4">
+          <Field label="Modo de carga" help={LOADOUT_FIELD_HELP.loadMode}>
             <select
               className={inputClass}
               value={pilot.loadMode}
@@ -86,25 +106,41 @@ export function LoadoutTab({
               }
             >
               {LOAD_MODES.map((m) => (
-                <option key={m} value={m}>
+                <option key={m} value={m} title={loadModeOptionHelp(m)}>
                   {loadModeLabel(m)} (máx. {LOAD_LIMITS[m]})
                 </option>
               ))}
             </select>
           </Field>
           <div className="text-sm">
-            <span className={totalLoad > limit ? 'text-rose-400' : 'text-cyan-300'}>
+            <span className="font-mono text-[0.65rem] uppercase tracking-wide text-[var(--hud-muted)]">
+              Carga declarada{' '}
+            </span>
+            <span className={overLimit ? 'text-rose-400' : 'text-cyan-300'}>
               {totalLoad}
             </span>
-            <span className="text-slate-500"> / {limit} carga</span>
+            <span className="text-slate-500"> / {limit}</span>
+            {overLimit && (
+              <p className="mt-1 text-[0.68rem] text-rose-400">
+                Acima do limite — desmarque itens ou mude para modo mais pesado.
+              </p>
+            )}
           </div>
         </div>
+        <p className="mb-3 text-[0.68rem] text-[var(--hud-muted)]">
+          {loadModeOptionHelp(pilot.loadMode)}
+        </p>
         {equipped.length > 0 && (
-          <ul className="text-xs text-slate-400">
-            {equipped.map((i) => (
-              <li key={i.gearId}>• {i.name} ({i.load})</li>
-            ))}
-          </ul>
+          <div>
+            <p className="mb-1 font-mono text-[0.62rem] uppercase tracking-wide text-[var(--hud-accent-dim)]">
+              Na missão agora
+            </p>
+            <ul className="text-xs text-slate-400">
+              {equipped.map((i) => (
+                <li key={i.gearId}>• {i.name} ({formatLoad(i.load)})</li>
+              ))}
+            </ul>
+          </div>
         )}
       </section>
 
@@ -112,13 +148,21 @@ export function LoadoutTab({
         <p className="text-sm text-slate-500">Selecione um arquétipo na aba Identidade.</p>
       ) : (
         <>
-          {renderGearList(playbookPilot, 'Equipamento especialista (piloto)')}
-          {renderGearList(standard, 'Equipamento padrão')}
-          {renderGearList(playbookVehicle, 'Equipamento especialista (veículo)')}
+          {renderGearList(
+            playbookPilot,
+            'Equipamento especialista (piloto)',
+            LOADOUT_FIELD_HELP.specialistPilot,
+          )}
+          {renderGearList(standard, 'Equipamento padrão', LOADOUT_FIELD_HELP.standard)}
+          {renderGearList(
+            playbookVehicle,
+            'Equipamento especialista (veículo)',
+            LOADOUT_FIELD_HELP.specialistVehicle,
+          )}
         </>
       )}
 
-      <Field label="Itens customizados">
+      <Field label="Itens customizados" help={LOADOUT_FIELD_HELP.customGear}>
         <textarea
           className={inputClass}
           rows={2}

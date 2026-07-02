@@ -22,7 +22,6 @@ export function InfoTip({ text }: { text: string }) {
       const rect = btn.getBoundingClientRect();
       const tipHeight = tip?.offsetHeight ?? 72;
       const spaceAbove = rect.top;
-      const spaceBelow = window.innerHeight - rect.bottom;
       const placeBelow = spaceAbove < tipHeight + GAP;
 
       const top = placeBelow ? rect.bottom + GAP : rect.top - GAP;
