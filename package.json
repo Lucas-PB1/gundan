@@ -12,9 +12,12 @@
     "extract:pilots": "node scripts/extract-pilot-section.mjs",
     "extract:vehicles": "node scripts/extract-pages.mjs 96 150",
     "parse:pilot": "node --experimental-strip-types scripts/parse-pilot-data.mjs",
+    "parse:abilities": "node scripts/parse-abilities.mjs",
     "probe:pdf": "node scripts/probe-pdf.mjs"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },

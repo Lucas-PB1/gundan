@@ -10,8 +10,8 @@ Repositório sugerido: `beam-saber-ficha` ou `gundam`.
 |-------|--------|
 | Extração de texto do PDF | ✅ texto nativo (sem OCR) |
 | Dados curados (10 playbooks, ações) | ✅ `src/shared/data/beamSaberPilotData.ts` |
-| UI de ficha de piloto | ✅ React + Vite + Tailwind |
-| Ficha de esquadrão / veículo completa | 🔜 próximo passo |
+| UI de ficha de piloto | ✅ 6 abas + auto-save localStorage |
+| Ficha de esquadrão (Squad) | 🔜 próximo passo |
 
 ## Desenvolvimento
 
@@ -84,7 +84,15 @@ gundam/
 
 ## Stack
 
-React 19 · TypeScript · Vite · Tailwind CSS 4 · localStorage
+React 19 · TypeScript · Vite · Tailwind CSS 4 · localStorage · PDF/JSON
+
+### Exportar / importar
+
+| Ação | Onde |
+|------|------|
+| **Baixar PDF** | Botão no topo da ficha (A4, todas as seções) |
+| **Exportar JSON** | Botão ao lado do PDF — backup da ficha |
+| **Importar JSON** | Barra lateral — adiciona piloto ao esquadrão local |
 
 ## Aviso legal
 

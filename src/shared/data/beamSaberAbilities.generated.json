@@ -1,0 +1,104 @@
+{
+  "ace": {
+    "Adaptable": "You may spend your Spark to make up to two points of your vehicle’s Load undeclared or to push yourself in a vehicular maneuver.",
+    "More Than Meets The Eye": "Your custom vehicle has the ability to transform into a secondary form. Detail that second form. Select 2 Load worth of vehicle gear and 3 points of action ratings that your vehicle has. It lacks this gear and action ratings when in its secondary form. Select 2 Load worth of vehicle gear and 3 points of action ratings that your vehicle lacks. It has this gear and action ratings when in its secondary form.",
+    "Meat Is Cheap, Save The Metal": "When the vehicle you are piloting takes damage you can choose for the pilot to take an equal level of Harm instead. If you resist this Harm take -1d to the resist roll. Pilot armor cannot be used to prevent this damage.",
+    "Last Stand": "When you take a dire action with a Vehicle, you can continue to act on a 4, 5, or 6, instead of just on 6s. Take a bonus die to Dire Actions for each point of Breakdown your Vehicle has before the Dire Action completes.",
+    "Advanced Prototype": "When declaring vehicular gear you can state that it’s experimental. That gear has its Load reduced by 1 (to a minimum of 0). When you push your vehicle using that gear take increased Effect AND +1d. You can only have 1 experimental item at a time.",
+    "Bloodlust": "Gain the Tragedy “Seeks violence.” When you defeat a worthy foe (or a gang of the unworthy) in battle heal 2 pilot Stress.",
+    "Red Comet": "You have a reputation as a pilot of great skill (whether earned fairly or not). When you try to impress or dismay someone using your reputation take +1d. 61"
+  },
+  "bureaucrat": {
+    "Stay Late": "Take Level 1 Harm “Tired” to give another pilot an additional Downtime activity. This Harm can be resisted as normal.",
+    "Cook the Books": "Spend 2 Stress and a Downtime activity to gain an additional Supply roll. If you are part of an Independent Squad your Supply roll is 0d unless something increases it. This can be done once per Downtime phase.",
+    "Red Tape": "When you can quote a regulation that would prevent a Consequence, you may roll Resolve to resist instead of any other Pilot or Vehicle Attribute.",
+    "Connected": "During Downtime, you get +1 result level when you acquire an asset or schmooze. Take +1d when declaring an Ally during a mission.",
+    "Beneath Notice": "When you use a disguise or other form of covert misdirection, you get +1d to action and resistance rolls (or exhaust 1 fewer Quirk with vehicle resistance) to confuse or deflect suspicion. When you throw off your disguise, the resulting surprise gives you the initiative in the situation.",
+    "Work Hard, Play Hard": "When you Cut Loose, the person you Cut Loose with may roll to heal Stress as well using their Connections to you. If either of you Over Indulge you both suffer the Effects.",
+    "Rainy Day": "You may spend your Spark to provide a Supply point to be used immediately, or to push yourself when trying to bypass or enforce protocol.",
+    "Forgettable": "When you successfully Sway someone, you may cause them to forget that it's happened until they next interact with you.",
+    "Veteran": "Choose a special ability from another source. Can be taken up to three times. 66"
+  },
+  "empath": {
+    "Telepathy": "You can freely communicate directly to a person’s mind as though speaking normally if you have previously had a revealing interaction with them. Additionally when you are part of a Group Action you can spend 1 Stress per participant (including the Leader) to let everyone participating in the action use the Leader’s action rating instead of their own.",
+    "Broadcast": "When you push yourself in addition to the normal benefits you can do",
+    "one of the following": "Use your mind to instill a powerful undirected emotion in others -- paralyze a person with your mind or voice.",
+    "Far Sight": "When you Gather Information with Survey take +1d. The information gained can be from a place and time you were not present.",
+    "Emoji": "You know the secret method to interact with an App or AI as if it was a normal human, regardless of how corrupted or rampant it appears. You have increased Effect when communicating with the digital entities.",
+    "Carouse": "When you participate in a Cut Loose activity choose one of the following: 70"
+  },
+  "envoy": {
+    "Rook's Gambit": "Take 2 Stress to roll your best action rating while performing a different action, so long as you can justify adapting your skill to this use. You can use pilot actions in place of vehicle actions, and vice versa, with this ability.",
+    "Cool Under Pressure": "When you take Harm, heal Stress equal to the level of that Harm.",
+    "Regent’s Brilliance": "You and your entourage have increased Effect when Consorting and Swaying so long as you take advantage of how truly impressive you are.",
+    "Like Looking into a Mirror": "You can always tell when someone is lying to you.",
+    "A Little Something on the Side": "At the end of each Downtime phase, make a Fortune Roll using the Squad's Tier. Add 1 Tick to a Drive clock if it is 4+.",
+    "Read ‘em And Weep": "Spend two Stress to ask one of the following questions about someone you have observed either in secret or openly. To ask additional questions you may spend 1 Stress per question. What was their lowest moment? --- What do they crave forgiveness of and from whom? --- What are their secret pains? --- In what ways are their mind and soul vulnerable?",
+    "Subterfuge": "You may spend your Spark to resist a consequence from suspicion or persuasion, or to push yourself for subterfuge.",
+    "Trust in Me": "You get +1d vs. a target with whom you have a strong relationship. For another PC this is a +2 or higher Connection value. 75"
+  },
+  "hacker": {
+    "Compel": "You can Interface with the augmented reality to force a nearby app or proxy to appear and obey a command you give it. You can always distinguish between reality and AR created by a program you summon or compel (though your allies may become lost).",
+    "Matrix Mind": "You’re always aware of apps and proxies in your presence. Take +1d when you gather info about the AR and apps.",
+    "Iron Will": "You're immune to the AR confusion that some apps and proxies inflict on sight. Take +1d to resistance rolls with Resolve.",
+    "Turing Test": "You can always tell if you’re interacting with a human.",
+    "Data Pack": "You can Study an app (or create a new one) to develop it into a reusable form. You know the complex methods to create apps. You begin with one app already learned.",
+    "Crowdsource": "Spend 2 Stress to use a squadmate’s action rating instead of your own by describing how you make use of their knowledge.",
+    "Tesla": "When you push yourself in addition to the normal benefits you can do one of",
+    "the following": "unleash a stroke of lightning as a weapon from the power grid— summon an AR storm in your immediate vicinity (swirling ads, flashing neon, heavy smog, shouting crowds, etc.) that will cause AR confusion.",
+    "Warded": "You may spend your Spark to resist a AR consequence, or to push yourself when you deal with AR forces.",
+    "Veteran": "Choose a special ability from another source. Can be taken up to three times. 79"
+  },
+  "infiltrator": {
+    "Ghost": "You are not negatively affected by Quality or Tier when you attempt to bypass security measures.",
+    "Ambush": "When you attack from hiding or spring a trap, you get +1d.",
+    "Daredevil": "When you roll a desperate action, you get +1d to your roll if you also take -1d to any resistance rolls (or exhaust an additional Quirk for vehicle resistance) against consequences from your action.",
+    "The Devil's Footsteps": "When you push yourself in addition to the normal benefits",
+    "choose one of the following": "perform a feat of athletics that verges on the superhuman—maneuver to confuse your enemies so they mistakenly attack each other.",
+    "Expertise": "Choose one of your action ratings. When you lead a group action using that action, you can suffer only 1 Stress or exhaust 1 Quirk at most regardless of the number of failed rolls.",
+    "Never Tell Me The Odds": "If you are outnumbered or drastically over matched by a foe take +1d to resistance rolls or exhaust 1 fewer Quirk for vehicle resistance.",
+    "Reflexes": "When there's a question about who acts first, the answer is you (two pilots with Reflexes act simultaneously).",
+    "Shadow": "You may spend your Spark to resist a consequence from detection or security measures, or to push yourself for a feat of athletics or stealth.",
+    "Veteran": "Choose a special ability from another source. Can be taken up to three times."
+  },
+  "officer": {
+    "Tactical Genius": "Two times per mission you can assist a teammate without paying Stress. Tell us how you prepared for this.",
+    "Leader": "When you Command a Cohort in combat, they continue to fight when they would otherwise break (they're not taken out when they suffer level 3 Harm). When you lead a Group Action you have increased effect.",
+    "Rally": "Spend two Stress to do one of the following. To compel additional directions",
+    "you may spend 1 Stress per direction.": "direct an unaffiliated crowd to perform an action—have an unaffiliated crowd commit violence—prevent an unaffiliated crowd from causing damage.",
+    "Functioning Vice": "When you cut loose, you may adjust the dice outcome by 1 or 2 (up or down). The pilot you cut loose with heals 1 Stress as well which cannot cause them to overindulge.",
+    "Heart to Heart": "When you make the weight of an arrangement clear to your opposite and both agree to terms - surrender, cease fire, prisoner exchange, etc - you are all emotionally invested in the deal. If either party or their Squad breaks the agreement, the negotiator takes level 3 Harm, \"Despondent\".",
+    "Warlord": "When you have Vendetta with another Squad your Squad gets improved Effect against that Squad.",
+    "Mastermind": "You may spend your Spark to protect a teammate, or to push yourself when you gather information or work on a long-term project.",
+    "Weaving the Web": "You gain +1d to Consort when you gather information on a target for a Mission. You get +1d to the engagement roll for that operation.",
+    "Veteran": "Choose a special ability from another source. Can be taken up to three times."
+  },
+  "scout": {
+    "Sharpshooter": "When you push yourself in addition to the normal benefits you can do",
+    "one of the following": "make a ranged attack at extreme distance beyond what’s normal for the weapon—unleash a barrage of rapid fire to suppress the enemy— ricochet a shot to hit a target indirectly.",
+    "Focused": "You may spend your Spark to resist a consequence of surprise or mental Harm (fear, confusion, losing track of someone) or to push yourself for ranged combat or tracking.",
+    "Terminator": "Your well programmed hunter robot has additional systems installed. It has increased Effect when tracking or fighting machines, and gains a custom",
+    "upgrade": "Beast of Burden [+1 Load, and it’s stronger], Mind-Link [can be directed with the pilot’s mind], or Quick and Quiet [is faster and nearly silent]. Take the ability again for an additional custom upgrade.",
+    "Ranger": "When you gather info to locate a target, you get +1 Effect. When you hide in a prepared Position or use camouflage, you get +1d to rolls to avoid detection.",
+    "Survivor": "From hard won experience or specialized training, you are able to subsist on what any environment provides and you can function on the barest sustenance. You get +1 Stress box.",
+    "Lay of the Land": "When a Pilot takes advantage of terrain you have scouted, they get +1d to resist consequences (or spends 1 fewer Quirk). When you scout as a 91"
+  },
+  "soldier": {
+    "Battleborn": "You may spend your Spark to reduce Harm from an attack in combat or to push yourself during a fight.",
+    "Bodyguard": "When you protect someone, take +1d to your resistance roll (or exhaust 1 fewer Quirk for vehicle resistance). When you gather info to anticipate possible threats in the current situation, you get +1 Effect.",
+    "Robot Fighter": "You know the weak points of the inanimate and you gain increased Effect in combat against machines.",
+    "Tough as Nails": "Penalties from Harm are one level less severe (though level 4 Harm is still fatal).",
+    "Mule": "Your pilot Load limits are higher. Light: 5. Normal: 7. Heavy: 8.",
+    "Not to be Trifled With": "When you push yourself in addition to the normal benefits",
+    "you can do one of the following": "perform a feat of physical force that verges on the superhuman—engage a small gang on equal footing in close combat.",
+    "Brutal": "When you unleash physical violence, it's especially frightening. When you Command a frightened target, take +1d.",
+    "Vigorous": "You recover from Harm faster. Permanently fill in one of your healing clock segments. Take +1d to healing treatment rolls.",
+    "Veteran": "Choose a special ability from another source. Can be taken up to three times. 95"
+  },
+  "technician": {
+    "Simulation": "+1d to engagement rolls. You can decide what consequence you suffer on 4-5s with Action Rolls; the GM will make it fit the narrative.",
+    "Jury Rig": "Spend two Stress to reduce the Effect (but not level) of a vehicle’s damage until the end of the mission. If you have Doctor you can also use this on a pilot’s Harm. Level 4 Damage or Harm can be affected by this ability, but the vehicle will be destroyed or the pilot killed at the end of the mission.",
+    "Researcher": "When you invent or craft a creation, take +1 result level to your roll. You begin with one special design already known.",
+    "Fortitude": "You may spend your Spark to resist a consequence of fatigue, weakness, or chemical Effects, or to push yourself when working with technical skill 99"
+  }
+}

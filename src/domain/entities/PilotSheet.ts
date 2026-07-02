@@ -1,7 +1,41 @@
 import type { PilotPlaybook } from '../../shared/data/beamSaberPilotData';
 import { ALL_ACTION_IDS } from '../../shared/data/beamSaberPilotData';
+import type { LoadMode } from '../../shared/data/beamSaberGearData';
 
 export type ActionRatings = Record<string, number>;
+
+export type ConnectionType = 'squad' | 'rival' | 'ally';
+
+export interface PilotConnection {
+  id: string;
+  targetPilotId: string | null;
+  name: string;
+  type: ConnectionType;
+  ticks: number;
+  beliefs: string[];
+  description: string;
+}
+
+export interface LoadoutItem {
+  gearId: string;
+  name: string;
+  load: number;
+  equipped: boolean;
+}
+
+export interface VehicleQuirk {
+  name: string;
+  descriptor1: string;
+  descriptor2: string;
+  exhausted: boolean;
+}
+
+export interface HarmTrack {
+  level1: string;
+  level2: string;
+  level3: string;
+  level4: boolean;
+}
 
 export interface PilotSheet {
   id: string;
@@ -14,22 +48,47 @@ export interface PilotSheet {
   tragedy: string;
   opening: string;
   drive: string;
+  driveClocks: [number, number];
   ability: string;
+  extraAbilities: string[];
   actionRatings: ActionRatings;
   stress: number;
-  harm: number[];
+  stressMax: number;
+  harm: HarmTrack;
+  scars: string[];
   armorUsed: boolean;
   sparkUsed: boolean;
   playbookXp: number;
+  generalXp: number;
   attributeXp: { insight: number; prowess: number; resolve: number };
-  connections: Record<string, { ticks: number; beliefs: string[] }>;
+  connections: PilotConnection[];
   vehicleName: string;
   vehicleLook: string;
   vehicleActionRatings: ActionRatings;
-  quirks: string[];
-  loadout: string[];
+  vehicleAttributeXp: { expertise: number; acuity: number };
+  vehicleEnhanceXp: number;
+  vehicleDamage: HarmTrack;
+  breakdownTicks: number;
+  quirks: VehicleQuirk[];
+  loadMode: LoadMode;
+  loadout: LoadoutItem[];
+  customGear: string;
+  healingClockFilled: number;
   notes: string;
   updatedAt: string;
+}
+
+export function createEmptyHarmTrack(): HarmTrack {
+  return { level1: '', level2: '', level3: '', level4: false };
+}
+
+export function createEmptyQuirks(): VehicleQuirk[] {
+  return Array.from({ length: 4 }, () => ({
+    name: '',
+    descriptor1: '',
+    descriptor2: '',
+    exhausted: false,
+  }));
 }
 
 export function createEmptyActionRatings(): ActionRatings {
@@ -59,46 +118,133 @@ export function createEmptyPilotSheet(id: string): PilotSheet {
     tragedy: '',
     opening: '',
     drive: '',
+    driveClocks: [0, 0],
     ability: '',
+    extraAbilities: [],
     actionRatings: createEmptyActionRatings(),
     stress: 0,
-    harm: [0, 0, 0, 0],
+    stressMax: 9,
+    harm: createEmptyHarmTrack(),
+    scars: [],
     armorUsed: false,
     sparkUsed: false,
     playbookXp: 0,
+    generalXp: 0,
     attributeXp: { insight: 0, prowess: 0, resolve: 0 },
-    connections: {},
+    connections: [],
     vehicleName: '',
     vehicleLook: '',
     vehicleActionRatings: createEmptyActionRatings(),
-    quirks: ['', '', '', ''],
+    vehicleAttributeXp: { expertise: 0, acuity: 0 },
+    vehicleEnhanceXp: 0,
+    vehicleDamage: createEmptyHarmTrack(),
+    breakdownTicks: 0,
+    quirks: createEmptyQuirks(),
+    loadMode: 'normal',
     loadout: [],
+    customGear: '',
+    healingClockFilled: 0,
     notes: '',
     updatedAt: new Date().toISOString(),
   };
 }
 
-const STORAGE_KEY = 'beam-saber-pilots';
+export function migratePilot(raw: Partial<PilotSheet> & { id: string }): PilotSheet {
+  const base = createEmptyPilotSheet(raw.id);
 
-export function loadPilots(): PilotSheet[] {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as PilotSheet[]) : [];
-  } catch {
-    return [];
+  const legacyConnections = raw.connections as
+    | Record<string, { ticks: number; beliefs: string[] }>
+    | PilotConnection[]
+    | undefined;
+
+  let connections: PilotConnection[] = base.connections;
+  if (Array.isArray(legacyConnections)) {
+    connections = legacyConnections;
+  } else if (legacyConnections && typeof legacyConnections === 'object') {
+    connections = Object.entries(legacyConnections).map(([key, val]) => ({
+      id: crypto.randomUUID(),
+      targetPilotId: key,
+      name: '',
+      type: 'squad' as const,
+      ticks: val.ticks ?? 0,
+      beliefs: val.beliefs ?? [''],
+      description: '',
+    }));
   }
+
+  const legacyHarm = raw.harm as HarmTrack | number[] | undefined;
+  let harm = base.harm;
+  if (legacyHarm && !Array.isArray(legacyHarm)) {
+    harm = legacyHarm;
+  } else if (Array.isArray(legacyHarm)) {
+    harm = {
+      level1: legacyHarm[0] ? 'Harm 1' : '',
+      level2: legacyHarm[1] ? 'Harm 2' : '',
+      level3: legacyHarm[2] ? 'Harm 3' : '',
+      level4: Boolean(legacyHarm[3]),
+    };
+  }
+
+  const legacyQuirks = raw.quirks as VehicleQuirk[] | string[] | undefined;
+  let quirks = base.quirks;
+  if (Array.isArray(legacyQuirks) && legacyQuirks.length > 0) {
+    if (typeof legacyQuirks[0] === 'string') {
+      quirks = (legacyQuirks as string[]).map((name) => ({
+        name,
+        descriptor1: '',
+        descriptor2: '',
+        exhausted: false,
+      }));
+      while (quirks.length < 4) {
+        quirks.push({ name: '', descriptor1: '', descriptor2: '', exhausted: false });
+      }
+    } else {
+      quirks = legacyQuirks as VehicleQuirk[];
+    }
+  }
+
+  const legacyLoadout = raw.loadout as LoadoutItem[] | string[] | undefined;
+  let loadout: LoadoutItem[] = base.loadout;
+  if (Array.isArray(legacyLoadout)) {
+    if (legacyLoadout.length > 0 && typeof legacyLoadout[0] === 'string') {
+      loadout = (legacyLoadout as string[]).map((name) => ({
+        gearId: name,
+        name,
+        load: 0,
+        equipped: true,
+      }));
+    } else {
+      loadout = legacyLoadout as LoadoutItem[];
+    }
+  }
+
+  return {
+    ...base,
+    ...raw,
+    harm,
+    quirks,
+    loadout,
+    connections,
+    driveClocks: raw.driveClocks ?? base.driveClocks,
+    extraAbilities: raw.extraAbilities ?? base.extraAbilities,
+    stressMax: raw.stressMax ?? base.stressMax,
+    scars: raw.scars ?? base.scars,
+    generalXp: raw.generalXp ?? base.generalXp,
+    vehicleAttributeXp: raw.vehicleAttributeXp ?? base.vehicleAttributeXp,
+    vehicleEnhanceXp: raw.vehicleEnhanceXp ?? base.vehicleEnhanceXp,
+    vehicleDamage: raw.vehicleDamage ?? base.vehicleDamage,
+    breakdownTicks: raw.breakdownTicks ?? base.breakdownTicks,
+    loadMode: raw.loadMode ?? base.loadMode,
+    customGear: raw.customGear ?? base.customGear,
+    healingClockFilled: raw.healingClockFilled ?? base.healingClockFilled,
+    updatedAt: raw.updatedAt ?? base.updatedAt,
+  };
 }
 
-export function savePilots(pilots: PilotSheet[]): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(pilots));
+export function countLoad(loadout: LoadoutItem[]): number {
+  return loadout.filter((i) => i.equipped).reduce((sum, i) => sum + i.load, 0);
 }
 
-export function upsertPilot(pilot: PilotSheet): PilotSheet[] {
-  const pilots = loadPilots();
-  const idx = pilots.findIndex((p) => p.id === pilot.id);
-  const next = { ...pilot, updatedAt: new Date().toISOString() };
-  if (idx >= 0) pilots[idx] = next;
-  else pilots.push(next);
-  savePilots(pilots);
-  return pilots;
+export function newConnectionId(): string {
+  return crypto.randomUUID();
 }
