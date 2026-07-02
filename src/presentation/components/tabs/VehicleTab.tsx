@@ -1,9 +1,10 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
-import { TickClock, XpTrack } from '../ui/TickClock';
 import { InfoTip } from '../ui/InfoTip';
+import { TickClock, XpTrack } from '../ui/TickClock';
 import { QuirkRow } from '../ui/QuirkRow';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import { FIELD_HELP } from '../../../shared/data/beamSaberHelpData';
+import { VEHICLE_DAMAGE_HELP, VEHICLE_DAMAGE_LEVELS } from '../../../shared/data/beamSaberDamageHelp';
 import { QUIRK_RULES_SUMMARY } from '../../../shared/data/beamSaberQuirkData';
 import { VEHICLE_ATTRIBUTES } from '../../../shared/data/beamSaberPilotData';
 import { attrLabel } from '../../../shared/i18n/pt';
@@ -48,36 +49,29 @@ export function VehicleTab({
       </div>
 
       <section className={sectionClass}>
-        <h3 className={sectionTitleClass}>Dano (veículo)</h3>
+        <h3 className={`${sectionTitleClass} flex items-center`}>
+          Dano (veículo)
+          <InfoTip text={VEHICLE_DAMAGE_HELP} />
+        </h3>
         <div className="grid gap-3 sm:grid-cols-2">
-          <Field label="Nível 1 — efeito reduzido">
-            <input
-              className={inputClass}
-              placeholder="Ex.: Hidráulica vazando"
-              value={pilot.vehicleDamage.level1}
-              onChange={(e) =>
-                onChange({ ...pilot, vehicleDamage: { ...pilot.vehicleDamage, level1: e.target.value } })
-              }
-            />
-          </Field>
-          <Field label="Nível 2 — −1d">
-            <input
-              className={inputClass}
-              value={pilot.vehicleDamage.level2}
-              onChange={(e) =>
-                onChange({ ...pilot, vehicleDamage: { ...pilot.vehicleDamage, level2: e.target.value } })
-              }
-            />
-          </Field>
-          <Field label="Nível 3 — só com peculiaridade">
-            <input
-              className={inputClass}
-              value={pilot.vehicleDamage.level3}
-              onChange={(e) =>
-                onChange({ ...pilot, vehicleDamage: { ...pilot.vehicleDamage, level3: e.target.value } })
-              }
-            />
-          </Field>
+          {VEHICLE_DAMAGE_LEVELS.map((row) => {
+            const key = `level${row.level}` as 'level1' | 'level2' | 'level3';
+            return (
+              <Field key={row.level} label={row.label}>
+                <input
+                  className={inputClass}
+                  placeholder={row.placeholder}
+                  value={pilot.vehicleDamage[key]}
+                  onChange={(e) =>
+                    onChange({
+                      ...pilot,
+                      vehicleDamage: { ...pilot.vehicleDamage, [key]: e.target.value },
+                    })
+                  }
+                />
+              </Field>
+            );
+          })}
           <label className="flex items-center gap-2 self-end pb-2 text-sm text-rose-400">
             <input
               type="checkbox"

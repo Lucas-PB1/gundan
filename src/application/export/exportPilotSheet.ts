@@ -86,24 +86,45 @@ async function buildPilotSheetPdfBlob(element: HTMLElement): Promise<Blob> {
       },
     });
 
-    const imgData = canvas.toDataURL('image/png');
     const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
 
     const pageWidth = pdf.internal.pageSize.getWidth();
     const pageHeight = pdf.internal.pageSize.getHeight();
-    const imgHeight = (canvas.height * pageWidth) / canvas.width;
+    const pxPerMm = canvas.width / pageWidth;
+    const pageHeightPx = Math.floor(pageHeight * pxPerMm);
 
-    let offsetY = 0;
-    let remaining = imgHeight;
+    let sourceY = 0;
+    let pageIndex = 0;
 
-    pdf.addImage(imgData, 'PNG', 0, offsetY, pageWidth, imgHeight);
-    remaining -= pageHeight;
+    while (sourceY < canvas.height) {
+      if (pageIndex > 0) pdf.addPage();
 
-    while (remaining > 0) {
-      offsetY = remaining - imgHeight;
-      pdf.addPage();
-      pdf.addImage(imgData, 'PNG', 0, offsetY, pageWidth, imgHeight);
-      remaining -= pageHeight;
+      const sliceHeightPx = Math.min(pageHeightPx, canvas.height - sourceY);
+      const sliceCanvas = document.createElement('canvas');
+      sliceCanvas.width = canvas.width;
+      sliceCanvas.height = sliceHeightPx;
+      const ctx = sliceCanvas.getContext('2d');
+      if (!ctx) throw new Error('Canvas 2D não disponível');
+
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, sliceCanvas.width, sliceCanvas.height);
+      ctx.drawImage(
+        canvas,
+        0,
+        sourceY,
+        canvas.width,
+        sliceHeightPx,
+        0,
+        0,
+        canvas.width,
+        sliceHeightPx,
+      );
+
+      const sliceHeightMm = sliceHeightPx / pxPerMm;
+      pdf.addImage(sliceCanvas.toDataURL('image/png'), 'PNG', 0, 0, pageWidth, sliceHeightMm);
+
+      sourceY += sliceHeightPx;
+      pageIndex += 1;
     }
 
     return pdf.output('blob');

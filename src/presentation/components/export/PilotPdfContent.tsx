@@ -3,6 +3,7 @@ import { countLoad } from '../../../domain/entities/PilotSheet';
 import { LOAD_LIMITS, SCAR_CONDITIONS, type ScarCondition } from '../../../shared/data/beamSaberGearData';
 import {
   getPlaybookById,
+  getActionLabel,
   PILOT_ACTIONS,
   PILOT_ATTRIBUTES,
   VEHICLE_ACTIONS,
@@ -10,6 +11,17 @@ import {
 } from '../../../shared/data/beamSaberPilotData';
 import { attrLabel, loadLabel, loadModeLabel, scarLabel } from '../../../shared/i18n/pt';
 import { getAbilityDescription, getAbilityLabel } from '../../../shared/data/beamSaberHelpData';
+import { PILOT_HARM_LEVELS, VEHICLE_DAMAGE_LEVELS } from '../../../shared/data/beamSaberDamageHelp';
+
+const PILOT_HARM_HINTS = PILOT_HARM_LEVELS.map((r) => ({
+  level: String(r.level),
+  hint: r.label.replace(/^Nível \d — /, ''),
+}));
+
+const VEHICLE_DAMAGE_HINTS = VEHICLE_DAMAGE_LEVELS.map((r) => ({
+  level: String(r.level),
+  hint: r.label.replace(/^Nível \d — /, ''),
+}));
 
 function StressTrack({ current, max }: { current: number; max: number }) {
   return (
@@ -60,11 +72,25 @@ function StatusBadge({ label, active, tone }: { label: string; active: boolean; 
   );
 }
 
-function TextField({ label, value }: { label: string; value: string }) {
+function TextField({
+  label,
+  value,
+  bonusActionId,
+}: {
+  label: string;
+  value: string;
+  bonusActionId?: string;
+}) {
+  const bonus =
+    bonusActionId && bonusActionId.trim()
+      ? `+1 ${getActionLabel(bonusActionId)}`
+      : null;
+
   return (
     <div className="bs-pdf-doc__field">
       <span className="bs-pdf-doc__field-label">{label}</span>
       <p className="bs-pdf-doc__field-value">{value.trim() || '—'}</p>
+      {bonus && <p className="bs-pdf-doc__field-bonus">{bonus}</p>}
     </div>
   );
 }
@@ -73,16 +99,17 @@ function HarmStack({
   title,
   harm,
   level4Label,
+  levelHints,
 }: {
   title: string;
   harm: HarmTrack;
   level4Label: string;
+  levelHints: readonly { level: string; hint: string }[];
 }) {
-  const rows = [
-    { level: '1', hint: '−1 efeito', text: harm.level1 },
-    { level: '2', hint: '−1d', text: harm.level2 },
-    { level: '3', hint: 'incapacitado', text: harm.level3 },
-  ];
+  const rows = levelHints.map((row) => ({
+    ...row,
+    text: harm[`level${row.level}` as 'level1' | 'level2' | 'level3'],
+  }));
 
   return (
     <div className="bs-pdf-doc__harm-stack">
@@ -212,9 +239,9 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
       <section className="bs-pdf-doc__section">
         <h2>Narrativa</h2>
         <div className="bs-pdf-doc__grid-2">
-          <TextField label="História" value={pilot.history} />
+          <TextField label="História" value={pilot.history} bonusActionId={pilot.historyBonusActionId} />
           <TextField label="Tragédia" value={pilot.tragedy} />
-          <TextField label="Abertura" value={pilot.opening} />
+          <TextField label="Abertura" value={pilot.opening} bonusActionId={pilot.openingBonusActionId} />
           <TextField label="Impulso" value={pilot.drive} />
         </div>
         <div className="bs-pdf-doc__drive-row">
@@ -250,7 +277,12 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
       <section className="bs-pdf-doc__section">
         <h2>Condição & experiência</h2>
         <div className="bs-pdf-doc__grid-2">
-          <HarmStack title="Ferimentos do piloto" harm={pilot.harm} level4Label="Nível 4 — Morto" />
+          <HarmStack
+            title="Ferimentos do piloto"
+            harm={pilot.harm}
+            level4Label="Nível 4 — Morto"
+            levelHints={PILOT_HARM_HINTS}
+          />
           <div className="bs-pdf-doc__panel">
             <h3 className="bs-pdf-doc__panel-title">Experiência</h3>
             <div className="bs-pdf-doc__xp-grid">
@@ -312,7 +344,7 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
         </section>
       )}
 
-      <section className="bs-pdf-doc__section bs-pdf-doc__page-break">
+      <section className="bs-pdf-doc__section">
         <h2>Equipamento</h2>
         <div className="bs-pdf-doc__load-bar">
           <span>
@@ -350,7 +382,12 @@ export function PilotPdfContent({ pilot }: { pilot: PilotSheet }) {
         {pilot.vehicleLook && <p className="bs-pdf-doc__vehicle-look">{pilot.vehicleLook}</p>}
 
         <div className="bs-pdf-doc__grid-2">
-          <HarmStack title="Dano do veículo" harm={pilot.vehicleDamage} level4Label="Destruído (nível 4)" />
+          <HarmStack
+            title="Dano do veículo"
+            harm={pilot.vehicleDamage}
+            level4Label="Destruído (nível 4)"
+            levelHints={VEHICLE_DAMAGE_HINTS}
+          />
           <div className="bs-pdf-doc__panel">
             <h3 className="bs-pdf-doc__panel-title">Progresso</h3>
             <div className="bs-pdf-doc__inline-stat">

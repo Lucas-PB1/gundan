@@ -1,7 +1,7 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
 import { ActionRatingPicker } from '../ui/ActionRatingPicker';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
-import { buildPoolSize, countHarmLevels, defaultModifiers } from '../../../domain/dice/pilotRollHelpers';
+import { buildPoolSize, defaultModifiers, pilotHarmPenalty, vehicleDamagePenalty } from '../../../domain/dice/pilotRollHelpers';
 import { PILOT_ACTIONS, VEHICLE_ACTIONS } from '../../../shared/data/beamSaberPilotData';
 import { attrLabel } from '../../../shared/i18n/pt';
 import { QuickActionRoll } from './RollsTab';
@@ -62,7 +62,7 @@ export function ActionsTab({
         title="Ações de piloto (Perspicácia · Destreza · Determinação)"
         actions={PILOT_ACTIONS}
         ratings={pilot.actionRatings}
-        harmPenalty={countHarmLevels(pilot.harm)}
+        harmPenalty={pilotHarmPenalty(pilot)}
         onChange={(id, value) =>
           onChange({ ...pilot, actionRatings: { ...pilot.actionRatings, [id]: value } })
         }
@@ -71,7 +71,7 @@ export function ActionsTab({
         title="Ações de veículo (Especialização · Agudeza)"
         actions={VEHICLE_ACTIONS}
         ratings={pilot.vehicleActionRatings}
-        harmPenalty={countHarmLevels(pilot.vehicleDamage)}
+        harmPenalty={vehicleDamagePenalty(pilot)}
         onChange={(id, value) =>
           onChange({ ...pilot, vehicleActionRatings: { ...pilot.vehicleActionRatings, [id]: value } })
         }

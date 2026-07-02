@@ -1087,3 +1087,7 @@ button {
 .belief-picker-btn {
   min-height: 44px;
 }
+
+.narrative-bonus-select {
+  margin-top: 0.15rem;
+}

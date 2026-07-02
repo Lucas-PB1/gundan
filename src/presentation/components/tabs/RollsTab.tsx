@@ -9,19 +9,7 @@ import {
   type ResistanceResult,
 } from '../../../domain/dice/beamSaberDice';
 import { DiceFace } from '../ui/DiceFace';
-import {
-  buildPoolSize,
-  defaultModifiers,
-  getPilotAction,
-  getPilotActionRating,
-  getVehicleAction,
-  getVehicleActionRating,
-  pilotHarmPenalty,
-  resistanceRatingForPilotAttribute,
-  resistanceRatingForVehicleAttribute,
-  type RollModifiers,
-  vehicleDamagePenalty,
-} from '../../../domain/dice/pilotRollHelpers';
+import { buildPoolSize, defaultModifiers, getPilotAction, getPilotActionRating, getVehicleAction, getVehicleActionRating, hasReducedEffect, pilotHarmPenalty, resistanceRatingForPilotAttribute, resistanceRatingForVehicleAttribute, vehicleDamagePenalty, type RollModifiers } from '../../../domain/dice/pilotRollHelpers';
 import {
   PILOT_ACTIONS,
   PILOT_ATTRIBUTES,
@@ -129,6 +117,10 @@ export function RollsTab({ pilot }: { pilot: PilotSheet }) {
 
   const pilotHarm = pilotHarmPenalty(pilot);
   const vehicleHarm = vehicleDamagePenalty(pilot);
+  const isVehicleRoll = target.startsWith('vehicle');
+  const reducedEffect = isVehicleRoll
+    ? hasReducedEffect(pilot.vehicleDamage)
+    : hasReducedEffect(pilot.harm);
 
   const baseRating = useMemo(() => {
     if (target === 'pilot-action') return getPilotActionRating(pilot, actionId);
@@ -286,7 +278,10 @@ export function RollsTab({ pilot }: { pilot: PilotSheet }) {
             {mods.assist ? ' +assistir' : ''}
             {mods.quirk ? ' +peculiaridade' : ''}
             {mods.extraDice !== 0 ? ` ${mods.extraDice > 0 ? '+' : ''}${mods.extraDice}` : ''}
-            {mods.harmPenalty > 0 ? ` −ferimento${mods.harmPenalty}` : ''})
+            {mods.harmPenalty > 0
+              ? ` −${isVehicleRoll ? 'dano' : 'ferimento'}`
+              : ''}
+            {reducedEffect ? ' · menos efeito' : ''})
           </span>
         </div>
 

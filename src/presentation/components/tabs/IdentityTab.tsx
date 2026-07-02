@@ -1,13 +1,17 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
 import { AbilityPicker } from '../ui/AbilityPicker';
-import { NarrativePicker } from '../ui/NarrativePicker';
+import { OptionSelect } from '../ui/OptionSelect';
+import { NarrativeActionBonusPicker } from '../ui/NarrativeActionBonusPicker';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import {
+  EXAMPLE_HISTORIES,
+  EXAMPLE_OPENINGS,
+  EXAMPLE_TRAGEDIES,
   getPlaybookById,
   PILOT_PLAYBOOKS,
   PILOT_ACTIONS,
 } from '../../../shared/data/beamSaberPilotData';
-import { swapPlaybookActionBonuses } from '../../../domain/entities/PilotSheet';
+import { clearNarrativeBonus, setNarrativeBonusAction, swapPlaybookActionBonuses } from '../../../domain/entities/PilotSheet';
 import { FIELD_HELP, PLAYBOOK_HELP } from '../../../shared/data/beamSaberHelpData';
 import { TickClock } from '../ui/TickClock';
 
@@ -105,28 +109,49 @@ export function IdentityTab({
 
       <div className="grid gap-4 lg:grid-cols-3">
         <Field label="História" hint="+1 ação na criação" help={FIELD_HELP.history}>
-          <NarrativePicker
-            kind="history"
-            modalTitle="Escolher história"
-            value={pilot.history}
-            onChange={(history) => onChange({ ...pilot, history })}
-          />
+          <div className="flex flex-col gap-2">
+            <OptionSelect
+              options={EXAMPLE_HISTORIES}
+              value={pilot.history}
+              onChange={(history) => {
+                if (!history.trim()) {
+                  onChange(clearNarrativeBonus({ ...pilot, history: '' }, 'history'));
+                  return;
+                }
+                onChange({ ...pilot, history });
+              }}
+            />
+            <NarrativeActionBonusPicker
+              value={pilot.historyBonusActionId}
+              onChange={(actionId) => onChange(setNarrativeBonusAction(pilot, 'history', actionId))}
+            />
+          </div>
         </Field>
         <Field label="Tragédia" help={FIELD_HELP.tragedy}>
-          <NarrativePicker
-            kind="tragedy"
-            modalTitle="Escolher tragédia"
+          <OptionSelect
+            options={EXAMPLE_TRAGEDIES}
             value={pilot.tragedy}
             onChange={(tragedy) => onChange({ ...pilot, tragedy })}
           />
         </Field>
         <Field label="Abertura" hint="+1 ação na criação" help={FIELD_HELP.opening}>
-          <NarrativePicker
-            kind="opening"
-            modalTitle="Escolher abertura"
-            value={pilot.opening}
-            onChange={(opening) => onChange({ ...pilot, opening })}
-          />
+          <div className="flex flex-col gap-2">
+            <OptionSelect
+              options={EXAMPLE_OPENINGS}
+              value={pilot.opening}
+              onChange={(opening) => {
+                if (!opening.trim()) {
+                  onChange(clearNarrativeBonus({ ...pilot, opening: '' }, 'opening'));
+                  return;
+                }
+                onChange({ ...pilot, opening });
+              }}
+            />
+            <NarrativeActionBonusPicker
+              value={pilot.openingBonusActionId}
+              onChange={(actionId) => onChange(setNarrativeBonusAction(pilot, 'opening', actionId))}
+            />
+          </div>
         </Field>
       </div>
 

@@ -1,5 +1,5 @@
 import type { PilotPlaybook } from '../../shared/data/beamSaberPilotData';
-import { ALL_ACTION_IDS } from '../../shared/data/beamSaberPilotData';
+import { ALL_ACTION_IDS, VEHICLE_ACTIONS } from '../../shared/data/beamSaberPilotData';
 import type { LoadMode } from '../../shared/data/beamSaberGearData';
 import { migrateQuirkToPt } from '../../shared/data/beamSaberQuirkData';
 
@@ -48,8 +48,12 @@ export interface PilotSheet {
   look: string;
   playbookId: string;
   history: string;
+  /** Ação de piloto ou veículo que recebe +1 pela História */
+  historyBonusActionId: string;
   tragedy: string;
   opening: string;
+  /** Ação de piloto ou veículo que recebe +1 pela Abertura */
+  openingBonusActionId: string;
   drive: string;
   driveClocks: [number, number];
   ability: string;
@@ -98,6 +102,68 @@ export function createEmptyActionRatings(): ActionRatings {
   return Object.fromEntries(ALL_ACTION_IDS.map((id) => [id, 0]));
 }
 
+const NARRATIVE_ACTION_BONUS = 1;
+
+function isVehicleActionId(actionId: string): boolean {
+  return VEHICLE_ACTIONS.some((a) => a.id === actionId);
+}
+
+export function applyNarrativeActionBonus(ratings: ActionRatings, actionId: string): ActionRatings {
+  if (!actionId) return ratings;
+  const next = { ...ratings };
+  next[actionId] = (next[actionId] ?? 0) + NARRATIVE_ACTION_BONUS;
+  return next;
+}
+
+export function removeNarrativeActionBonus(ratings: ActionRatings, actionId: string): ActionRatings {
+  if (!actionId) return ratings;
+  const next = { ...ratings };
+  next[actionId] = Math.max(0, (next[actionId] ?? 0) - NARRATIVE_ACTION_BONUS);
+  return next;
+}
+
+export type NarrativeBonusSlot = 'history' | 'opening';
+
+export function setNarrativeBonusAction(
+  pilot: PilotSheet,
+  slot: NarrativeBonusSlot,
+  actionId: string,
+): PilotSheet {
+  const prevId = slot === 'history' ? pilot.historyBonusActionId : pilot.openingBonusActionId;
+
+  let actionRatings = pilot.actionRatings;
+  let vehicleActionRatings = pilot.vehicleActionRatings;
+
+  if (prevId) {
+    if (isVehicleActionId(prevId)) {
+      vehicleActionRatings = removeNarrativeActionBonus(vehicleActionRatings, prevId);
+    } else {
+      actionRatings = removeNarrativeActionBonus(actionRatings, prevId);
+    }
+  }
+
+  if (actionId) {
+    if (isVehicleActionId(actionId)) {
+      vehicleActionRatings = applyNarrativeActionBonus(vehicleActionRatings, actionId);
+    } else {
+      actionRatings = applyNarrativeActionBonus(actionRatings, actionId);
+    }
+  }
+
+  return {
+    ...pilot,
+    actionRatings,
+    vehicleActionRatings,
+    ...(slot === 'history'
+      ? { historyBonusActionId: actionId }
+      : { openingBonusActionId: actionId }),
+  };
+}
+
+export function clearNarrativeBonus(pilot: PilotSheet, slot: NarrativeBonusSlot): PilotSheet {
+  return setNarrativeBonusAction(pilot, slot, '');
+}
+
 export function applyPlaybookStartingBonuses(
   ratings: ActionRatings,
   playbook: PilotPlaybook,
@@ -144,8 +210,10 @@ export function createEmptyPilotSheet(id: string): PilotSheet {
     look: '',
     playbookId: '',
     history: '',
+    historyBonusActionId: '',
     tragedy: '',
     opening: '',
+    openingBonusActionId: '',
     drive: '',
     driveClocks: [0, 0],
     ability: '',
@@ -267,6 +335,8 @@ export function migratePilot(raw: Partial<PilotSheet> & { id: string }): PilotSh
     loadMode: raw.loadMode ?? base.loadMode,
     customGear: raw.customGear ?? base.customGear,
     healingClockFilled: raw.healingClockFilled ?? base.healingClockFilled,
+    historyBonusActionId: raw.historyBonusActionId ?? base.historyBonusActionId,
+    openingBonusActionId: raw.openingBonusActionId ?? base.openingBonusActionId,
     updatedAt: raw.updatedAt ?? base.updatedAt,
   };
 }

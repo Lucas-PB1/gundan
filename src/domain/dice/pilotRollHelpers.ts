@@ -28,6 +28,25 @@ export function countHarmLevels(harm: { level1: string; level2: string; level3: 
   return n;
 }
 
+/** Penalidade em dados: nível 1 só reduz efeito; nível 2 ou 3 = −1d (Beam Saber). */
+export function harmDicePenalty(harm: { level1: string; level2: string; level3: string }): number {
+  if (harm.level2.trim() || harm.level3.trim()) return 1;
+  return 0;
+}
+
+/** Qualquer nível preenchido reduz o efeito (nível 1+). */
+export function hasReducedEffect(harm: { level1: string; level2: string; level3: string }): boolean {
+  return countHarmLevels(harm) > 0;
+}
+
+export function pilotHarmPenalty(pilot: PilotSheet): number {
+  return harmDicePenalty(pilot.harm);
+}
+
+export function vehicleDamagePenalty(pilot: PilotSheet): number {
+  return harmDicePenalty(pilot.vehicleDamage);
+}
+
 export function attributeRatingFromActions(
   ratings: Record<string, number>,
   actions: { id: string; attribute: string }[],
@@ -53,14 +72,6 @@ export function getPilotAction(actionId: string): PilotAction | undefined {
 
 export function getVehicleAction(actionId: string): VehicleAction | undefined {
   return VEHICLE_ACTIONS.find((a) => a.id === actionId);
-}
-
-export function pilotHarmPenalty(pilot: PilotSheet): number {
-  return countHarmLevels(pilot.harm);
-}
-
-export function vehicleDamagePenalty(pilot: PilotSheet): number {
-  return countHarmLevels(pilot.vehicleDamage);
 }
 
 export function buildPoolSize(baseRating: number, mods: RollModifiers): number {

@@ -13,11 +13,11 @@ export const FIELD_HELP: Record<string, string> = {
   playbook:
     'Arquétipo do piloto (Ás, Soldado, Hacker…). Define bônus iniciais de ação, equipamento especialista e lista de habilidades.',
   history:
-    'Quem você era antes da tragédia. Ao expressar na sessão, marca XP no final.',
+    'Quem você era antes da tragédia. +1 em uma ação de piloto ou do robô na criação. XP ao expressar na sessão.',
   tragedy:
     'Evento que te lançou na guerra. Ao expressar na sessão, marca XP.',
   opening:
-    'O que fez entre a tragédia e entrar no esquadrão. +1 em ação na criação. XP se expressar na sessão.',
+    'O que fez entre a tragédia e entrar no esquadrão. +1 em ação de piloto ou do robô na criação. XP se expressar na sessão.',
   drive:
     'Frase sobre o que você quer mudar no mundo. Preenche relógios de impulso ao avançar esse objetivo.',
   ability:
@@ -25,7 +25,7 @@ export const FIELD_HELP: Record<string, string> = {
   stress:
     'Recurso para se esforçar, flashbacks, assistir, resistir e habilidades. Máximo 9 (10 com Sobrevivente).',
   harm:
-    'Ferimentos em 3 níveis + morte no 4. Penalidades em dados conforme o nível.',
+    'Nível 1 reduz efeito. Nível 2 = −1d. Nível 3 = fora de ação. Nível 4 = morto.',
   scars:
     'Marcas permanentes ao estourar estresse. A 4ª marca remove o piloto da guerra.',
   connections:

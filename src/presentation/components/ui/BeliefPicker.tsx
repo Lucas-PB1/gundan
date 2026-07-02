@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { HudModal } from './HudModal';
-import { NARRATIVE_PICKER_COPY } from '../../../shared/data/beamSaberNarrativeExamples';
 
 export function BeliefPickerButton({
   suggestions,
@@ -20,7 +19,7 @@ export function BeliefPickerButton({
         className="belief-picker-btn hud-btn"
         onClick={() => setOpen(true)}
       >
-        {NARRATIVE_PICKER_COPY.choose}
+        Escolher…
       </button>
       <HudModal open={open} title="Exemplos de crenças" onClose={() => setOpen(false)}>
         <ul className="narrative-picker__list">
@@ -35,7 +34,7 @@ export function BeliefPickerButton({
                 }}
               >
                 <span>{belief}</span>
-                <span className="narrative-picker__use">{NARRATIVE_PICKER_COPY.useText}</span>
+                <span className="narrative-picker__use">Usar</span>
               </button>
             </li>
           ))}

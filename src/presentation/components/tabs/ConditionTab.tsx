@@ -2,6 +2,7 @@ import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field'
 import { TickClock, XpTrack } from '../ui/TickClock';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import { FIELD_HELP, SCAR_HELP } from '../../../shared/data/beamSaberHelpData';
+import { HARM_HELP, PILOT_HARM_LEVELS } from '../../../shared/data/beamSaberDamageHelp';
 import { XP_GAIN_CHECKLIST, XP_HELP, XP_RULES_SUMMARY } from '../../../shared/data/beamSaberXpHelp';
 import { InfoTip } from '../ui/InfoTip';
 import { SCAR_CONDITIONS } from '../../../shared/data/beamSaberGearData';
@@ -63,31 +64,22 @@ export function ConditionTab({
       <section className={sectionClass}>
         <h3 className={`${sectionTitleClass} flex items-center`}>
           Ferimentos
-          <InfoTip text={FIELD_HELP.harm} />
+          <InfoTip text={HARM_HELP} />
         </h3>
         <div className="grid gap-3 sm:grid-cols-2">
-          <Field label="Nível 1 — Leve">
-            <input
-              className={inputClass}
-              placeholder="Ex.: Contusões, sangue"
-              value={pilot.harm.level1}
-              onChange={(e) => onChange({ ...pilot, harm: { ...pilot.harm, level1: e.target.value } })}
-            />
-          </Field>
-          <Field label="Nível 2 — Grave">
-            <input
-              className={inputClass}
-              value={pilot.harm.level2}
-              onChange={(e) => onChange({ ...pilot, harm: { ...pilot.harm, level2: e.target.value } })}
-            />
-          </Field>
-          <Field label="Nível 3 — Severo">
-            <input
-              className={inputClass}
-              value={pilot.harm.level3}
-              onChange={(e) => onChange({ ...pilot, harm: { ...pilot.harm, level3: e.target.value } })}
-            />
-          </Field>
+          {PILOT_HARM_LEVELS.map((row) => {
+            const key = `level${row.level}` as 'level1' | 'level2' | 'level3';
+            return (
+              <Field key={row.level} label={row.label}>
+                <input
+                  className={inputClass}
+                  placeholder={row.placeholder}
+                  value={pilot.harm[key]}
+                  onChange={(e) => onChange({ ...pilot, harm: { ...pilot.harm, [key]: e.target.value } })}
+                />
+              </Field>
+            );
+          })}
           <label className="flex items-center gap-2 self-end pb-2 text-sm text-rose-400">
             <input
               type="checkbox"
