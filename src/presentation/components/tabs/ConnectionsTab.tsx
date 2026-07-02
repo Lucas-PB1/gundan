@@ -1,4 +1,5 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
+import { BeliefPickerButton } from '../ui/BeliefPicker';
 import { TickClock } from '../ui/TickClock';
 import type { PilotConnection, PilotSheet } from '../../../domain/entities/PilotSheet';
 import { newConnectionId } from '../../../domain/entities/PilotSheet';
@@ -99,6 +100,18 @@ function ConnectionCard({
             />
           </div>
           <Field label="Crenças">
+            <div className="mb-2 flex flex-wrap gap-2">
+              <BeliefPickerButton
+                suggestions={playbookBeliefs}
+                onPick={(belief) => {
+                  const beliefs = [...connection.beliefs];
+                  const emptyIdx = beliefs.findIndex((b) => !b.trim());
+                  if (emptyIdx >= 0) beliefs[emptyIdx] = belief;
+                  else beliefs.push(belief);
+                  onChange({ ...connection, beliefs });
+                }}
+              />
+            </div>
             {connection.beliefs.map((belief, i) => (
               <div key={i} className="mb-2 flex gap-2">
                 <input

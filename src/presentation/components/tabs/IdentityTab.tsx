@@ -1,11 +1,8 @@
 import { Field, inputClass, sectionClass, sectionTitleClass } from '../ui/Field';
 import { AbilityPicker } from '../ui/AbilityPicker';
-import { OptionSelect } from '../ui/OptionSelect';
+import { NarrativePicker } from '../ui/NarrativePicker';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import {
-  EXAMPLE_HISTORIES,
-  EXAMPLE_OPENINGS,
-  EXAMPLE_TRAGEDIES,
   getPlaybookById,
   PILOT_PLAYBOOKS,
   PILOT_ACTIONS,
@@ -108,22 +105,25 @@ export function IdentityTab({
 
       <div className="grid gap-4 lg:grid-cols-3">
         <Field label="História" hint="+1 ação na criação" help={FIELD_HELP.history}>
-          <OptionSelect
-            options={EXAMPLE_HISTORIES}
+          <NarrativePicker
+            kind="history"
+            modalTitle="Escolher história"
             value={pilot.history}
             onChange={(history) => onChange({ ...pilot, history })}
           />
         </Field>
         <Field label="Tragédia" help={FIELD_HELP.tragedy}>
-          <OptionSelect
-            options={EXAMPLE_TRAGEDIES}
+          <NarrativePicker
+            kind="tragedy"
+            modalTitle="Escolher tragédia"
             value={pilot.tragedy}
             onChange={(tragedy) => onChange({ ...pilot, tragedy })}
           />
         </Field>
         <Field label="Abertura" hint="+1 ação na criação" help={FIELD_HELP.opening}>
-          <OptionSelect
-            options={EXAMPLE_OPENINGS}
+          <NarrativePicker
+            kind="opening"
+            modalTitle="Escolher abertura"
             value={pilot.opening}
             onChange={(opening) => onChange({ ...pilot, opening })}
           />
