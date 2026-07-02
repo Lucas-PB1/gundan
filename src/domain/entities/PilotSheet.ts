@@ -1,6 +1,7 @@
 import type { PilotPlaybook } from '../../shared/data/beamSaberPilotData';
 import { ALL_ACTION_IDS } from '../../shared/data/beamSaberPilotData';
 import type { LoadMode } from '../../shared/data/beamSaberGearData';
+import { migrateQuirkToPt } from '../../shared/data/beamSaberQuirkData';
 
 export type ActionRatings = Record<string, number>;
 
@@ -28,6 +29,8 @@ export interface VehicleQuirk {
   descriptor1: string;
   descriptor2: string;
   exhausted: boolean;
+  /** `null` = personalizada; id do exemplo do livro quando aplicável */
+  templateId?: string | null;
 }
 
 export interface HarmTrack {
@@ -228,6 +231,7 @@ export function migratePilot(raw: Partial<PilotSheet> & { id: string }): PilotSh
       quirks = legacyQuirks as VehicleQuirk[];
     }
   }
+  quirks = quirks.map(migrateQuirkToPt);
 
   const legacyLoadout = raw.loadout as LoadoutItem[] | string[] | undefined;
   let loadout: LoadoutItem[] = base.loadout;

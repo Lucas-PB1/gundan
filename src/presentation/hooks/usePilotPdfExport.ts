@@ -6,6 +6,7 @@ import {
   downloadPilotJson,
 } from '../../application/export/exportPilotSheet';
 import type { PilotSheet } from '../../domain/entities/PilotSheet';
+import { EXPORT_LABELS } from '../../shared/constants/exportLabels';
 
 export function usePilotPdfExport(pilot: PilotSheet) {
   const pdfRef = useRef<HTMLDivElement>(null);
@@ -23,11 +24,11 @@ export function usePilotPdfExport(pilot: PilotSheet) {
       const filename = pilotSheetPdfFilename(pilot.callSign, pilot.name);
       await exportPilotSheetPdf(node, filename);
     } catch {
-      setError('Não foi possível gerar o PDF.');
+      setError(EXPORT_LABELS.exportError);
     } finally {
       setExporting(false);
     }
-  }, [pilot.callSign, pilot.name]);
+  }, [pilot]);
 
   const exportJson = useCallback(() => {
     const filename = pilotSheetJsonFilename(pilot.callSign, pilot.name);

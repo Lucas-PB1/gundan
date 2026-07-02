@@ -3,16 +3,16 @@ import { inputClass } from './Field';
 import { InfoTip } from './InfoTip';
 import type { VehicleQuirk } from '../../../domain/entities/PilotSheet';
 import {
+  QUIRK_CUSTOM_HELP,
   QUIRK_EXAMPLES,
   QUIRK_FIELD_HELP,
-  type QuirkExample,
+  QUIRK_SOURCE_CUSTOM,
+  findQuirkExampleMatch,
+  getQuirkSelectValue,
 } from '../../../shared/data/beamSaberQuirkData';
 
-function findExampleMatch(quirk: VehicleQuirk): QuirkExample | undefined {
-  return QUIRK_EXAMPLES.find(
-    (ex) =>
-      ex.descriptorPlus === quirk.descriptor1 && ex.descriptorMinus === quirk.descriptor2,
-  );
+function patchQuirk(quirk: VehicleQuirk, patch: Partial<VehicleQuirk>): VehicleQuirk {
+  return { ...quirk, ...patch };
 }
 
 export function QuirkRow({
@@ -24,22 +24,34 @@ export function QuirkRow({
   index: number;
   onChange: (q: VehicleQuirk) => void;
 }) {
-  const matchedExample = useMemo(() => findExampleMatch(quirk), [quirk]);
-  const showHelp =
-    matchedExample?.help ||
-    (quirk.descriptor1 || quirk.descriptor2
-      ? 'Esgote quando um descritor se aplicar à ação. Marque a caixa Esgotada após usar.'
-      : null);
+  const selectValue = getQuirkSelectValue(quirk);
+  const isCustom = selectValue === QUIRK_SOURCE_CUSTOM;
+  const matchedExample = useMemo(() => findQuirkExampleMatch(quirk), [quirk]);
 
-  const applyExample = (exampleId: string) => {
-    const ex = QUIRK_EXAMPLES.find((e) => e.id === exampleId);
+  const showHelp = isCustom
+    ? quirk.descriptor1 || quirk.descriptor2
+      ? 'Esgote quando um descritor se aplicar à ação. Marque a caixa Esgotada após usar.'
+      : QUIRK_CUSTOM_HELP
+    : matchedExample?.help ?? null;
+
+  const handleSourceChange = (value: string) => {
+    if (value === QUIRK_SOURCE_CUSTOM) {
+      onChange(patchQuirk(quirk, { templateId: null }));
+      return;
+    }
+    const ex = QUIRK_EXAMPLES.find((e) => e.id === value);
     if (!ex) return;
     onChange({
       ...quirk,
-      name: quirk.name.trim() ? quirk.name : ex.suggestedName,
+      templateId: ex.id,
+      name: ex.suggestedName,
       descriptor1: ex.descriptorPlus,
       descriptor2: ex.descriptorMinus,
     });
+  };
+
+  const handleFieldChange = (patch: Partial<VehicleQuirk>) => {
+    onChange(patchQuirk(quirk, { ...patch, templateId: null }));
   };
 
   return (
@@ -58,21 +70,23 @@ export function QuirkRow({
       </div>
 
       <div className="quirk-card__example-row">
-        <label className="hud-label">Exemplo de descritores</label>
+        <label className="hud-label flex items-center gap-1">
+          Modelo
+          <InfoTip text={QUIRK_FIELD_HELP.template} />
+        </label>
         <select
           className={`${inputClass} hud-select max-w-md`}
-          value=""
-          onChange={(e) => {
-            if (e.target.value) applyExample(e.target.value);
-            e.target.value = '';
-          }}
+          value={selectValue}
+          onChange={(e) => handleSourceChange(e.target.value)}
         >
-          <option value="">Escolher par do livro…</option>
-          {QUIRK_EXAMPLES.map((ex) => (
-            <option key={ex.id} value={ex.id}>
-              {ex.descriptorPlus} / {ex.descriptorMinus}
-            </option>
-          ))}
+          <option value={QUIRK_SOURCE_CUSTOM}>Personalizada (criar a sua)</option>
+          <optgroup label="Exemplos do livro">
+            {QUIRK_EXAMPLES.map((ex) => (
+              <option key={ex.id} value={ex.id}>
+                {ex.suggestedName} — {ex.descriptorPlus} / {ex.descriptorMinus}
+              </option>
+            ))}
+          </optgroup>
         </select>
       </div>
 
@@ -80,25 +94,25 @@ export function QuirkRow({
         <FieldMini label="Nome" help={QUIRK_FIELD_HELP.name}>
           <input
             className={inputClass}
-            placeholder="Ex.: Veloz e Barulhento"
+            placeholder={isCustom ? 'Ex.: Veloz e Barulhento' : ''}
             value={quirk.name}
-            onChange={(e) => onChange({ ...quirk, name: e.target.value })}
+            onChange={(e) => handleFieldChange({ name: e.target.value })}
           />
         </FieldMini>
         <FieldMini label="Descritor +" help={QUIRK_FIELD_HELP.descriptorPlus}>
           <input
             className={inputClass}
-            placeholder="Ex.: Aparência ameaçadora"
+            placeholder={isCustom ? 'Ex.: Rápido demais' : ''}
             value={quirk.descriptor1}
-            onChange={(e) => onChange({ ...quirk, descriptor1: e.target.value })}
+            onChange={(e) => handleFieldChange({ descriptor1: e.target.value })}
           />
         </FieldMini>
         <FieldMini label="Descritor −" help={QUIRK_FIELD_HELP.descriptorMinus}>
           <input
             className={inputClass}
-            placeholder="Ex.: Carapaça estilhaçante"
+            placeholder={isCustom ? 'Ex.: Barulho ensurdecedor' : ''}
             value={quirk.descriptor2}
-            onChange={(e) => onChange({ ...quirk, descriptor2: e.target.value })}
+            onChange={(e) => handleFieldChange({ descriptor2: e.target.value })}
           />
         </FieldMini>
       </div>

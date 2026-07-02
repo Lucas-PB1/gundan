@@ -12,18 +12,18 @@ export const SCAR_CONDITIONS = [
 export type ScarCondition = (typeof SCAR_CONDITIONS)[number];
 
 export const EXAMPLE_QUIRKS = [
-  'Ominous Appearance',
-  'Splintering Carapace',
-  'Flexible Structure',
-  'Mighty Clumsy',
-  'Slow and Heavy',
-  'Light Footed',
-  'Military Workhorse',
-  'Common Parts',
-  'Fixed Hardpoints',
-  'Redundant Systems',
-  'Blinding Boosters',
-  'Aggressive Targeters',
+  'Aparência ameaçadora',
+  'Carapaça estilhaçante',
+  'Estrutura flexível',
+  'Poderoso e desajeitado',
+  'Lento e pesado',
+  'Pé leve',
+  'Cavalo de batalha militar',
+  'Peças comuns',
+  'Suportes de arma fixos',
+  'Sistemas redundantes',
+  'Propulsores cegantes',
+  'Miras agressivas',
 ] as const;
 
 export const LOAD_MODES = ['light', 'normal', 'heavy'] as const;
