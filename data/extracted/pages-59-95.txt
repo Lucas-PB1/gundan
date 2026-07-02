@@ -1,0 +1,942 @@
+
+
+===== PÁGINA 59 =====
+
+PILOT PLAYBOOKS
+INSERT FULL PAGE ACE ART HERE.
+59
+
+
+===== PÁGINA 60 =====
+
+THE ACE
+A graceful and daring pilot.
+The battlefields of the war stretch across cities, continents, and star systems. Such
+distances are not easily traversed on foot, becoming full of incredible machines that stride,
+soar, and roam through them. A vehicle is what most see them as, just a tool, but for Aces
+they're a better half. Created with purity of purpose and a desire to be filled, the vehicles in
+the War are a light for people looking to join in that purity and desire.
+How’d you gain your skills? What made you realize you belonged behind the wheel?
+ACE ACTIONS
++2 Maneuver, +1 Engineer
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with piloting or violence.
+ACE SPECIALIST PILOT GEAR
+ Grav chute [Load 1]: an advanced piece of gear that uses anti-gravity technology
+to safely slow the wearer’s descent.
+ Fine remote vehicle control [Load 1]: An excellent tool allowing a pilot to remotely
+control a vehicle without any degradation of intent.
+ Self destruct remote [Load 0]: A palm sized device that will destroy the pilot’s
+vehicle when activated.
+ Fine environmental suit [Load 0 if worn, Load 2 if carried as a secondary outfit]: A
+finely crafted suit that protects the wearer from hazards such as lack of air,
+vacuum, and radiation. Also has maneuvering thrusters for use in microgravity.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+ACE SPECIALIST VEHICLE GEAR
+ Fine mobility suite [Load 2]: an excellent grapple system, jump jets, foot wheels,
+or other mobility system.
+ Boosted reactor (1 use) [Load 1]: spend for improved Effect when speed or agility
+60
+
+
+===== PÁGINA 61 =====
+
+is required. This refills at the start of each mission.
+ Fine machine gun [Load 1]: A finely made, fully automatic, anti vehicle cannon.
+ Fine shield or forcefield [Load 1]: An extremely sturdy shield made of advanced
+materials or electromagnetic forces.
+ Reflex Adjustment and Guidance Engine (R.A.G.E) [Load 0]: an interface
+system that when activated greatly enhances the pilot’s abilities at the cost of their
+survival instincts for several minutes. This may improve your Position and Effect in
+maneuvering. You also suffer the consequences “Death Wish” and “Possibility
+Hallucinations” which can be resisted as normal. The modified Position and Effect,
+and any unresisted consequences last until the end of the next scene.
+ACE ABILITIES
+ Adaptable: You may spend your Spark to make up to two points of your vehicle’s
+Load undeclared or to push yourself in a vehicular maneuver.
+ More Than Meets The Eye: Your custom vehicle has the ability to transform into a
+secondary form. Detail that second form. Select 2 Load worth of vehicle gear and 3
+points of action ratings that your vehicle has. It lacks this gear and action ratings
+when in its secondary form. Select 2 Load worth of vehicle gear and 3 points of
+action ratings that your vehicle lacks. It has this gear and action ratings when in its
+secondary form.
+ Meat Is Cheap, Save The Metal: When the vehicle you are piloting takes damage
+you can choose for the pilot to take an equal level of Harm instead. If you resist this
+Harm take -1d to the resist roll. Pilot armor cannot be used to prevent this damage.
+ Last Stand: When you take a dire action with a Vehicle, you can continue to act on
+a 4, 5, or 6, instead of just on 6s. Take a bonus die to Dire Actions for each point of
+Breakdown your Vehicle has before the Dire Action completes.
+ Advanced Prototype: When declaring vehicular gear you can state that it’s
+experimental. That gear has its Load reduced by 1 (to a minimum of 0). When you
+push your vehicle using that gear take increased Effect AND +1d. You can only
+have 1 experimental item at a time.
+ Bloodlust: Gain the Tragedy “Seeks violence.” When you defeat a worthy foe (or a
+gang of the unworthy) in battle heal 2 pilot Stress.
+ Red Comet: You have a reputation as a pilot of great skill (whether earned fairly or
+not). When you try to impress or dismay someone using your reputation take +1d.
+61
+
+
+===== PÁGINA 62 =====
+
+When you reveal yourself with a dramatic action those around you are briefly
+stunned.
+ Travelling Companion: You can exhaust 1 Quirk or spend 2 Stress to Push
+Yourself on Vehicle actions.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What is their vehicle capable of?
+ When are their vehicles unattended?
+ What do they intend to do?
+ How can I get them to [X]?
+ What's the best way through?
+ Where did [X] go?
+ What’s really going on here?
+EXAMPLE STARTING ACE BELIEFS
+ They handle their vehicle very badly.
+ They don't understand my value as a pilot.
+ They are going to get someone killed. I better keep an eye on them.
+ They desire glory as much as I do! We’ll make history!
+EXAMPLE ACE ALLIES AND RIVALS
+ Denari, a gruff mechanic
+ Sycamore, a cautious journalist
+ Cage, a sly smuggler
+ Ripper, a reckless pilot
+EXAMPLE ACE STARTING BUILDS
+ Legend: Red Comet, Command +2, Consort +2
+ Berserker: Bloodlust, Battle +2, Struggle +2
+ Tester: Advanced Prototype, Manipulate +1, Engineer +1, Study +2
+62
+
+
+===== PÁGINA 63 =====
+
+ Tanker: Meat Is Cheap, Save The Metal, Battle +1, Survey +1, Study +1, Struggle
++1
+63
+
+
+===== PÁGINA 64 =====
+
+INSERT FULL PAGE BUREAUCRAT ART HERE.
+64
+
+
+===== PÁGINA 65 =====
+
+THE BUREAUCRAT
+An overworked and undervalued clerk.
+Resource management is something few people understand. The War might seem like
+constant bombs and blood but that hides its true face. Paperwork and red tape. It's a relay
+race no one watches; requests, orders, and communiques changing hands from nobody to
+nobody. When those documents arrive, and if they're unchanged, is left up to the
+Bureaucrats.
+How often do you abuse your Position? What are your responsibilities? Are you satisfied with
+your power?
+BUREAUCRAT ACTION RATINGS
++2 Consort, +1 Study
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with procedure or
+management.
+BUREAUCRAT SPECIALIST PILOT GEAR
+ Fine Official Documents [Load 1]: cargo manifests, itineraries, work forms, and
+other paperwork from official sources that are legitimate.
+ Body scanner wand [Load 1]: a handheld device that detects metallic and
+electronic objects.
+ Travel reports [Load 0]: weather and traffic reports, pedestrian movements, and
+up to date cartography.
+ Blueprints for a facility or vehicle [Load 1]: A print out or digital file containing
+designer’s notes and builder’s plans.
+ Barricade Tape Projector [Load 1]: A device that projects a holographic perimeter.
+Can trigger an alarm or digital notification when the barricade is crossed.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+65
+
+
+===== PÁGINA 66 =====
+
+BUREAUCRAT SPECIALIST VEHICLE GEAR
+ Inconspicuous style [Load 0]: a plain paint job, a common frame, and panels that
+create a bland silhouette. This will make a vehicle less noticeable than it's Load
+would indicate.
+ Several hand tool sets [Load 1]: A variety of human scale tool sets that a pilot can
+swap their Load for if needed.
+ Fine cargo container [Load 1]: A well made container for safely storing and
+moving a few large items or many small ones.
+ Inhibitor Clamp [Load 1]: A device that locks out the start up sequence of a
+vehicle, preventing its use. Typically cannot be installed when the vehicle is piloted.
+BUREAUCRAT ABILITIES
+ Stay Late: Take Level 1 Harm “Tired” to give another pilot an additional Downtime
+activity. This Harm can be resisted as normal.
+ Cook the Books: Spend 2 Stress and a Downtime activity to gain an additional
+Supply roll. If you are part of an Independent Squad your Supply roll is 0d unless
+something increases it. This can be done once per Downtime phase.
+ Red Tape: When you can quote a regulation that would prevent a Consequence,
+you may roll Resolve to resist instead of any other Pilot or Vehicle Attribute.
+ Connected: During Downtime, you get +1 result level when you acquire an asset
+or schmooze. Take +1d when declaring an Ally during a mission.
+ Beneath Notice: When you use a disguise or other form of covert misdirection,
+you get +1d to action and resistance rolls (or exhaust 1 fewer Quirk with vehicle
+resistance) to confuse or deflect suspicion. When you throw off your disguise, the
+resulting surprise gives you the initiative in the situation.
+ Work Hard, Play Hard: When you Cut Loose, the person you Cut Loose with may
+roll to heal Stress as well using their Connections to you. If either of you Over
+Indulge you both suffer the Effects.
+ Rainy Day: You may spend your Spark to provide a Supply point to be used
+immediately, or to push yourself when trying to bypass or enforce protocol.
+ Forgettable: When you successfully Sway someone, you may cause them to
+forget that it's happened until they next interact with you.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+66
+
+
+===== PÁGINA 67 =====
+
+EXAMPLE GATHER INFORMATION
+ What loophole can I abuse?
+ What protocol can I enforce?
+ What do they intend to do?
+ How can I get them to [X]?
+ Are they telling the truth?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING BUREAUCRAT BELIEFS
+ Their disdain for protocol will endanger the squad.
+ They are too invested in rules.
+ They are lazy.
+ They are responsible, so I’m teaching them useful loopholes.
+EXAMPLE BUREAUCRAT ALLIES AND RIVALS
+ Vex, a quick server
+ Tri, an ambitious criminal
+ Beagle, an offensive guard
+ Jupiter, an absurd claimant
+EXAMPLE BUREAUCRAT STARTING BUILDS
+ Accountant: Cook the Books, Interface +2, Engineer +1, Study +1
+ Janitor: Beneath Notice, Prowl +2, Sway +1, Manipulate +1
+ Clerk: Forgettable, Sway +2, Finesse +1, Prowl +1
+ Salaryperson: Work Hard, Play Hard, Consort +2, Survey +1, Struggle +1
+67
+
+
+===== PÁGINA 68 =====
+
+INSERT FULL PAGE EMPATH ART HERE.
+68
+
+
+===== PÁGINA 69 =====
+
+THE EMPATH
+An empathetic and compassionate psychic.
+When someone looks at you they aren’t seeing you. When they hear you, they don’t listen.
+They touch but don’t feel. The pressures of population density and society play a joke on the
+heart. But people are changing. Not the person you look at, hear, and touch, someone else.
+Something else. Evolution is is making something to help bring people closer together
+beyond just population density, and these new types of people are Empaths.
+What emotions do you refuse to toy with? How did you discover your abilities?
+A NOTE ON THE EMPATH AND CONSENT
+The Empath has the ability Broadcast which allows the character, and by extension the
+player, to force other characters to experience emotions. This is an ability that must be
+considered with respect. It's a form of mind control and therefore has serious implications
+regarding consent. Regardless of what the target is forced to feel it's a violation of self and
+agency. There are two major considerations that should be made before taking the ability
+and with each use. The first is if everyone at the table is comfortable with a character’s
+personhood being denied. The players are more important than fictional characters and if
+that means skipping the Broadcast ability or Empath entirely so be it. The second is that
+mind control is a dark ability to have. Even when used for good ends the means are rather
+abhorrent. If you are taking the Broadcast ability you need to understand that you are
+choosing to play a character who will be doing a Bad Thing if they use it, and that’s ok so
+long as you are aware of it and acknowledge it.
+EMPATH STARTING ACTIONS
++2 Study, +1 Survey
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with understanding or poise.
+EMPATH SPECIALIST PILOT GEAR
+ Prognostication tools [Load 1]: A set of tools such as tarot cards, tea leaves, or
+crystals that you can try to use to predict the future.
+ Fine artistic tools [Load 1]: Excellent tools used in painting, performing music,
+69
+
+
+===== PÁGINA 70 =====
+
+cooking, or some other art form.
+ Personal emblem [Load 1]: so long as someone is thinking about this item you
+know where the item is and can project your powers as if you were present.
+ A symbol of hope [Load 1]: An object which inspires those who see it.
+ Fine stun gun [Load 1]: A well made weapon meant to incapacitate, but not kill, a
+target using electricity.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+EMPATH SPECIALIST VEHICLE GEAR
+ Inspiring appearance [Load 1]: An item or various details that make your vehicle a
+symbol to those who see it.
+ Fine broadcast system [Load 1]: Excellent speakers and transmission unit
+allowing the user to broadcast audio and video.
+ Fine Social Data Retrieval program [Load 1]: A finely coded program that can
+expertly find details about a target’s personal life.
+ Psionic amplifier [Load 1]: A device that will increase the range or power of the
+user’s psychic abilities.
+EMPATH ABILITIES
+ Telepathy: You can freely communicate directly to a person’s mind as though
+speaking normally if you have previously had a revealing interaction with them.
+Additionally when you are part of a Group Action you can spend 1 Stress per
+participant (including the Leader) to let everyone participating in the action use the
+Leader’s action rating instead of their own.
+ Broadcast: When you push yourself in addition to the normal benefits you can do
+one of the following: Use your mind to instill a powerful undirected emotion in
+others -- paralyze a person with your mind or voice.
+ Far Sight: When you Gather Information with Survey take +1d. The information
+gained can be from a place and time you were not present.
+ Emoji: You know the secret method to interact with an App or AI as if it was a
+normal human, regardless of how corrupted or rampant it appears. You have
+increased Effect when communicating with the digital entities.
+ Carouse: When you participate in a Cut Loose activity choose one of the following:
+70
+
+
+===== PÁGINA 71 =====
+
+The pilot Cutting Loose cannot Overindulge but only heals half the Stress rolled
+rounded up; your Relationship with them improves by +1; their Relationship with
+you improves by an additional +1.
+ Everybody Hurts: You may spend your Spark to resist a consequence from
+ambushes (physical or not), or to push yourself to understand others.
+ Carry That Weight: You can push yourself after you see the result of an Action
+Roll, or Assist after an ally’s Action Roll if no one else Assisted them. When you
+have a personal moment with someone, you can take any amount of Stress (up to
+your max Stress) to heal that person the same amount of Stress.
+ Good Hearted: When you act compassionately (with more than just words)
+towards a foe, you keep a Controlled Position until you act against their interests.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ How is this person hurt?
+ How is this person vulnerable?
+ Are they telling the truth?
+ What drives them to do this?
+ What are they feeling?
+ Who's most afraid of me?
+ What's really going on here?
+EXAMPLE STARTING EMPATH BELIEFS
+ I can fix the reason they hurt.
+ I can take advantage of their pain.
+ Their vehicle has strong emotions tied to it.
+ I can feel they are a good person and I implicitly trust them.
+EXAMPLE EMPATH ALLIES AND RIVALS
+ Zia, a fair painter
+ Hatsu, a brash musician
+ Kausar, a kind murderer
+71
+
+
+===== PÁGINA 72 =====
+
+ Navneet, a tired athlete
+EXAMPLE EMPATH STARTING BUILDS
+ Demagogue: Broadcast, Struggle +1, Battle +1, Command +2
+ Pacifist: Good Hearted, Consort +2, Prowl +1, Finesse +1
+ Esper: Far Sight, Survey +1, Scan +1, Hunt +1, Sway +1
+ Medium: Emoji, Interface +2, Sway +1, Consort +1
+72
+
+
+===== PÁGINA 73 =====
+
+INSERT FULL PAGE ENVOY ART HERE.
+73
+
+
+===== PÁGINA 74 =====
+
+THE ENVOY
+A stylish and persuasive socialite.
+The difference between a diplomat and a spy is the Quality of the intelligence they bring to
+their superiors. Ceasefires, alliances, and treaties don't last long in the War and the clever
+will make the most of that reprieve by preparing for when it fails. The best use of that time is
+to employ an Envoy. Skillfully negotiating the celebrations, deals, and deceptions of politics
+to pull the most out of such opportunities, they bring intel home with a smile and handshake.
+When are you truthful in a meaningful way? What relationships do you have that aren’t a
+means to an end?
+ENVOY ACTION RATINGS
++2 Sway, +1 Consort
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with deception or influence.
+ENVOY SPECIALIST PILOT GEAR
+ Fine clothes and jewelry [Load 0, unless it’s a secondary outfit then Load 2]: A set
+of clothes suitable for making you look like a wealthy elite.
+ Fine Disguise kit [Load 1]: ReFace Paste is gear in the form of a putty synced to a
+program that allows the user to greatly change their appearance.
+ Fine trick gambling kit [Load 0]: Different cultures have different gambling
+practices but you’ve got the tools to give you a leg up.
+ Fine Espionage gear [Load 1]: Well made listening devices, micro cameras, key
+readers and other devices used to secretly observe the actions of others.
+ Trance powder [Load 0]: A single dose of a powder that puts the target into a calm
+and suggestible mental state.
+ Cane sword [Load 1]: A narrow blade concealed inside of a walking stick that will
+fool a casual inspection.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+74
+
+
+===== PÁGINA 75 =====
+
+ENVOY SPECIALIST VEHICLE GEAR
+ Fine holo-projector [Load 1]: a well made device used to visualize the AR or
+specific images.
+ Chaff countermeasure [Load 1]: a cloud of metallic strips that can be used to
+baffle sensors.
+ Concealed melee weapon [Load 1]: a weapon hidden in the vehicle’s frame that
+allows it to make melee attacks. Examples are ram bars, tire spikes, spring Loaded
+blades.
+ Stylish appearance [Load 0]: Decals, spoilers, custom paint jobs, and other
+details that make your vehicle stand out.
+ Luxurious Passenger Space [Load 1]: The vehicle has a well appointed interior
+that has room for a few people.
+ENVOY ABILITIES
+ Rook's Gambit: Take 2 Stress to roll your best action rating while performing a
+different action, so long as you can justify adapting your skill to this use. You can
+use pilot actions in place of vehicle actions, and vice versa, with this ability.
+ Cool Under Pressure: When you take Harm, heal Stress equal to the level of that
+Harm.
+ Regent’s Brilliance: You and your entourage have increased Effect when
+Consorting and Swaying so long as you take advantage of how truly impressive
+you are.
+ Like Looking into a Mirror: You can always tell when someone is lying to you.
+ A Little Something on the Side: At the end of each Downtime phase, make a
+Fortune Roll using the Squad's Tier. Add 1 Tick to a Drive clock if it is 4+.
+ Read ‘em And Weep: Spend two Stress to ask one of the following questions
+about someone you have observed either in secret or openly. To ask additional
+questions you may spend 1 Stress per question. What was their lowest moment?
+--- What do they crave forgiveness of and from whom? --- What are their secret
+pains? --- In what ways are their mind and soul vulnerable?
+ Subterfuge: You may spend your Spark to resist a consequence from suspicion or
+persuasion, or to push yourself for subterfuge.
+ Trust in Me: You get +1d vs. a target with whom you have a strong relationship.
+For another PC this is a +2 or higher Connection value.
+75
+
+
+===== PÁGINA 76 =====
+
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ Are they telling the truth?
+ What are they really feeling?
+ What do they really care about?
+ How can I blend in here?
+ What's really going on here?
+EXAMPLE STARTING ENVOY BELIEFS
+ They're a sucker who will get me into trouble if I don't fix them.
+ They’re in need of a makeover and I have the style.
+ They don't fit the objective of this squad, so I will find out why they are here.
+ They will make a good social prop.
+EXAMPLE ENVOY ALLIES AND RIVALS
+ Tasneem, a sly courtesan
+ Candan, a naive diplomat
+ Ismat, a defensive lawyer
+ Duri, an idealistic servant
+EXAMPLE ENVOY STARTING BUILDS
+ Psychologist: Read ‘em And Weep, Study +2, Scan +1, Survey +1
+ Idol: Regent’s Brilliance, Maneuver +2, Consort +1, Command +1
+ Spy: Subterfuge, Prowl +2, Interface +1, Finesse +1
+ Diplomat: Like Looking Into a Mirror: Command +1, Finesse +2, Prowl +1
+76
+
+
+===== PÁGINA 77 =====
+
+INSERT FULL PAGE HACKER ART HERE.
+77
+
+
+===== PÁGINA 78 =====
+
+THE HACKER
+A cunning and willful programmer.
+Technology fills the lives of the masses and programming computers has become as
+important as literacy. However there are those who make that skill into an art, a direct
+expression of their will. These people are hackers and they bend augmented reality to suit
+their desires. Apps and proxies pose little obstacle to them, with the most skilled being able
+to challenge AIs. Bring a Hacker with you if you plan to confront the digital realm and live.
+Why did you delve into the guts of the AR? Do you consider yourself a whitehat?
+HACKER ACTION RATINGS
++2 Interface, +1 Study
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with knowledge or digital
+power.
+HACKER SPECIALIST PILOT GEAR
+ Portable Exclusion Zone [Load 1]: creates an area isolated from AR and wireless
+data transfer (including radio).
+ Fine Augmented Reality tool [Load 1]: might be contacts, a visor, or glasses;
+detail its appearance. Allows you to see the AR even when it hasn’t visually
+manifested. Provides some protection from AR Confusion.
+ Quantum Drive [Load 1]: a portable QD, about the size of a brick, that can store
+an astounding amount of data. Each increases the hackrig’s Load by +1.
+ Hackrig [Load 1]: a portable computer with high end intrusion software. Detail if the
+hackrig is a tablet (has Load 3), a laptop (has Load 5), or a tower(has Load 6). It
+can be filled with Hacker Specialist Vehicle Gear or valuable data (Load 1+).
+Changing it’s Load requires spending Materiel like a Vehicle.
+ Recursive data projector [Load 1]: Broadcasts overwhelming amounts of data
+that Apps and AIs avoid.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+78
+
+
+===== PÁGINA 79 =====
+
+HACKER SPECIALIST VEHICLE GEAR
+ Fine retrieval program [Load 1]: used to find and acquire data.
+ Fine coding program [Load 1]: used to edit programs on the fly.
+ Electronic Filter [Load 1]: used to bypass signal blocking devices and techniques.
+ Stealth program [Load 1]: used to hide hacking attempts.
+ Data bomb program [Load 1]: used to shut down systems by overLoading them
+with data.
+ Fine Intrusion Countermeasures Program (ICP) [Load 1]: used to defend
+against hacking attempts.
+HACKER ABILITIES
+ Compel: You can Interface with the augmented reality to force a nearby app or
+proxy to appear and obey a command you give it. You can always distinguish
+between reality and AR created by a program you summon or compel (though your
+allies may become lost).
+ Matrix Mind: You’re always aware of apps and proxies in your presence. Take +1d
+when you gather info about the AR and apps.
+ Iron Will: You're immune to the AR confusion that some apps and proxies inflict on
+sight. Take +1d to resistance rolls with Resolve.
+ Turing Test: You can always tell if you’re interacting with a human.
+ Data Pack: You can Study an app (or create a new one) to develop it into a
+reusable form. You know the complex methods to create apps. You begin with one
+app already learned.
+ Crowdsource: Spend 2 Stress to use a squadmate’s action rating instead of your
+own by describing how you make use of their knowledge.
+ Tesla: When you push yourself in addition to the normal benefits you can do one of
+the following: unleash a stroke of lightning as a weapon from the power grid—
+summon an AR storm in your immediate vicinity (swirling ads, flashing neon, heavy
+smog, shouting crowds, etc.) that will cause AR confusion.
+ Warded: You may spend your Spark to resist a AR consequence, or to push
+yourself when you deal with AR forces.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+79
+
+
+===== PÁGINA 80 =====
+
+EXAMPLE GATHER INFORMATION
+ What is holographic or inorganic here?
+ What lingers in the Augmented Reality?
+ What is hidden or lost here?
+ What do they intend to do?
+ What drives them to do this?
+ How can I reveal [X]?
+ What's really going on here?
+EXAMPLE STARTING HACKER BELIEFS
+ The AR echoes tell me they're being followed.
+ I've found their digital secrets.
+ They're computer illiterate and I'm going to fix that.
+ They don’t trust me, and that’s insulting.
+EXAMPLE HACKER ALLIES AND RIVALS
+ Gather, a curious proxy
+ Thusitha, a focused pirate
+ Zine, a secretive AI
+ Tae-hee, a vile page
+EXAMPLE HACKER STARTING BUILDS
+ Decker: Turing Test, Survey +2, Consort +1, Command +1
+ Wiz Kid: Tesla, Struggle +1, Battle +1, Wreck +1, Destroy +1
+ Spider: Warded, Prowl +2, Finesse +1, Survey +1
+ Coder: Compel, Engineer +2, Finesse +1, Study +1
+80
+
+
+===== PÁGINA 81 =====
+
+81
+
+
+===== PÁGINA 82 =====
+
+THE INFILTRATOR
+An agile and deadly burglar.
+Privacy is a rare commodity in the technologically advanced lives of those touched by the
+War. Many keep their secrets locked in physical spaces far from prying eyes. This is when
+you need an Infiltrator. Able to get past the security measures of the most paranoid and then
+fight their way out if necessary, they'll get you what you want. Make sure you treat them right
+because they can get into your home too.
+Why are you drawn to the skills of the Infiltrator? When have you regretted moving unseen?
+INFILTRATOR ACTION RATINGS
++2 Prowl, +1 Finesse
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with stealth or evasion.
+INFILTRATOR SPECIALIST PILOT GEAR
+ Fine security cracker [Load 0]: A well made tool kit used for disabling mechanical
+and electronic locks.
+ Fine optical camo [Load 1]: A piece of clothing capable of covering the entire body
+that blends the wearer into their surroundings.
+ Light climbing gear [Load 1]: Climbing gear made from uncommon lightweight
+materials.
+ Firearm silencer [Load 0]: an item that attaches to or replaces a gun’s barrel so
+that it makes very little sound when fired.
+ Nightvision goggles [Load 1]: Advanced goggles amplifying ambient light allowing
+the user to see in total darkness.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+INFILTRATOR SPECIALIST VEHICLE GEAR
+ Fine optical camo [Load 1]: A coating or cloak that covers the vehicle allowing it to
+almost seamlessly blend into its environment.
+ Light mobility suite [Load 1]: A grapple system, jump jets, foot wheels, or other
+82
+
+
+===== PÁGINA 83 =====
+
+mobility system modified to be less cumbersome.
+ Electronic Countermeasures [Load 1]: creates static that prevents any wireless
+transfer of information.
+ NV/IR sensors [Load 1]: Scanners that allow the vehicle to see in darkness or to
+spot heat sources.
+INFILTRATOR ABILITIES
+ Ghost: You are not negatively affected by Quality or Tier when you attempt to
+bypass security measures.
+ Ambush: When you attack from hiding or spring a trap, you get +1d.
+ Daredevil: When you roll a desperate action, you get +1d to your roll if you also
+take -1d to any resistance rolls (or exhaust an additional Quirk for vehicle
+resistance) against consequences from your action.
+ The Devil's Footsteps: When you push yourself in addition to the normal benefits
+choose one of the following: perform a feat of athletics that verges on the
+superhuman—maneuver to confuse your enemies so they mistakenly attack each
+other.
+ Expertise: Choose one of your action ratings. When you lead a group action using
+that action, you can suffer only 1 Stress or exhaust 1 Quirk at most regardless of
+the number of failed rolls.
+ Never Tell Me The Odds: If you are outnumbered or drastically over matched by a
+foe take +1d to resistance rolls or exhaust 1 fewer Quirk for vehicle resistance.
+ Reflexes: When there's a question about who acts first, the answer is you (two
+pilots with Reflexes act simultaneously).
+ Shadow: You may spend your Spark to resist a consequence from detection or
+security measures, or to push yourself for a feat of athletics or stealth.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ What should I look out for?
+83
+
+
+===== PÁGINA 84 =====
+
+ What's the best way in?
+ Where can I hide here?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING INFILTRATOR BELIEFS
+ They make way too much noise.
+ Got themselves caught so that I could finish the mission. I owe them.
+ They aren't going to make it out of the War because they're too reckless.
+ I have to keep an eye on them, I know their secret.
+EXAMPLE INFILTRATOR ALLIES AND RIVALS
+ Decine, an Offworlder clerk
+ Astrell, a local programmer
+ Gorbad, a dedicated noble
+ Asa, a hopeful refugee
+EXAMPLE INFILTRATOR STARTING BUILDS
+ Assassin: Ambush, Struggle +2, Consort +1, Sway +1
+ Operative: Shadow, Interface +2, Study +1, Survey +1
+ Thief: Ghost, Finesse +1, Scan +2, Survey +1
+ Demon: Reflexes, Maneuver +2, Battle +1, Struggle +1
+84
+
+
+===== PÁGINA 85 =====
+
+85
+
+
+===== PÁGINA 86 =====
+
+THE OFFICER
+A tactical and personable trooper.
+Any conflict is chaos, whether it’s an explosion filled battlefield or posturing for status in a
+masquerade. Except it’s not really chaos, not if you know how to look. Lines of attack and
+defense, routes for flanking and retreat, all exist no matter the arena. There’s a way around,
+through, or over if you’re properly prepared. An Officer always has a plan.
+What lingering debts do you possess? How will you honour them?
+OFFICER ACTION RATINGS
++2 Command, +1 Survey
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with calculation or conspiracy.
+OFFICER SPECIALIST PILOT GEAR
+ Fine cover identity [Load 0]: Paperwork, planted database info, and false
+connections suitable for passing as a different person.
+ Fine gift [Load 1]: a bottle of liquor, a necklace, or a trinket. Something easily
+replaceable but quite impressive.
+ “High priority” comm decoder [Load 1]: This device gives you the back channels
+for reaching anyone’s personal communicator, but that doesn’t mean they know, or
+care, who you are.
+ Officer's Uniform [Load 0, unless it’s a secondary outfit then Load 2]: a uniform
+befitting one in a position of command.
+ Concealed palm pistol [Load 0]: A very small firearm with a very short range that
+is easily concealed.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+OFFICER SPECIALIST VEHICLE GEAR
+ Fine Battle Standard [Load 1]: a flag or other symbol that your allies can rally to.
+ Fine Friend Or Foe Tags [Load 0]: makes a vehicle appear as belonging to a
+specific person, squad, and/or Faction.
+86
+
+
+===== PÁGINA 87 =====
+
+ Concealed gun [Load 0]: a small firearm only Effective up close that is almost
+impossible to find.
+ Small Armory [Load 1]: a collection of infantry weapons and body armour.
+OFFICER ABILITIES
+ Tactical Genius: Two times per mission you can assist a teammate without paying
+Stress. Tell us how you prepared for this.
+ Leader: When you Command a Cohort in combat, they continue to fight when they
+would otherwise break (they're not taken out when they suffer level 3 Harm). When
+you lead a Group Action you have increased effect.
+ Rally: Spend two Stress to do one of the following. To compel additional directions
+you may spend 1 Stress per direction.: direct an unaffiliated crowd to perform an
+action—have an unaffiliated crowd commit violence—prevent an unaffiliated crowd
+from causing damage.
+ Functioning Vice: When you cut loose, you may adjust the dice outcome by 1 or 2
+(up or down). The pilot you cut loose with heals 1 Stress as well which cannot
+cause them to overindulge.
+ Heart to Heart: When you make the weight of an arrangement clear to your
+opposite and both agree to terms - surrender, cease fire, prisoner exchange, etc -
+you are all emotionally invested in the deal. If either party or their Squad breaks the
+agreement, the negotiator takes level 3 Harm, "Despondent".
+ Warlord: When you have Vendetta with another Squad your Squad gets improved
+Effect against that Squad.
+ Mastermind: You may spend your Spark to protect a teammate, or to push
+yourself when you gather information or work on a long-term project.
+ Weaving the Web: You gain +1d to Consort when you gather information on a
+target for a Mission. You get +1d to the engagement roll for that operation.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they want most?
+ What should I look out for?
+87
+
+
+===== PÁGINA 88 =====
+
+ Where's the leverage here?
+ How can I discover [X]?
+ What do they intend to do?
+ How can I get them to [X]?
+ What's really going on here?
+EXAMPLE STARTING OFFICER BELIEFS
+ They trust my plans, and I won't let them down.
+ They have a good head and I trust their instincts.
+ They refuse to see how their actions affect the squad.
+ Their reputation precedes them and it worries me.
+EXAMPLE OFFICER ALLIES AND RIVALS
+ Lavender, a strong fixer
+ Henri, a weak cop
+ Peaches, a corrupt officer
+ Virgil, a loyal pilot
+EXAMPLE OFFICER STARTING BUILDS
+ Revolutionary: Rally, Command +2, Sway +1, Struggle +1
+ Tactician: Tactical Genius, Struggle +2, Battle +2
+ Fixer: Heart To Heart, Sway +2, Finesse +1, Command +1
+ Strategist: Weaving The Web, Study +1,Survey +2, Scan +1
+88
+
+
+===== PÁGINA 89 =====
+
+89
+
+
+===== PÁGINA 90 =====
+
+THE SCOUT
+A dangerous sniper and explorer.
+Despite all the signs and guidebooks the world is filled with hidden paths. People, whether
+consciously or by accident, hide things. Sometimes it’s where they’ve gone, or their favourite
+bauble, or a route through dangerous places. It’s a Scout’s job to find these secret ways,
+then help clear the path from a safe distance.
+How did you run into trouble while alone in the field? When does the loneliness of your work
+find you?
+SCOUT ACTION RATINGS
++2 Hunt, +1 Survey
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with tracking or violence.
+SCOUT SPECIALIST PILOT GEAR
+ Fine machine pistol [Load 1]: A well made pistol capable of fully automatic fire.
+ Fine sniper rifle [Load 2]: A high Quality bolt action rifle that’s extremely lethal at
+long-range but unsuitable in close quarters.
+ 1 type of special ammunition [Load 1]: A magazine or bandolier of specialist
+ammo that gives increased Effect against one type of target but reduced Effect
+against other targets. You might have EMP rounds to use on drones, hollow-points
+for people, or gel rounds to be less than lethal.
+ Rangefinder/laser painter binoculars [Load 1]: Binoculars that can perfectly
+judge the distance to a target and also transmit the target’s precise location.
+ A well programmed hunter robot [Load 1]: Your robot obeys your commands and
+anticipates your actions. Can carry 2 Load of general pilot gear or Scout pilot gear.
+Gain Cohort (expert: hunter).
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+90
+
+
+===== PÁGINA 91 =====
+
+SCOUT SPECIALIST VEHICLE GEAR
+ Fine heavy cannon [Load 2]: An excellent, slow firing cannon designed to
+bombard targets at long-range.
+ Special ammunition [Load 1]: Your vehicle is equipped with a non-standard
+ammunition type in addition to its standard round. It gives increased Effect against
+one target type but reduced Effect against others. You might have flak rounds to
+use against jets, armour piercing rounds for tanks, or incendiary rounds for infantry.
+You can change your ammo type the first time it's used each mission.
+ Magnification suite [Load 1]: Your vehicle is equipped with a wide variety of
+optical and digital zoom options to enhance the pilot’s view of far targets and also
+mark them for allies.
+ Drone carrier [Load 1]: can be used to launch several simple drones with a preset
+Loadout that are directed with the vehicle’s controls. Each drone can carry 2 Load
+of general Pilot gear, 2 Load of Scout Pilot Gear, or 1 Load of general Vehicle gear.
+All drones must have the same Load, and it doesn’t cost Materiel to change their
+Load between missions.
+SCOUT ABILITIES
+ Sharpshooter: When you push yourself in addition to the normal benefits you can do
+one of the following: make a ranged attack at extreme distance beyond what’s
+normal for the weapon—unleash a barrage of rapid fire to suppress the enemy—
+ricochet a shot to hit a target indirectly.
+ Focused: You may spend your Spark to resist a consequence of surprise or mental
+Harm (fear, confusion, losing track of someone) or to push yourself for ranged
+combat or tracking.
+ Terminator: Your well programmed hunter robot has additional systems installed. It
+has increased Effect when tracking or fighting machines, and gains a custom
+upgrade: Beast of Burden [+1 Load, and it’s stronger], Mind-Link [can be directed
+with the pilot’s mind], or Quick and Quiet [is faster and nearly silent]. Take the ability
+again for an additional custom upgrade.
+ Ranger: When you gather info to locate a target, you get +1 Effect. When you hide in
+a prepared Position or use camouflage, you get +1d to rolls to avoid detection.
+ Survivor: From hard won experience or specialized training, you are able to subsist
+on what any environment provides and you can function on the barest sustenance.
+You get +1 Stress box.
+ Lay of the Land: When a Pilot takes advantage of terrain you have scouted, they get
++1d to resist consequences (or spends 1 fewer Quirk). When you scout as a
+91
+
+
+===== PÁGINA 92 =====
+
+flashback Set Up action, spend 1 less stress than normal.
+ Determination: When you roll a failure on a risky or controlled action you can
+choose to make that a partial success by changing the Position to desperate.
+This does not grant XP for taking a desperate action.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ What are they really feeling?
+ Where are they vulnerable?
+ Where did [X] go?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING SCOUT BELIEFS
+ They would be lost without me.
+ They make me feel like part of the team.
+ They want to survive and I can teach them how.
+ They’re in constant danger, so I’ll keep them safe.
+EXAMPLE SCOUT ALLIES AND RIVALS
+ Teucer, a veteran sniper
+ Layla, a humane tracker
+ Here, an eager mortician
+ Holly, a cold squire
+EXAMPLE SCOUT STARTING BUILDS
+ Pursuer: Determination, Study +1, Struggle +1, Consort +1, Wreck +1
+ Pathfinder: Ranger, Prowl +2, Survey +1, Maneuver +1
+ Sniper: Sharpshooter, Bombard +1, Study +1, Prowl +1, Survey +1
+ Bonded: Terminator, Command +2, Struggle +1, Engineer +1
+92
+
+
+===== PÁGINA 93 =====
+
+93
+
+
+===== PÁGINA 94 =====
+
+THE SOLDIER
+A mightily, violent warrior.
+The War touches everyone demanding some form of violence be committed on its behalf.
+Those who become very good at the most primal form are the Soldiers. While others perform
+violence, they ARE violence. They reek of blood, and gunpowder, and dominance. Even
+when they don't wound their victims they staple fear onto their bloody, beating hearts.
+When do you refuse to employ violence? When do you refuse to refrain from violence? How
+have these stances hurt you?
+SOLDIER ACTION RATINGS
++2 Struggle, +1 Command
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with violence or coercion.
+SOLDIER SPECIALIST PILOT GEAR
+ Fine melee weapon [Load 1]: A knife, sword, hammer, shield, or other one handed
+melee weapon of excellent Quality.
+ Fine assault rifle [Load 2]: A well made rifle capable of single, burst, or automatic
+fire.
+ Anti-armour weapon [Load 2]: A heavy weapon designed to penetrate the kind of
+heavy armour found on many vehicles.
+ Frag, flash, or smoke grenades (3 uses) [Load 1]: A few grenades that can be
+thrown or launched from a suitable firearm which either explode in shrapnel, sound
+and light, or smoke.
+ Handcuffs or zipties [Load 0]: A tool designed to restrain the limbs.
+ Stimpack [Load 0]: An injector filled with a drug cocktail giving a burst of energy,
+resilience, and aggression. This will modify your Position and Effect as suitable.
+Gain two consequences “Can’t Tell Friend From Foe” and “Destroy Everything”
+which can be resisted as normal. The modified Position and Effect, and any
+unresisted consequences last until the end of the next scene.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+94
+
+
+===== PÁGINA 95 =====
+
+needs. It’s represented by the vehicle entry on your pilot sheet.
+SOLDIER SPECIALIST VEHICLE GEAR
+ Fine melee weapon [Load 1]: A finely crafted melee weapon that is well balanced
+for your vehicle.
+ Fine heavy melee weapon [Load 2]: A well made and heavy melee weapon able
+to strike with greater reach or force.
+ Scary weapon or tool [Load 1]: An unusual weapon or tool that has increased
+Effect when used for intimidation but standard Effect for dealing damage.
+ A tangle gun [Load 1]: A weapon that launches some kind of round that impedes
+or removes the mobility of a struck target.
+SOLDIER ABILITIES
+ Battleborn: You may spend your Spark to reduce Harm from an attack in combat
+or to push yourself during a fight.
+ Bodyguard: When you protect someone, take +1d to your resistance roll (or
+exhaust 1 fewer Quirk for vehicle resistance). When you gather info to anticipate
+possible threats in the current situation, you get +1 Effect.
+ Robot Fighter: You know the weak points of the inanimate and you gain increased
+Effect in combat against machines.
+ Tough as Nails: Penalties from Harm are one level less severe (though level 4
+Harm is still fatal).
+ Mule: Your pilot Load limits are higher. Light: 5. Normal: 7. Heavy: 8.
+ Not to be Trifled With: When you push yourself in addition to the normal benefits
+you can do one of the following: perform a feat of physical force that verges on the
+superhuman—engage a small gang on equal footing in close combat.
+ Brutal: When you unleash physical violence, it's especially frightening. When you
+Command a frightened target, take +1d.
+ Vigorous: You recover from Harm faster. Permanently fill in one of your healing
+clock segments. Take +1d to healing treatment rolls.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+95

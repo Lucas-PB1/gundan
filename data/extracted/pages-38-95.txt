@@ -1,0 +1,1689 @@
+
+
+===== PÁGINA 38 =====
+
+THE PILOTS
+INSERT PILOT CHAPTER ART HERE
+38
+
+
+===== PÁGINA 39 =====
+
+Beam Saber is a game about pilots and their massive war machines. While the vehicles may
+get a lot of attention, they are just dead metal without the pilot. An empty husk waiting to be
+filled with potential. You are that potential. Pilots are people who will take a sliver of hope in a
+desperate situation and use it as wedge to victory. Be the pilot, find the sliver.
+PILOT CREATION
+The directions that follow are useful for creating your pilot step by step; however, if you want
+to randomly generate your pilot in part or in whole, jump to Appendix A for methods to do
+that.
+1. Choose a Playbook. This will guide your pilot's methods.
+2. Who were you before The War stole from you? This is your History. Put 1 point into a
+pilot or vehicle action that expresses it.
+3. How has your pilot experienced the costs of war? This is your Tragedy.
+4. What were you doing before you joined the Squad, but after your Tragedy? This is your
+Opening. Put 1 point into a pilot or vehicle action that expresses it.
+5. What do you hope to change in the world? This is your Drive.
+6. Add the 3 starting action points from your chosen Playbook to your character
+sheet.
+7. Put 2 points split between any pilot and/or vehicle actions. Each action cannot
+exceed 2 points. Note that when making your vehicle later you will have 3 more points
+which can ONLY be used in vehicle actions.
+8. Choose an ability from your Playbook.
+9. Write your name, pronoun, call sign, and look.
+10. Write the names of each of the other members of your Squad on your Connection
+Sheet and put 1 Tick in their Connection Clock. Create 1 Belief you have about each
+pilot, or choose an example Belief listed in any Playbook.
+HISTORY, TRAGEDY, AND OPENING
+The War has affected everyone, with the lucky only having rationing in their lives, but many
+more have experienced some form of tragedy. The pilots are not solely tragic figures though;
+they have a history before The War stole from them, and they find ways to live before they
+join the Squad where the story opens on them.
+When choosing your pilot’s History, Tragedy, and Opening, there’s no need to have it
+39
+
+
+===== PÁGINA 40 =====
+
+fully fleshed out. Having just a single detail for each is enough because developing the
+character through play and discovering who they are is part of the game. It also leaves room
+to learn that other players’ characters are part of your past. If you DO have a lot of backstory
+ideas that you are very happy with, keep them; just keep an open mind about including new
+details as the game progresses.
+HISTORY
+A pilot’s History is who they were before their Tragedy. Generally, this is a fairly mundane
+existence where The War is not something that fills their thoughts. Sure there’s rationing, the
+neighbour’s kid got conscripted, and your second cousin is moving back in with their parents
+after the space station they lived on got destroyed, but you can go most days without
+thinking about things like that. So don’t worry about the tragedy looming in your future
+because for now life is… normal.
+When a pilot's History is expressed during play, they will get XP at the end of the
+session.
+EXAMPLE HISTORIES
+ Academic: A university professor or student a researcher, a doctor, a journalist, or
+some other person who furthers knowledge.
+ Art: An architect, a sculptor, a writer, a composer, or some other person creating
+art.
+ Criminal: A burglar, a con artist, a gang member, a drug pusher, or some other
+person who preys on vulnerabilities.
+ Entertainment: An actor, a pop idol, a sex worker, an athlete, a livestreamer, a
+podcaster, or other some person who entertains.
+ Family: A stay at home parent, a teen, a legal guardian, a PTA member, or some
+other person invested in caring for the young.
+ Labor: A farmer, a factory worker, a transport driver, a seamster, a miner, or some
+other person living by the sweat of their brow.
+ Law: A cop, a lawyer, a social worker, a court clerk, or some other person involved
+with legal proceedings.
+ Military: A cadet, a quiet posting, a quartermaster, a deckhand, a guerilla, or some
+other job involved in The War.
+ Political: A local council person, a volunteer, a propagandist, an activist, or some
+other person pushing political goals.
+40
+
+
+===== PÁGINA 41 =====
+
+ Spiritual: a choir member, a yogi, a priest, a psychologist, or some other person
+invested in spiritual well being.
+ Trade: a stock trader, a Cashier, a banker, an arms dealer, or some other person
+who handles money.
+TRAGEDY
+A pilot’s Tragedy is the event that propels them into their involvement in The War. It might be
+the loss of loved ones, being targeted by accusations (regardless of the truth), or witnessing
+an atrocity. It might not put them immediately into a Squad, but it does put them on a course
+where every day they get closer to the controls of a war machine.
+When a pilot's Tragedy is expressed during play, they will get XP at the end of the
+session.
+EXAMPLE TRAGEDIES
+ Hid in a mass grave.
+ Lone survivor of a militia
+ Friends started disappearing.
+ Family killed as collateral damage.
+ Orbital station home used as a kinetic weapon.
+ Unwillingly experimented on by unethical researchers.
+ Exiled from homeland.
+ Falsely charged with a major crime.
+ Shown the lie of their own life.
+ Participated in a failed coup or mutiny.
+OPENING
+A pilot’s Opening is what they were doing with their life before they joined the Squad. It is
+what they did with themselves between their tragedy and the opening of the game. Some will
+be in a deep depression, possibly at the bottom of a bottle. Others will be training hard to get
+their revenge. A few will try to continue with their lives, pretending that their fate is not
+irrevocably changed and pulling them towards The War. All will be forced into a new life at
+the start of the game.
+When a pilot's Opening is expressed during play, they will get XP at the end of the
+session.
+41
+
+
+===== PÁGINA 42 =====
+
+EXAMPLE OPENINGS
+ Building a custom vehicle from spare parts.
+ Avoiding people with long voyage transport jobs.
+ Studying military strategy in preparation for war.
+ Catching deserters as a bounty hunter.
+ Stuck in prison for petty crimes.
+ Driving a taxi in areas autocars can't navigate.
+ Commanding a gang of rabble and scum.
+ Tending to the needs of an admiral as their valet.
+ Getting by as a sex worker.
+ Fighting in the vehicle arena.
+ Shuffling papers in a cubicle farm.
+ Serving drinks in a run down bar.
+PILOT ACTIONS
+When Pilots take actions that don't require their vehicles, their player selects the Pilot Action
+that is most suitable to the situation. There are 12 actions, and they are broken up into
+groups of 4, all of which fall under their shared Attribute. An Attribute is a loose description
+used for determining Resistance rolls (see page ??).
+All pilot action ratings max out at 4 points, but during pilot creation they can't have more than
+2 points in an action. The mastery Squad upgrade is required to unlock the fourth point.
+Pilots have access to the following actions:
+INSIGHT ACTIONS
+These are actions that rely on the sharp insights of the pilot.
+Hunt: for tracking and long distance precision.
+Study: for inspecting details and evidence.
+Survey: for observing surroundings and possible outcomes.
+Engineer: for adjusting and creating devices and mechanisms.
+PROWESS ACTIONS
+These are actions that make use of the pilot's physical prowess.
+Finesse: for using manual dexterity.
+42
+
+
+===== PÁGINA 43 =====
+
+Prowl: for moving with grace and power.
+Struggle: for engaging in close quarters combat.
+Wreck: for applying brute force.
+RESOLVE ACTIONS
+These are actions where the pilot's powerful resolve is of the utmost importance.
+Command: for compelling quick obedience.
+Consort: for socializing with others.
+Interface: for using complex digital equipment.
+Sway: for influencing through guile, charm, or debate.
+DRIVES
+What do you want to change? Regardless of how they ended up in The War, every Pilot has
+an ambition. Maybe they want to get revenge on the Squad that destroyed their village.
+Perhaps they want to climb the ladder, and reach a position of power in their Faction. Then
+there's the always relevant "live happily ever after." Drives are how these changes are made.
+The ability to make changes are represented by a Drive, and two 4-tick clocks. The
+Drive is a sentence that briefly explains what the Pilot hopes to change in the world. When a
+Pilot does something new that furthers their Drive, they can add 1 tick to a Drive clock at the
+end of the mission as part of the Reward process. If they complete a Long-term Project that
+furthers their Drive, they can add 1 tick to a Drive clock in addition to the normal benefits of
+completing that project. Repeating an action during a mission or a Long-Term Project during
+downtime to further your Drive won’t provide more than the first tick. It doesn’t matter how
+many times you record an album, only the first one will help you become a pop idol.
+You can also get Drive ticks by calling in favours from your Patron Faction or other
+Squads. To do this you must have a Relationship with your Patron of +1 or higher, or a +3
+Status with another Squad. If you are spending your social capital with your Patron, lower
+your Squad's Relationship by 1. If you are using good will with another Squad to advance
+your Drive, lower your Squad's Status with them by 3. Obviously this affects the entire
+Squad and not just your character, so make sure that you have permission from all of the
+other players before you use this rule.
+If you’ve chosen a Drive that seems too big or too amorphous to affect, it is alright to
+get Drive ticks for relatively small actions. For example if your Drive is to “remove the orbital
+debris cloud,” you could get a tick by suggesting that a salvage squad could turn a profit by
+taking the cloud apart. Focus on moving one step at a time, and you’ll make the journey
+43
+
+
+===== PÁGINA 44 =====
+
+before you know it.
+The one thing Drives can't do is end The War. There are too many pressures from
+too many sources for one person or one Squad to stop it. You might be able to shift the
+nature of The War however, by changing how or why it is fought. See Spending Drive
+(page ??) for details.
+EXAMPLE DRIVES
+Here are some example Drives along with examples of what might add ticks to them.
+Drive Progress
+Kill the man responsible for
+destroying my hometown.
+ Defeat your Rival.
+ Learn his weaknesses.
+ Find out where he sleeps.
+Become a famous pop idol.
+ Get a record deal.
+ Record an album.
+ Perform for a crowd.
+Get a high ranking position
+in the military.
+ Help a superior advance in rank.
+ Weaken a peer's political position.
+ Prove your own competence.
+Build a horse ranch away
+from The War.
+ Acquire land in a safe place.
+ Acquire a few quality horses.
+ Hire some ranchers.
+Develop a weapon that
+could end The War.
+ Develop an overlooked science into something deadly.
+ Prove that it can be controlled.
+ Weaponize it on a massive scale.
+Make sure that my friends
+will have a good life.
+ Start a trust fund for your friends.
+ Help them avoid getting a Scar.
+ Take the blame for a disaster.
+SPENDING DRIVE
+Once a Drive clock is full it can be spent to change the world. The more clocks spent at
+once, the bigger the change.
+ Spend 1 clock to negate Harm or Damage of any Level, change an Action or Fortune
+Roll to a 6, or Assist another Pilot by providing all 4 benefits.
+ Spend 2 clocks to change the life circumstances of one person. This is the only way
+to permanently defeat a Rival.
+ Spend 3 clocks to change the circumstances of a Squad.
+ Spend 4 clocks to change the circumstances of a Faction.
+ Any time you spend a clock, in addition to the normal benefits you can choose to
+rewrite your Drive.
+44
+
+
+===== PÁGINA 45 =====
+
+As a Pilot only has 2 Drive clocks, more than one Pilot must spend Drive to change
+the circumstances of a Squad or Faction. If more than one Pilot spends Drive to affect a
+Squad or Faction, one of them is designated the Leader. The Leader is the Pilot who came
+up with the idea, presented the evidence, organized the squad, and just generally took
+charge. Every Pilot gets to add one tick to their Connection clock with the Leader, and the
+Leader gets to add one tick to their Connection clock with everyone who donated a Drive
+clock.
+What is meant by "change" and "circumstances" is left intentionally vague because
+what can be changed and how much, are ways to control the tone of the game. In a game
+where the Pilots are narratively powerful changing a Faction could be convincing the
+Jovangellian Empire to become a constitutional monarchy, giving political power to the
+masses. In a less heroic game spending 4 clocks might only mean that the Jovangellian
+child empress is able to reach adulthood in good health. While the example about of the
+child empress reaching adulthood is a 4 Drive change it could also be a 2 Drive change
+instead. The difference is on the scale of the effect. Spending 4 means that the empress
+grows up and this changes the Jovangellian Empire. Spending 2 means that she grows up
+but is ineffectual and becomes a footnote in history.
+The changes wrought by spending Drives can build on each other. For example, if
+the Jovangellian Empire becomes a constitutional monarchy, a later expenditure of 4 Drive
+could put it and the Democratic Federated Systems into a true alliance with no betrayal
+foreshadowed. When combining the effects of spending Drive, the expense does NOT need
+to be the same amount each time. The only restriction is that each instance of spending
+Drive must affect the appropriate scale. For example spending 2 Drive and then 3 Drive
+must affect a person and a Squad respectively, and cannot affect a Faction. If 2 Drive was
+spent to ensure an ally is put into a position of Jovangellian power, that could be built upon
+by spending 4 Drive to have them enact the move into a constitutional monarchy.
+Lastly, the changes from spending Drive must follow the fiction. If a Pilot has been
+fighting fiercely against their Rival with no concern for either side's health, spending 2 Drive
+to permanently remove their Rival as a threat doesn't mean the Rival will suddenly switch
+sides; they are going to die. Likewise spending those 2 Drive against a Rival who has just
+appeared in the Mission will not immediately fill their progress clock, but it WILL seal their
+fate once that clock is filled. That said, to gain Ticks in a Drive clock in the first place a Pilot
+must have done things that further their Drive, and so there is a good chance they have in
+fact already laid the groundwork. In short, when spending Drive consider the Pilot's past acts
+in relation to their goals, and how those will shape the outcome.
+45
+
+
+===== PÁGINA 46 =====
+
+CONNECTIONS
+The ties between pilots in a Squad are as diverse as those between family. Sometimes they
+are intense, heated, and asymmetrical, while other times they are cool, cordial, and mutual.
+These Connections determine how Stressful it is and competent you are when you need to
+assist your fellows.
+On your pilot’s character sheet there will be a separate 4-tick clock for each other
+pilot in your Squad representing your relationship with that pilot. For each Tick in that Clock
+make a Belief about the pilot the Clock is tied to. When the Clock fills, ask the target pilot for
+a truth about one of the Beliefs tied to them, then reset it to 1 Tick as you see them in a new
+light. It’ll take time and effort to understand them again and relearn their rhythms, so the pilot
+erases all the Beliefs they have for that pilot, and writes a new one related to the truth just
+learned. After they’ve revealed a truth about themself, you both take 1 XP which can be put
+into any attribute or into the pilot Playbook.
+Connection Ticks are added each time a Pilot Cuts Loose (see page ??) during
+Downtime. Spending Drive clocks on another Pilot's plans, or receiving them for your own
+plans, also add Ticks. Lastly, some special abilities, such as the Empath's Carouse, add
+Ticks under certain circumstances.
+BELIEFS
+Pilots in Beam Saber are survivors, and part of their ability to survive is correctly judging the
+people around them. They quickly form opinions about who they can trust, who they should
+fear, and who they can use. This makes them rather opinionated about their fellow pilots,
+and of course they aren’t always correct. These opinions are a pilot’s Beliefs.
+Each Belief a pilot has is a statement that they feel is true about another pilot. They are
+simple, quick, and influential in the rapport between the two; however, the players need to
+remember that they are not necessarily true.
+Each Playbook has some example Beliefs that can be used, but feel free to write your own.
+A good Belief is:
+ Something that a pilot might say about their squadmate to a confidante.
+ Easily summarized so that it can be quickly remembered when relevant.
+ Potentially true.
+ Suitable for the game’s setting and tone.
+ Something the player is interested in exploring.
+If a character struggles because of the Beliefs that they have about their fellow pilots then
+they can mark 1 XP at the end of session, or 2 XP if it came up more than once.
+46
+
+
+===== PÁGINA 47 =====
+
+STRESS
+The pilots in Beam Saber are extraordinary survivors. Through luck and force of will, they
+can overcome many obstacles that other people would fall to. This is represented by their
+Stress. There are five main ways that a pilot can spend their Stress to move the odds in their
+favour.
+ Pushing Themself: For every two Stress, a pilot spends they can select the
+following options once each: Take +1d to any kind of roll where extra effort would
+help; Take +1 level of Effect to an action; Take any action while incapacitated
+(primarily by level 3 Harm). Taking +1d by Pushing Themselves means that even a
+pilot that has 0d in an action gains a 50/50 chance to succeed by using a little
+Stress.
+ Flashbacks: When a pilot has prepared for a seemingly unexpected circumstance,
+they can have a Flashback to show why they aren’t caught off guard. The pilot
+should describe what they did, and the GM will tell them if there is a need for an
+Action Roll. If the preparation was simple and there was ample opportunity to do
+so, it costs 0 Stress. If the preparation was complicated or there was little chance
+to make it, it costs 1 Stress. If the preparation was convoluted, involving unlikely
+occurrences and openings, it costs 2 Stress. A Flashback cannot undo something
+that has already happened, such as removing a character currently in the scene,
+but it can provide means for dealing with the current situation. If a Flashback
+involves a Downtime Activity, pay 1 Personnel or 1 Rep for it instead of Stress.
+ Assist: When a pilot aids another, they spend Stress to give their ally benefits; this
+explained in more detail in the Teamwork section (pg ?).
+ Resistance: When a pilot negates a consequence of an action, they take Stress
+based on their resistance roll. This is explained in more detail in the Resistance
+and Armor section (pg ?).
+ Special Abilities: Some abilities allow a pilot to spend Stress to activate rare
+talents, such as the Empath’s Telepathy or the Hacker’s Tempest.
+When a pilot reaches their max Stress (9 Stress in most cases), they can either leave the
+situation quietly to lick their wounds or try to push on recklessly.
+ If they choose to remove themselves quietly, the pilot heals all Stress and chooses
+a Scar suitable to the event that filled their last Stress box. They leave the current
+situation in a terrible state, but return later at an appropriate time without the need
+to Cut Loose due to Scars during the next Downtime.
+ If they choose to push on recklessly, they can take a Dire Action. With this action,
+47
+
+
+===== PÁGINA 48 =====
+
+they can ignore any Harm or Damage penalties they currently have. They cannot
+spend Stress to take this action, nor can they make resist rolls, since their Stress is
+at max (Quirks can still be exhausted as normal). If they get a 6 on their action,
+they can take another Dire Action, potentially allowing them to have several fully
+successful actions. If a 5 or lower is rolled, or they choose to take no further action
+(other pilots can still act between the Dire Actions of the pilot), that is their last
+action. On a result of less than 6, they suffer consequences as normal.
+After taking their last action (or at the end of the scene) they receive an
+appropriate Level 3 Harm and are removed from the scene in bad shape. With their
+Stress was maxed out, several things happen when they return; their Stress is now
+all healed, they gain a Scar appropriate to the occurrence that filled their last Stress
+box, and they don’t need to Cut Loose due to Scars during the next Downtime.
+If they roll a crit, they heal 1 Stress instead of having improved Effect, and
+are no longer taking Dire actions, instead they return to acting normally. They avoid
+taking a Scar and the Level 3 Harm caused by the Dire Action.
+SCARS
+When a player selects a Scar for their pilot, they are forever changed by The War. Scar
+conditions are not easily removed and affect the pilot’s personality.
+If a pilot suffers the repercussions of their Scars during a session, they can mark XP at the
+end of the session. This can occur through narrative play, such as missing opportunities or
+needlessly creating trouble, and also through Consequences on Action Rolls. When you see
+an opportunity for your Scar to cause you trouble, tell the GM and they'll add an appropriate
+Consequence to your roll, regardless of the result.
+The possible Scars are:
+ Cold  Reckless
+ Haunted  Soft
+ Obsessed  Vicious
+ Paranoid  Fractious
+If a pilot takes a fourth Scar condition, they become unable to Effectively contribute to The
+War. At this point, they must either retire to a life elsewhere or they can be handed over to a
+Faction that has a negative Relationship with the Squad. If they retire, they start to live away
+from The War with a quality of life indicated by the changes they made by spending Drive (as
+described in the Drives section, see page ??). If they are given to another Faction, the
+48
+
+
+===== PÁGINA 49 =====
+
+Squad’s Relationship with that Faction goes up by one level. What happens to the Pilot after
+that is up to the GM, but it probably isn’t pleasant.
+TEAMWORK
+There will be times when you need a little help from your friends, and that’s when you need
+teamwork. There are three methods to aid your fellow pilots.
+ASSIST
+Describe how your pilot helps another with their action. Take Stress equal to the number of
+Ticks in your Connection Clock with them, then select that many unique benefits from the
+following:
+ They take +1d.
+ They have improved Effect.
+ They have improved Position.
+ They ignore their level 3 Harm.
+ They ignore their level 3 Damage.
+The stronger the Connection you have with the pilot, the more Stressful it is to assist them
+when they’re in need, and the harder you work to aid them. If more than one pilot wants to
+assist the acting pilot, consider that the character being assisted might actually be leading a
+group action.
+LEAD A GROUP ACTION
+When you direct a group of pilots to overcome an obstacle together, describe how your
+character leads the effort. Every pilot that’s involved rolls using the same action, and the
+group uses the single best result for everyone. If the Action rolled is a pilot action, the pilot
+leading the group takes 1 Stress for each participant that rolled 1-3 as their best result. If the
+Action rolled is a vehicle action the pilot leading the group exhausts 1 Quirk (or adds one tick
+to their Temporary Vehicle Clock) if they rolled 1-3 as their best result, and another if any
+other participant rolled 1-3 as their best result. If a pilot didn’t roll as part of the group, they
+can’t use the group’s result. If the roll has a Desperate Position, the leader takes 1 attribute
+XP. If you are leading a Cohort, roll Command if you’re conducting their operation, or the
+appropriate action if you’re acting in concert with them. The Cohort rolls its Quality to
+determine how much Stress you take.
+PROTECT
+Describe how you maneuver yourself to take a consequence that would otherwise affect a
+49
+
+
+===== PÁGINA 50 =====
+
+squadmate. You suffer that consequence in their place, and you can resist it as normal.
+SETUP
+When you make a setup action, you are weakening an obstacle or empowering an ally. With
+a success, any squadmates that follow through on your action have improved Position or
+increased Effect. You choose the benefit based on the nature of your ploy.
+PILOT LOOKS
+Pilots in Beam Saber come from all walks of life. Some are grizzled veterans, others are
+former pop idols, a few are teens trying to cope with their newfound situation. Here are some
+suggestions for how to describe their appearance.
+ Face: masked, beautiful, scarred, young, decorated, rugged, calm
+ Eyes: artificial, cold, mocking, trusting, trustworthy, uncertain, warm
+ Hair: flowing, military, punk, braided, poofy, slick
+ Body: big, compact, flabby, muscular, scarred, skinny, toned, voluptuous
+ Outfit: military, ornate, formal, vintage, practical, casual, scavenged
+RIVALS
+Pilots have very intense lives, which leads to very intense encounters with other people, and
+sometimes these interactions lead to an antagonistic Connection. There’s a person out there
+that they just can’t stand, and the feeling is mutual. This is a pilot’s Rival who exists to
+present a challenge whenever they are on screen.
+The pilot can acquire a new Rival by naming an NPC they are interested in clashing
+with in the future. The NPC in question can be present in the current scene, declared during
+pilot creation, or at any time. With the Rival established, they immediately gain increased
+narrative significance, as well as all of the mechanical benefits that come with their new
+position. Add the Rival to the Pilot’s Connection Sheet, mark 1 Tick in their Connection
+Clock, and write 1 Belief about them (or choose an example Belief from your Playbook). A
+pilot can only have one Rival at a time, but more than one pilot can share the same Rival.
+Declaring a Rival lowers the status of the Rival’s Squad by 1, which may put them in
+Vendetta with the players. Picking fights can ruin associations. Killing a Rival also lowers
+their Squad’s status by 1 as they are an important pillar of morale.
+When a Rival becomes part of a mission, they will always be an obstacle for the
+pilots and overcoming them is represented by an 8 Tick progress Clock, called the Challenge
+Clock. Rivals, no matter how friendly, are never to be taken lightly. If the fiction demands it,
+50
+
+
+===== PÁGINA 51 =====
+
+they may even have more than one Clock to represent multiple obstacles to be removed
+before the Rival can be tackled directly. If more than one pilot has the same Rival, add one 4
+Tick Challenge Clock to defeat them per additional pilot with that rivalry.
+For example Hannah Copeland is both Pitchfork and Dredge’s Rival, so when she
+appears in a mission the players must fill her 8 Tick Challenge Clock (the base Rival clock)
+plus a 4 Tick clock (one additional rivalry) to defeat her. If Scarecrow also has Hannah as a
+Rival, then she is represented by one 8 Tick Challenge Clock and two 4 Tick Challenge
+Clocks.
+In addition to being persistent opponents, Rivals are very dangerous both during
+missions and between them. A number of times per mission equal to the number of Pilots on
+the mission, a Rival can inflict a consequence at any time (before a pilot acts, on a result of
+6, after a Fortune Roll, at ANY time) which is called a Rival Move. The severity of the
+consequence is the same as the affected Pilot’s current Position, and must be appropriate to
+the fiction. If more than one pilot has the same Rival, they receive an extra Rival Move per
+additional pilot with that rivalry.
+For example Hannah Copeland gets 4 Rival Moves because she is Pitchfork’s rival
+and there are 4 pilots on the mission. If Dredge and Scarecrow also have her as a Rival she
+gets a total of 6 Rival Moves.
+Between sessions when the GM is making Fortune Rolls to determine the progress
+of Squad goal Clocks, a Rival will either support their Squad’s goal or pursue their own
+interests. If they are supporting their Squad, the Squad gets +1d on its Fortune Roll. If the
+Rival is working on their own plans they ignore their Squad’s Tier and instead roll 1d.
+If the pilot who has this person as their Rival adds at least 1 Tick to the Rival’s
+Challenge Clock and the Clock is filled before the end of the mission, then that pilot can
+mark 1 XP in the Playbook XP track. If filling this Clock also means that the Rival is
+permanently removed as a threat to the Squad by spending 2 Drive Clocks, the pilot can
+mark an additional 2 XP. “Permanently removed as a threat” is pointedly broad, as they
+might be persuaded to leave The War, be put into a coma, or join the Squad. If the Rival is
+removed as a threat, XP can no longer be gained from them. If a Rival's progress Clock is
+partially or completely filled during a Mission, but they are not permanently removed as a
+threat, any ticks on the clocks are removed as they have time to recuperate.
+The Rival Connection Clock can increase two ways: the Rival inflicts a Consequence
+on the Pilot, or the Pilot adds 1 Tick to the Rival’s Challenge Clock. Each of these can add a
+Tick once per mission and Downtime. When the Connection Clock fills, the Pilot takes 1 XP,
+and asks a question about their Belief with the Rival (which the GM must answer truthfully).
+They then reset the Connection Clock to 1 and write a new Belief about their Rival. If the
+Pilot struggles because of their Belief with their Rival, they can mark XP at the end of the
+51
+
+
+===== PÁGINA 52 =====
+
+session.
+Rivals should have agency, power, and the ability to mess with the PCs’ plans. They
+should use abhorrent means to admirable goals, or gain admirable Effects from horrible
+goals. Put them at odds with the pilots’ goals and/or ethics, and then turn the screws.
+ALLIES
+Friends come in all different forms. There are those who are from childhood, current (or
+former) lovers, tied together by blood, and many others. A pilot’s Ally is not defined by the
+nature of their Connection, but by the fact that the pilot can rely on them.
+Once per mission a Pilot can declare that they “have an old friend” who can help.
+Describe the scenario of when you last saw them, and make a Action Roll appropriate for
+those circumstances. A 4-6 indicates that you are on good terms with the Ally and they are
+likely to help you. A 1-3 shows that they don't want to see you, but could be convinced to
+help. Any roll less than a 6 incurs Consequences as appropriate to the Position, which might
+be related to your past with the Ally, the Ally's current situation, or something unrelated to the
+Ally. Add the ally to your Connections sheet with a short description instead of Beliefs.
+For Example Demon contacts Julia “Ripper” Faraday of The Hyenas for some help.
+Last time he saw her, they were on opposite sides of the battlefield in their AWVs, so he rolls
+a Risky Standard Battle to see how she’s feeling about that. He gets a 4, so she’s happy to
+hear from him, but there will be a Risky Consequence. She is facing disciplinary action for
+punching a superior officer, and Demon will have to help her get her AWV out of the
+impound lot if she's going to use it.
+If a pilot wants to accomplish something and they don’t know how, they should
+consider whether or not an Ally would be able to help them. Allies are emotionally invested in
+aiding the pilot, but can’t always be present or doing things for them. This means that
+sometimes taking advantage of what your Ally provides requires an Action or Fortune Roll.
+Allies exist to provide an avenue for the pilots to accomplish their goals, not to do it for them.
+Unlike Rivals, a pilot can have any number of Allies; however, it takes a lot more work
+to make friends than it does to make enemies. If a pilot wants to add an NPC as an Ally,
+make sure that it fits the fiction. A brand new acquaintance won’t be an Ally, but if the pilot
+works to build a bond (possibly through a Long Term Project), then they will probably
+become one.
+PILOT ADVANCEMENT
+As pilots make their way through The War they’ll build up experience, which is represented
+by XP. There are three types of XP: Playbook XP, Attribute XP, and General XP.
+52
+
+
+===== PÁGINA 53 =====
+
+ Playbook XP is gained by Training the Playbook during Downtime, which lets the
+pilot mark 1 XP box next to “Playbook” on the character sheet. When a pilot’s
+Playbook has 8 XP, they reset their Playbook XP to 0 and take a new Playbook
+special ability.
+ Attribute XP is gained by performing Desperate actions, regardless of the result,
+giving that action’s attribute 1 XP. For example, if a Desperate Consort roll is made
+the pilot’s Resolve gains 1 XP. When an attribute gathers 6 XP, it resets to 0 and
+another point can be added to one of the actions that falls under the attribute.
+Actions have a max rating of 3 unless the Squad has taken the Mastery Squad
+upgrade.
+ General XP is gained at the end of the play session. The pilot will determine if they
+expressed their Tragedy, History, or Opening; struggled because of their Beliefs,
+Scars or their vehicle’s Quirks; or addressed challenges with methods determined
+by their Playbook. For each of these, the pilot takes 1 XP, and for each item that
+occurred more than once, take an additional 1 XP. General XP is then assigned as
+Playbook or attribute XP as decided by the pilot.
+PILOT VS PILOT AND PLAYER VS PLAYER
+In the course of your game, there may be times when the interests of pilots become opposed
+and they take action against each other. For the most part, this is handled with the same
+rules as when a pilot acts against an NPC; one pilot acts and rolls an appropriate action, and
+those involved deal with the consequences by making resistance rolls as desired. That said,
+here are some suggestions for keeping the conflict purely in the game world.
+ Take a breather. Stop everything and take stock of the situation when pilots act
+against each other. The narrative is frozen in time, nothing’s moving forward until
+everyone agrees that it’s time to continue the story. We do this so that there’s no
+rush to roll dice, so that things don’t devolve into “I shot you” “No you didn’t!”. If you
+need to know who will act first, it should be clear from the fiction. If it isn’t clear,
+have each player make a Fortune Roll using the action they’re taking, and have the
+pilot with the higher roll act first (reroll ties).
+ Accept the method for resolution. Don’t roll any dice or move the story forward
+until everyone understands what’s at stake. Discuss what everyone’s goals are in
+this moment, what they are planning on doing, what they are willing to give, and
+how the difference in objective might be resolved. Every person at the table gets to
+make suggestions, objections, and negotiate on what’s happening. If a unanimous
+53
+
+
+===== PÁGINA 54 =====
+
+decision on how this could be resolved isn’t reached, then the conflict doesn’t come
+to a head. It’s not unusual for two people to be a hair away from coming to blows
+only for them to walk away.
+ Acknowledge the outcome. Since everyone has agreed on the method for
+resolution, then everyone must accept the outcome. Consequences can always be
+resisted, but trying to escape them outside of the rules is acting in bad faith.
+ Examine the source of the conflict. If the conflict that arises is because of
+differences between the pilots, then there’s nothing to worry about. However,
+conflicts between players cannot be solved by rolling dice. If this is the case,
+everyone needs to talk this out until there is a resolution of some kind. Beam Saber
+isn’t for sniping at other players, avoiding interpersonal problems, or replacing
+reasonable socializing.
+PILOT ACTIONS IN DEPTH
+This section contains extended descriptions of each Pilot Action.
+COMMAND
+When you Command, you force immediate obedience. You might lead a Fireteam in combat,
+or brow beat a person to give into your demands. In a Flashback you might have
+Commanded a crowd of witnesses to support you instead of your opposition. You could try
+getting a superior to do what you want (but Sway might be better).
+CONSORT
+When you Consort, you mingle with allies and acquaintances. You might gain access to
+resources, information, people, or places. You might make a good impression and make a
+new contact with your social grace. In a Flashback you might have partied with a courier so
+their important delivery was late. You could try to persuade someone with social pressure
+(but Sway might be better).
+ENGINEER
+When you Engineer, you build or tinker with an object. You might develop a non-contagious
+strain of the flu. You might fix a broken door. In a Flashback you might have set up placed
+explosives to go off exactly when you need them. You could make an inventory program (but
+Interface might be better).
+54
+
+
+===== PÁGINA 55 =====
+
+FINESSE
+When you Finesse, you handle an object with agility. You might secretly draw a pistol. In a
+Flashback you might have already stolen the guard’s keys. You could hotwire a vehicle (but
+Engineer might be better).
+HUNT
+When you Hunt, you track targets and attack over great distances. You might follow a Squad
+through a ruined city. In a Flashback you might have killed the getaway driver before the
+other operators completed their objective. You could shoot at someone across the room (but
+Struggle might be better).
+INTERFACE
+When you Interface, you work closely with electronic equipment, making it an extension of
+your body. You might hack into a technologically advanced vehicle or understand how it
+works. In a Flashback you might have tricked an enemy’s vehicle into updating its operating
+system when it was next started. You could disable a vehicle’s forcefield (but Battle might be
+better).
+PROWL
+When you Prowl, you move with grace and precision. You might climb a mech in the middle
+of a battle. You might sneak past a security camera. You might stab an unsuspecting foe. In
+a Flashback you might have destroyed a building’s security cameras. You could escape
+being buried in rubble (but Wreck might be better).
+STRUGGLE
+When you Struggle, you employ lethal or less than lethal violence. You might restrain a
+panicking civilian. You might exchange gunfire across rooftops. In a Flashback you might
+have already incapacitated the security guards. You could identify a fighting style (but Study
+might be better).
+STUDY
+When you Study, you meticulously examine details for better understanding. You might read
+technical manuals to find a weak point. You might determine a statement’s truth by
+scrutinizing the speaker. In a Flashback you might have scouted out a facility’s delivery
+schedule. You could try to read a charged situation (but Survey might be better).
+55
+
+
+===== PÁGINA 56 =====
+
+SURVEY
+When you Survey, you observe your surroundings and predict outcomes. You might spot
+trouble before it happens. You might discover an attacker’s vulnerabilities. In a Flashback
+you might have seen the fastest route through a crowded market. You could diagnose what
+destroyed a vehicle (but Engineer might be better).
+SWAY
+When you Sway, you persuade with guile, wit, and cHarm. You might negotiate better
+ceasefire terms. You might convince a guard that you do in fact belong in the restricted area.
+In a Flashback you might have bought an item before it went to auction. You could get
+nervous militia to charge the enemy (but Command might be better).
+WRECK
+When you Wreck, you act with brutal force. You might lift a car off a wounded companion.
+You might smash through a locked door. In a Flashback you might have weakened a floor to
+collapse when an enemy fire team walked onto it. You could attack with pure strength (but
+Struggle might be better).
+STANDARD PILOT GEAR
+When declaring items that your pilot is carrying during a mission, you can select from the
+items of your Playbook and from the following:
+ Bribe: The liquid assets a pilot has on hand. Each point of Personnel or Materiel is
+1 Load.
+ A blade or two [Load 1]: A nice, big 1-handed blade or a smaller, but no less
+deadly, pair.
+ Throwing knives [Load 1]: Six light blades made for throwing and unwieldy to fight
+with.
+ A heavy weapon [Load 2]: A large 2-handed weapon such as a sledge or wood
+axe.
+ An unusual weapon [Load 1]: Could be a stun baton, nerve-whip, or something
+stranger.
+ Burglary gear [Load 1]: Lockpicks (both mechanical and electronic), thin wire and
+hooks, a mister, and other intrusion tools.
+ Climbing gear [Load 2]: Ascenders, descenders, fast rope, harnesses, and more.
+Everything you need to climb a wall or rappel down one for a dynamic entry.
+56
+
+
+===== PÁGINA 57 =====
+
+ A pistol [Load 1]: A semi-automatic pistol or revolver.
+ A rifle or shotgun [Load 2]: A semi-automatic rifle or pump action shotgun. Useful
+at distance or close up, respectively.
+ Palm computer with useful programs [Load 1]: A small, book-sized computer
+with handy but simple programs.
+ Documents [Load 1]: Digital and printed files on diverse topics, along with the
+tools to create or annotate files.
+ Subterfuge supplies [Load 1]: A set of actors’ props and makeup with
+accompanying documents for making disguises.
+ Demolition tools [Load 2]: Power tools suitable for destruction or “heavy
+remodeling.”
+ Placed explosives [Load 1]: A brick of moldable explosive putty with a timer or
+remote detonator. Never quiet.
+ Flashlight, flares, or glow sticks [Load 1]: A simple form of illumination that can
+be activated when needed.
+ Intrusion Countermeasures Program (ICP) [Load 0]: A program that provides
+some limited protection to electronic devices against hacking.
+ Armor [Load 2]: A tactical vest with matching gloves, boots, and pads.
+ Heavy armor [Load +3, Load 5 total]: Trauma plates added to the vest, and a
+helmet added to your head.
+ Intel [Load 0]: Information provided to the Squad that you can access. Spend 1
+Personnel point to get +1d on a Gather Information roll while on mission.
+ Parachute [Load 2]: A large backpack containing a parachute providing some
+maneuverability and protection while falling from great heights.
+ Throat mic transceiver [Load 0]: A device pressed against the throat that can
+transmit the wearer’s voice over short distances.
+ Long-range transmitter [Load 1]: A device that can send data over great
+distances.
+ Smartphone [Load 0]: A pocketable tool providing many different digital functions
+but with a reliance on a probably compromised infrastructure for sending and
+receiving data.
+ Environmental suit [Load 0 if worn, Load 2 if carried as a secondary outfit]: A
+57
+
+
+===== PÁGINA 58 =====
+
+bulky suit that protects the wearer from lack of oxygen, vacuum, radiation, and has
+maneuvering thrusters for use in microgravity.
+ Remote vehicle control [Load 1]: A tool allowing a pilot to remotely control a
+vehicle but it’s not as Effective as being in the cockpit.
+58
+
+
+===== PÁGINA 59 =====
+
+PILOT PLAYBOOKS
+INSERT FULL PAGE ACE ART HERE.
+59
+
+
+===== PÁGINA 60 =====
+
+THE ACE
+A graceful and daring pilot.
+The battlefields of the war stretch across cities, continents, and star systems. Such
+distances are not easily traversed on foot, becoming full of incredible machines that stride,
+soar, and roam through them. A vehicle is what most see them as, just a tool, but for Aces
+they're a better half. Created with purity of purpose and a desire to be filled, the vehicles in
+the War are a light for people looking to join in that purity and desire.
+How’d you gain your skills? What made you realize you belonged behind the wheel?
+ACE ACTIONS
++2 Maneuver, +1 Engineer
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with piloting or violence.
+ACE SPECIALIST PILOT GEAR
+ Grav chute [Load 1]: an advanced piece of gear that uses anti-gravity technology
+to safely slow the wearer’s descent.
+ Fine remote vehicle control [Load 1]: An excellent tool allowing a pilot to remotely
+control a vehicle without any degradation of intent.
+ Self destruct remote [Load 0]: A palm sized device that will destroy the pilot’s
+vehicle when activated.
+ Fine environmental suit [Load 0 if worn, Load 2 if carried as a secondary outfit]: A
+finely crafted suit that protects the wearer from hazards such as lack of air,
+vacuum, and radiation. Also has maneuvering thrusters for use in microgravity.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+ACE SPECIALIST VEHICLE GEAR
+ Fine mobility suite [Load 2]: an excellent grapple system, jump jets, foot wheels,
+or other mobility system.
+ Boosted reactor (1 use) [Load 1]: spend for improved Effect when speed or agility
+60
+
+
+===== PÁGINA 61 =====
+
+is required. This refills at the start of each mission.
+ Fine machine gun [Load 1]: A finely made, fully automatic, anti vehicle cannon.
+ Fine shield or forcefield [Load 1]: An extremely sturdy shield made of advanced
+materials or electromagnetic forces.
+ Reflex Adjustment and Guidance Engine (R.A.G.E) [Load 0]: an interface
+system that when activated greatly enhances the pilot’s abilities at the cost of their
+survival instincts for several minutes. This may improve your Position and Effect in
+maneuvering. You also suffer the consequences “Death Wish” and “Possibility
+Hallucinations” which can be resisted as normal. The modified Position and Effect,
+and any unresisted consequences last until the end of the next scene.
+ACE ABILITIES
+ Adaptable: You may spend your Spark to make up to two points of your vehicle’s
+Load undeclared or to push yourself in a vehicular maneuver.
+ More Than Meets The Eye: Your custom vehicle has the ability to transform into a
+secondary form. Detail that second form. Select 2 Load worth of vehicle gear and 3
+points of action ratings that your vehicle has. It lacks this gear and action ratings
+when in its secondary form. Select 2 Load worth of vehicle gear and 3 points of
+action ratings that your vehicle lacks. It has this gear and action ratings when in its
+secondary form.
+ Meat Is Cheap, Save The Metal: When the vehicle you are piloting takes damage
+you can choose for the pilot to take an equal level of Harm instead. If you resist this
+Harm take -1d to the resist roll. Pilot armor cannot be used to prevent this damage.
+ Last Stand: When you take a dire action with a Vehicle, you can continue to act on
+a 4, 5, or 6, instead of just on 6s. Take a bonus die to Dire Actions for each point of
+Breakdown your Vehicle has before the Dire Action completes.
+ Advanced Prototype: When declaring vehicular gear you can state that it’s
+experimental. That gear has its Load reduced by 1 (to a minimum of 0). When you
+push your vehicle using that gear take increased Effect AND +1d. You can only
+have 1 experimental item at a time.
+ Bloodlust: Gain the Tragedy “Seeks violence.” When you defeat a worthy foe (or a
+gang of the unworthy) in battle heal 2 pilot Stress.
+ Red Comet: You have a reputation as a pilot of great skill (whether earned fairly or
+not). When you try to impress or dismay someone using your reputation take +1d.
+61
+
+
+===== PÁGINA 62 =====
+
+When you reveal yourself with a dramatic action those around you are briefly
+stunned.
+ Travelling Companion: You can exhaust 1 Quirk or spend 2 Stress to Push
+Yourself on Vehicle actions.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What is their vehicle capable of?
+ When are their vehicles unattended?
+ What do they intend to do?
+ How can I get them to [X]?
+ What's the best way through?
+ Where did [X] go?
+ What’s really going on here?
+EXAMPLE STARTING ACE BELIEFS
+ They handle their vehicle very badly.
+ They don't understand my value as a pilot.
+ They are going to get someone killed. I better keep an eye on them.
+ They desire glory as much as I do! We’ll make history!
+EXAMPLE ACE ALLIES AND RIVALS
+ Denari, a gruff mechanic
+ Sycamore, a cautious journalist
+ Cage, a sly smuggler
+ Ripper, a reckless pilot
+EXAMPLE ACE STARTING BUILDS
+ Legend: Red Comet, Command +2, Consort +2
+ Berserker: Bloodlust, Battle +2, Struggle +2
+ Tester: Advanced Prototype, Manipulate +1, Engineer +1, Study +2
+62
+
+
+===== PÁGINA 63 =====
+
+ Tanker: Meat Is Cheap, Save The Metal, Battle +1, Survey +1, Study +1, Struggle
++1
+63
+
+
+===== PÁGINA 64 =====
+
+INSERT FULL PAGE BUREAUCRAT ART HERE.
+64
+
+
+===== PÁGINA 65 =====
+
+THE BUREAUCRAT
+An overworked and undervalued clerk.
+Resource management is something few people understand. The War might seem like
+constant bombs and blood but that hides its true face. Paperwork and red tape. It's a relay
+race no one watches; requests, orders, and communiques changing hands from nobody to
+nobody. When those documents arrive, and if they're unchanged, is left up to the
+Bureaucrats.
+How often do you abuse your Position? What are your responsibilities? Are you satisfied with
+your power?
+BUREAUCRAT ACTION RATINGS
++2 Consort, +1 Study
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with procedure or
+management.
+BUREAUCRAT SPECIALIST PILOT GEAR
+ Fine Official Documents [Load 1]: cargo manifests, itineraries, work forms, and
+other paperwork from official sources that are legitimate.
+ Body scanner wand [Load 1]: a handheld device that detects metallic and
+electronic objects.
+ Travel reports [Load 0]: weather and traffic reports, pedestrian movements, and
+up to date cartography.
+ Blueprints for a facility or vehicle [Load 1]: A print out or digital file containing
+designer’s notes and builder’s plans.
+ Barricade Tape Projector [Load 1]: A device that projects a holographic perimeter.
+Can trigger an alarm or digital notification when the barricade is crossed.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+65
+
+
+===== PÁGINA 66 =====
+
+BUREAUCRAT SPECIALIST VEHICLE GEAR
+ Inconspicuous style [Load 0]: a plain paint job, a common frame, and panels that
+create a bland silhouette. This will make a vehicle less noticeable than it's Load
+would indicate.
+ Several hand tool sets [Load 1]: A variety of human scale tool sets that a pilot can
+swap their Load for if needed.
+ Fine cargo container [Load 1]: A well made container for safely storing and
+moving a few large items or many small ones.
+ Inhibitor Clamp [Load 1]: A device that locks out the start up sequence of a
+vehicle, preventing its use. Typically cannot be installed when the vehicle is piloted.
+BUREAUCRAT ABILITIES
+ Stay Late: Take Level 1 Harm “Tired” to give another pilot an additional Downtime
+activity. This Harm can be resisted as normal.
+ Cook the Books: Spend 2 Stress and a Downtime activity to gain an additional
+Supply roll. If you are part of an Independent Squad your Supply roll is 0d unless
+something increases it. This can be done once per Downtime phase.
+ Red Tape: When you can quote a regulation that would prevent a Consequence,
+you may roll Resolve to resist instead of any other Pilot or Vehicle Attribute.
+ Connected: During Downtime, you get +1 result level when you acquire an asset
+or schmooze. Take +1d when declaring an Ally during a mission.
+ Beneath Notice: When you use a disguise or other form of covert misdirection,
+you get +1d to action and resistance rolls (or exhaust 1 fewer Quirk with vehicle
+resistance) to confuse or deflect suspicion. When you throw off your disguise, the
+resulting surprise gives you the initiative in the situation.
+ Work Hard, Play Hard: When you Cut Loose, the person you Cut Loose with may
+roll to heal Stress as well using their Connections to you. If either of you Over
+Indulge you both suffer the Effects.
+ Rainy Day: You may spend your Spark to provide a Supply point to be used
+immediately, or to push yourself when trying to bypass or enforce protocol.
+ Forgettable: When you successfully Sway someone, you may cause them to
+forget that it's happened until they next interact with you.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+66
+
+
+===== PÁGINA 67 =====
+
+EXAMPLE GATHER INFORMATION
+ What loophole can I abuse?
+ What protocol can I enforce?
+ What do they intend to do?
+ How can I get them to [X]?
+ Are they telling the truth?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING BUREAUCRAT BELIEFS
+ Their disdain for protocol will endanger the squad.
+ They are too invested in rules.
+ They are lazy.
+ They are responsible, so I’m teaching them useful loopholes.
+EXAMPLE BUREAUCRAT ALLIES AND RIVALS
+ Vex, a quick server
+ Tri, an ambitious criminal
+ Beagle, an offensive guard
+ Jupiter, an absurd claimant
+EXAMPLE BUREAUCRAT STARTING BUILDS
+ Accountant: Cook the Books, Interface +2, Engineer +1, Study +1
+ Janitor: Beneath Notice, Prowl +2, Sway +1, Manipulate +1
+ Clerk: Forgettable, Sway +2, Finesse +1, Prowl +1
+ Salaryperson: Work Hard, Play Hard, Consort +2, Survey +1, Struggle +1
+67
+
+
+===== PÁGINA 68 =====
+
+INSERT FULL PAGE EMPATH ART HERE.
+68
+
+
+===== PÁGINA 69 =====
+
+THE EMPATH
+An empathetic and compassionate psychic.
+When someone looks at you they aren’t seeing you. When they hear you, they don’t listen.
+They touch but don’t feel. The pressures of population density and society play a joke on the
+heart. But people are changing. Not the person you look at, hear, and touch, someone else.
+Something else. Evolution is is making something to help bring people closer together
+beyond just population density, and these new types of people are Empaths.
+What emotions do you refuse to toy with? How did you discover your abilities?
+A NOTE ON THE EMPATH AND CONSENT
+The Empath has the ability Broadcast which allows the character, and by extension the
+player, to force other characters to experience emotions. This is an ability that must be
+considered with respect. It's a form of mind control and therefore has serious implications
+regarding consent. Regardless of what the target is forced to feel it's a violation of self and
+agency. There are two major considerations that should be made before taking the ability
+and with each use. The first is if everyone at the table is comfortable with a character’s
+personhood being denied. The players are more important than fictional characters and if
+that means skipping the Broadcast ability or Empath entirely so be it. The second is that
+mind control is a dark ability to have. Even when used for good ends the means are rather
+abhorrent. If you are taking the Broadcast ability you need to understand that you are
+choosing to play a character who will be doing a Bad Thing if they use it, and that’s ok so
+long as you are aware of it and acknowledge it.
+EMPATH STARTING ACTIONS
++2 Study, +1 Survey
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with understanding or poise.
+EMPATH SPECIALIST PILOT GEAR
+ Prognostication tools [Load 1]: A set of tools such as tarot cards, tea leaves, or
+crystals that you can try to use to predict the future.
+ Fine artistic tools [Load 1]: Excellent tools used in painting, performing music,
+69
+
+
+===== PÁGINA 70 =====
+
+cooking, or some other art form.
+ Personal emblem [Load 1]: so long as someone is thinking about this item you
+know where the item is and can project your powers as if you were present.
+ A symbol of hope [Load 1]: An object which inspires those who see it.
+ Fine stun gun [Load 1]: A well made weapon meant to incapacitate, but not kill, a
+target using electricity.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+EMPATH SPECIALIST VEHICLE GEAR
+ Inspiring appearance [Load 1]: An item or various details that make your vehicle a
+symbol to those who see it.
+ Fine broadcast system [Load 1]: Excellent speakers and transmission unit
+allowing the user to broadcast audio and video.
+ Fine Social Data Retrieval program [Load 1]: A finely coded program that can
+expertly find details about a target’s personal life.
+ Psionic amplifier [Load 1]: A device that will increase the range or power of the
+user’s psychic abilities.
+EMPATH ABILITIES
+ Telepathy: You can freely communicate directly to a person’s mind as though
+speaking normally if you have previously had a revealing interaction with them.
+Additionally when you are part of a Group Action you can spend 1 Stress per
+participant (including the Leader) to let everyone participating in the action use the
+Leader’s action rating instead of their own.
+ Broadcast: When you push yourself in addition to the normal benefits you can do
+one of the following: Use your mind to instill a powerful undirected emotion in
+others -- paralyze a person with your mind or voice.
+ Far Sight: When you Gather Information with Survey take +1d. The information
+gained can be from a place and time you were not present.
+ Emoji: You know the secret method to interact with an App or AI as if it was a
+normal human, regardless of how corrupted or rampant it appears. You have
+increased Effect when communicating with the digital entities.
+ Carouse: When you participate in a Cut Loose activity choose one of the following:
+70
+
+
+===== PÁGINA 71 =====
+
+The pilot Cutting Loose cannot Overindulge but only heals half the Stress rolled
+rounded up; your Relationship with them improves by +1; their Relationship with
+you improves by an additional +1.
+ Everybody Hurts: You may spend your Spark to resist a consequence from
+ambushes (physical or not), or to push yourself to understand others.
+ Carry That Weight: You can push yourself after you see the result of an Action
+Roll, or Assist after an ally’s Action Roll if no one else Assisted them. When you
+have a personal moment with someone, you can take any amount of Stress (up to
+your max Stress) to heal that person the same amount of Stress.
+ Good Hearted: When you act compassionately (with more than just words)
+towards a foe, you keep a Controlled Position until you act against their interests.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ How is this person hurt?
+ How is this person vulnerable?
+ Are they telling the truth?
+ What drives them to do this?
+ What are they feeling?
+ Who's most afraid of me?
+ What's really going on here?
+EXAMPLE STARTING EMPATH BELIEFS
+ I can fix the reason they hurt.
+ I can take advantage of their pain.
+ Their vehicle has strong emotions tied to it.
+ I can feel they are a good person and I implicitly trust them.
+EXAMPLE EMPATH ALLIES AND RIVALS
+ Zia, a fair painter
+ Hatsu, a brash musician
+ Kausar, a kind murderer
+71
+
+
+===== PÁGINA 72 =====
+
+ Navneet, a tired athlete
+EXAMPLE EMPATH STARTING BUILDS
+ Demagogue: Broadcast, Struggle +1, Battle +1, Command +2
+ Pacifist: Good Hearted, Consort +2, Prowl +1, Finesse +1
+ Esper: Far Sight, Survey +1, Scan +1, Hunt +1, Sway +1
+ Medium: Emoji, Interface +2, Sway +1, Consort +1
+72
+
+
+===== PÁGINA 73 =====
+
+INSERT FULL PAGE ENVOY ART HERE.
+73
+
+
+===== PÁGINA 74 =====
+
+THE ENVOY
+A stylish and persuasive socialite.
+The difference between a diplomat and a spy is the Quality of the intelligence they bring to
+their superiors. Ceasefires, alliances, and treaties don't last long in the War and the clever
+will make the most of that reprieve by preparing for when it fails. The best use of that time is
+to employ an Envoy. Skillfully negotiating the celebrations, deals, and deceptions of politics
+to pull the most out of such opportunities, they bring intel home with a smile and handshake.
+When are you truthful in a meaningful way? What relationships do you have that aren’t a
+means to an end?
+ENVOY ACTION RATINGS
++2 Sway, +1 Consort
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with deception or influence.
+ENVOY SPECIALIST PILOT GEAR
+ Fine clothes and jewelry [Load 0, unless it’s a secondary outfit then Load 2]: A set
+of clothes suitable for making you look like a wealthy elite.
+ Fine Disguise kit [Load 1]: ReFace Paste is gear in the form of a putty synced to a
+program that allows the user to greatly change their appearance.
+ Fine trick gambling kit [Load 0]: Different cultures have different gambling
+practices but you’ve got the tools to give you a leg up.
+ Fine Espionage gear [Load 1]: Well made listening devices, micro cameras, key
+readers and other devices used to secretly observe the actions of others.
+ Trance powder [Load 0]: A single dose of a powder that puts the target into a calm
+and suggestible mental state.
+ Cane sword [Load 1]: A narrow blade concealed inside of a walking stick that will
+fool a casual inspection.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+74
+
+
+===== PÁGINA 75 =====
+
+ENVOY SPECIALIST VEHICLE GEAR
+ Fine holo-projector [Load 1]: a well made device used to visualize the AR or
+specific images.
+ Chaff countermeasure [Load 1]: a cloud of metallic strips that can be used to
+baffle sensors.
+ Concealed melee weapon [Load 1]: a weapon hidden in the vehicle’s frame that
+allows it to make melee attacks. Examples are ram bars, tire spikes, spring Loaded
+blades.
+ Stylish appearance [Load 0]: Decals, spoilers, custom paint jobs, and other
+details that make your vehicle stand out.
+ Luxurious Passenger Space [Load 1]: The vehicle has a well appointed interior
+that has room for a few people.
+ENVOY ABILITIES
+ Rook's Gambit: Take 2 Stress to roll your best action rating while performing a
+different action, so long as you can justify adapting your skill to this use. You can
+use pilot actions in place of vehicle actions, and vice versa, with this ability.
+ Cool Under Pressure: When you take Harm, heal Stress equal to the level of that
+Harm.
+ Regent’s Brilliance: You and your entourage have increased Effect when
+Consorting and Swaying so long as you take advantage of how truly impressive
+you are.
+ Like Looking into a Mirror: You can always tell when someone is lying to you.
+ A Little Something on the Side: At the end of each Downtime phase, make a
+Fortune Roll using the Squad's Tier. Add 1 Tick to a Drive clock if it is 4+.
+ Read ‘em And Weep: Spend two Stress to ask one of the following questions
+about someone you have observed either in secret or openly. To ask additional
+questions you may spend 1 Stress per question. What was their lowest moment?
+--- What do they crave forgiveness of and from whom? --- What are their secret
+pains? --- In what ways are their mind and soul vulnerable?
+ Subterfuge: You may spend your Spark to resist a consequence from suspicion or
+persuasion, or to push yourself for subterfuge.
+ Trust in Me: You get +1d vs. a target with whom you have a strong relationship.
+For another PC this is a +2 or higher Connection value.
+75
+
+
+===== PÁGINA 76 =====
+
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ Are they telling the truth?
+ What are they really feeling?
+ What do they really care about?
+ How can I blend in here?
+ What's really going on here?
+EXAMPLE STARTING ENVOY BELIEFS
+ They're a sucker who will get me into trouble if I don't fix them.
+ They’re in need of a makeover and I have the style.
+ They don't fit the objective of this squad, so I will find out why they are here.
+ They will make a good social prop.
+EXAMPLE ENVOY ALLIES AND RIVALS
+ Tasneem, a sly courtesan
+ Candan, a naive diplomat
+ Ismat, a defensive lawyer
+ Duri, an idealistic servant
+EXAMPLE ENVOY STARTING BUILDS
+ Psychologist: Read ‘em And Weep, Study +2, Scan +1, Survey +1
+ Idol: Regent’s Brilliance, Maneuver +2, Consort +1, Command +1
+ Spy: Subterfuge, Prowl +2, Interface +1, Finesse +1
+ Diplomat: Like Looking Into a Mirror: Command +1, Finesse +2, Prowl +1
+76
+
+
+===== PÁGINA 77 =====
+
+INSERT FULL PAGE HACKER ART HERE.
+77
+
+
+===== PÁGINA 78 =====
+
+THE HACKER
+A cunning and willful programmer.
+Technology fills the lives of the masses and programming computers has become as
+important as literacy. However there are those who make that skill into an art, a direct
+expression of their will. These people are hackers and they bend augmented reality to suit
+their desires. Apps and proxies pose little obstacle to them, with the most skilled being able
+to challenge AIs. Bring a Hacker with you if you plan to confront the digital realm and live.
+Why did you delve into the guts of the AR? Do you consider yourself a whitehat?
+HACKER ACTION RATINGS
++2 Interface, +1 Study
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with knowledge or digital
+power.
+HACKER SPECIALIST PILOT GEAR
+ Portable Exclusion Zone [Load 1]: creates an area isolated from AR and wireless
+data transfer (including radio).
+ Fine Augmented Reality tool [Load 1]: might be contacts, a visor, or glasses;
+detail its appearance. Allows you to see the AR even when it hasn’t visually
+manifested. Provides some protection from AR Confusion.
+ Quantum Drive [Load 1]: a portable QD, about the size of a brick, that can store
+an astounding amount of data. Each increases the hackrig’s Load by +1.
+ Hackrig [Load 1]: a portable computer with high end intrusion software. Detail if the
+hackrig is a tablet (has Load 3), a laptop (has Load 5), or a tower(has Load 6). It
+can be filled with Hacker Specialist Vehicle Gear or valuable data (Load 1+).
+Changing it’s Load requires spending Materiel like a Vehicle.
+ Recursive data projector [Load 1]: Broadcasts overwhelming amounts of data
+that Apps and AIs avoid.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+78
+
+
+===== PÁGINA 79 =====
+
+HACKER SPECIALIST VEHICLE GEAR
+ Fine retrieval program [Load 1]: used to find and acquire data.
+ Fine coding program [Load 1]: used to edit programs on the fly.
+ Electronic Filter [Load 1]: used to bypass signal blocking devices and techniques.
+ Stealth program [Load 1]: used to hide hacking attempts.
+ Data bomb program [Load 1]: used to shut down systems by overLoading them
+with data.
+ Fine Intrusion Countermeasures Program (ICP) [Load 1]: used to defend
+against hacking attempts.
+HACKER ABILITIES
+ Compel: You can Interface with the augmented reality to force a nearby app or
+proxy to appear and obey a command you give it. You can always distinguish
+between reality and AR created by a program you summon or compel (though your
+allies may become lost).
+ Matrix Mind: You’re always aware of apps and proxies in your presence. Take +1d
+when you gather info about the AR and apps.
+ Iron Will: You're immune to the AR confusion that some apps and proxies inflict on
+sight. Take +1d to resistance rolls with Resolve.
+ Turing Test: You can always tell if you’re interacting with a human.
+ Data Pack: You can Study an app (or create a new one) to develop it into a
+reusable form. You know the complex methods to create apps. You begin with one
+app already learned.
+ Crowdsource: Spend 2 Stress to use a squadmate’s action rating instead of your
+own by describing how you make use of their knowledge.
+ Tesla: When you push yourself in addition to the normal benefits you can do one of
+the following: unleash a stroke of lightning as a weapon from the power grid—
+summon an AR storm in your immediate vicinity (swirling ads, flashing neon, heavy
+smog, shouting crowds, etc.) that will cause AR confusion.
+ Warded: You may spend your Spark to resist a AR consequence, or to push
+yourself when you deal with AR forces.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+79
+
+
+===== PÁGINA 80 =====
+
+EXAMPLE GATHER INFORMATION
+ What is holographic or inorganic here?
+ What lingers in the Augmented Reality?
+ What is hidden or lost here?
+ What do they intend to do?
+ What drives them to do this?
+ How can I reveal [X]?
+ What's really going on here?
+EXAMPLE STARTING HACKER BELIEFS
+ The AR echoes tell me they're being followed.
+ I've found their digital secrets.
+ They're computer illiterate and I'm going to fix that.
+ They don’t trust me, and that’s insulting.
+EXAMPLE HACKER ALLIES AND RIVALS
+ Gather, a curious proxy
+ Thusitha, a focused pirate
+ Zine, a secretive AI
+ Tae-hee, a vile page
+EXAMPLE HACKER STARTING BUILDS
+ Decker: Turing Test, Survey +2, Consort +1, Command +1
+ Wiz Kid: Tesla, Struggle +1, Battle +1, Wreck +1, Destroy +1
+ Spider: Warded, Prowl +2, Finesse +1, Survey +1
+ Coder: Compel, Engineer +2, Finesse +1, Study +1
+80
+
+
+===== PÁGINA 81 =====
+
+81
+
+
+===== PÁGINA 82 =====
+
+THE INFILTRATOR
+An agile and deadly burglar.
+Privacy is a rare commodity in the technologically advanced lives of those touched by the
+War. Many keep their secrets locked in physical spaces far from prying eyes. This is when
+you need an Infiltrator. Able to get past the security measures of the most paranoid and then
+fight their way out if necessary, they'll get you what you want. Make sure you treat them right
+because they can get into your home too.
+Why are you drawn to the skills of the Infiltrator? When have you regretted moving unseen?
+INFILTRATOR ACTION RATINGS
++2 Prowl, +1 Finesse
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with stealth or evasion.
+INFILTRATOR SPECIALIST PILOT GEAR
+ Fine security cracker [Load 0]: A well made tool kit used for disabling mechanical
+and electronic locks.
+ Fine optical camo [Load 1]: A piece of clothing capable of covering the entire body
+that blends the wearer into their surroundings.
+ Light climbing gear [Load 1]: Climbing gear made from uncommon lightweight
+materials.
+ Firearm silencer [Load 0]: an item that attaches to or replaces a gun’s barrel so
+that it makes very little sound when fired.
+ Nightvision goggles [Load 1]: Advanced goggles amplifying ambient light allowing
+the user to see in total darkness.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+INFILTRATOR SPECIALIST VEHICLE GEAR
+ Fine optical camo [Load 1]: A coating or cloak that covers the vehicle allowing it to
+almost seamlessly blend into its environment.
+ Light mobility suite [Load 1]: A grapple system, jump jets, foot wheels, or other
+82
+
+
+===== PÁGINA 83 =====
+
+mobility system modified to be less cumbersome.
+ Electronic Countermeasures [Load 1]: creates static that prevents any wireless
+transfer of information.
+ NV/IR sensors [Load 1]: Scanners that allow the vehicle to see in darkness or to
+spot heat sources.
+INFILTRATOR ABILITIES
+ Ghost: You are not negatively affected by Quality or Tier when you attempt to
+bypass security measures.
+ Ambush: When you attack from hiding or spring a trap, you get +1d.
+ Daredevil: When you roll a desperate action, you get +1d to your roll if you also
+take -1d to any resistance rolls (or exhaust an additional Quirk for vehicle
+resistance) against consequences from your action.
+ The Devil's Footsteps: When you push yourself in addition to the normal benefits
+choose one of the following: perform a feat of athletics that verges on the
+superhuman—maneuver to confuse your enemies so they mistakenly attack each
+other.
+ Expertise: Choose one of your action ratings. When you lead a group action using
+that action, you can suffer only 1 Stress or exhaust 1 Quirk at most regardless of
+the number of failed rolls.
+ Never Tell Me The Odds: If you are outnumbered or drastically over matched by a
+foe take +1d to resistance rolls or exhaust 1 fewer Quirk for vehicle resistance.
+ Reflexes: When there's a question about who acts first, the answer is you (two
+pilots with Reflexes act simultaneously).
+ Shadow: You may spend your Spark to resist a consequence from detection or
+security measures, or to push yourself for a feat of athletics or stealth.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ What should I look out for?
+83
+
+
+===== PÁGINA 84 =====
+
+ What's the best way in?
+ Where can I hide here?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING INFILTRATOR BELIEFS
+ They make way too much noise.
+ Got themselves caught so that I could finish the mission. I owe them.
+ They aren't going to make it out of the War because they're too reckless.
+ I have to keep an eye on them, I know their secret.
+EXAMPLE INFILTRATOR ALLIES AND RIVALS
+ Decine, an Offworlder clerk
+ Astrell, a local programmer
+ Gorbad, a dedicated noble
+ Asa, a hopeful refugee
+EXAMPLE INFILTRATOR STARTING BUILDS
+ Assassin: Ambush, Struggle +2, Consort +1, Sway +1
+ Operative: Shadow, Interface +2, Study +1, Survey +1
+ Thief: Ghost, Finesse +1, Scan +2, Survey +1
+ Demon: Reflexes, Maneuver +2, Battle +1, Struggle +1
+84
+
+
+===== PÁGINA 85 =====
+
+85
+
+
+===== PÁGINA 86 =====
+
+THE OFFICER
+A tactical and personable trooper.
+Any conflict is chaos, whether it’s an explosion filled battlefield or posturing for status in a
+masquerade. Except it’s not really chaos, not if you know how to look. Lines of attack and
+defense, routes for flanking and retreat, all exist no matter the arena. There’s a way around,
+through, or over if you’re properly prepared. An Officer always has a plan.
+What lingering debts do you possess? How will you honour them?
+OFFICER ACTION RATINGS
++2 Command, +1 Survey
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with calculation or conspiracy.
+OFFICER SPECIALIST PILOT GEAR
+ Fine cover identity [Load 0]: Paperwork, planted database info, and false
+connections suitable for passing as a different person.
+ Fine gift [Load 1]: a bottle of liquor, a necklace, or a trinket. Something easily
+replaceable but quite impressive.
+ “High priority” comm decoder [Load 1]: This device gives you the back channels
+for reaching anyone’s personal communicator, but that doesn’t mean they know, or
+care, who you are.
+ Officer's Uniform [Load 0, unless it’s a secondary outfit then Load 2]: a uniform
+befitting one in a position of command.
+ Concealed palm pistol [Load 0]: A very small firearm with a very short range that
+is easily concealed.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+OFFICER SPECIALIST VEHICLE GEAR
+ Fine Battle Standard [Load 1]: a flag or other symbol that your allies can rally to.
+ Fine Friend Or Foe Tags [Load 0]: makes a vehicle appear as belonging to a
+specific person, squad, and/or Faction.
+86
+
+
+===== PÁGINA 87 =====
+
+ Concealed gun [Load 0]: a small firearm only Effective up close that is almost
+impossible to find.
+ Small Armory [Load 1]: a collection of infantry weapons and body armour.
+OFFICER ABILITIES
+ Tactical Genius: Two times per mission you can assist a teammate without paying
+Stress. Tell us how you prepared for this.
+ Leader: When you Command a Cohort in combat, they continue to fight when they
+would otherwise break (they're not taken out when they suffer level 3 Harm). When
+you lead a Group Action you have increased effect.
+ Rally: Spend two Stress to do one of the following. To compel additional directions
+you may spend 1 Stress per direction.: direct an unaffiliated crowd to perform an
+action—have an unaffiliated crowd commit violence—prevent an unaffiliated crowd
+from causing damage.
+ Functioning Vice: When you cut loose, you may adjust the dice outcome by 1 or 2
+(up or down). The pilot you cut loose with heals 1 Stress as well which cannot
+cause them to overindulge.
+ Heart to Heart: When you make the weight of an arrangement clear to your
+opposite and both agree to terms - surrender, cease fire, prisoner exchange, etc -
+you are all emotionally invested in the deal. If either party or their Squad breaks the
+agreement, the negotiator takes level 3 Harm, "Despondent".
+ Warlord: When you have Vendetta with another Squad your Squad gets improved
+Effect against that Squad.
+ Mastermind: You may spend your Spark to protect a teammate, or to push
+yourself when you gather information or work on a long-term project.
+ Weaving the Web: You gain +1d to Consort when you gather information on a
+target for a Mission. You get +1d to the engagement roll for that operation.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they want most?
+ What should I look out for?
+87
+
+
+===== PÁGINA 88 =====
+
+ Where's the leverage here?
+ How can I discover [X]?
+ What do they intend to do?
+ How can I get them to [X]?
+ What's really going on here?
+EXAMPLE STARTING OFFICER BELIEFS
+ They trust my plans, and I won't let them down.
+ They have a good head and I trust their instincts.
+ They refuse to see how their actions affect the squad.
+ Their reputation precedes them and it worries me.
+EXAMPLE OFFICER ALLIES AND RIVALS
+ Lavender, a strong fixer
+ Henri, a weak cop
+ Peaches, a corrupt officer
+ Virgil, a loyal pilot
+EXAMPLE OFFICER STARTING BUILDS
+ Revolutionary: Rally, Command +2, Sway +1, Struggle +1
+ Tactician: Tactical Genius, Struggle +2, Battle +2
+ Fixer: Heart To Heart, Sway +2, Finesse +1, Command +1
+ Strategist: Weaving The Web, Study +1,Survey +2, Scan +1
+88
+
+
+===== PÁGINA 89 =====
+
+89
+
+
+===== PÁGINA 90 =====
+
+THE SCOUT
+A dangerous sniper and explorer.
+Despite all the signs and guidebooks the world is filled with hidden paths. People, whether
+consciously or by accident, hide things. Sometimes it’s where they’ve gone, or their favourite
+bauble, or a route through dangerous places. It’s a Scout’s job to find these secret ways,
+then help clear the path from a safe distance.
+How did you run into trouble while alone in the field? When does the loneliness of your work
+find you?
+SCOUT ACTION RATINGS
++2 Hunt, +1 Survey
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with tracking or violence.
+SCOUT SPECIALIST PILOT GEAR
+ Fine machine pistol [Load 1]: A well made pistol capable of fully automatic fire.
+ Fine sniper rifle [Load 2]: A high Quality bolt action rifle that’s extremely lethal at
+long-range but unsuitable in close quarters.
+ 1 type of special ammunition [Load 1]: A magazine or bandolier of specialist
+ammo that gives increased Effect against one type of target but reduced Effect
+against other targets. You might have EMP rounds to use on drones, hollow-points
+for people, or gel rounds to be less than lethal.
+ Rangefinder/laser painter binoculars [Load 1]: Binoculars that can perfectly
+judge the distance to a target and also transmit the target’s precise location.
+ A well programmed hunter robot [Load 1]: Your robot obeys your commands and
+anticipates your actions. Can carry 2 Load of general pilot gear or Scout pilot gear.
+Gain Cohort (expert: hunter).
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+90
+
+
+===== PÁGINA 91 =====
+
+SCOUT SPECIALIST VEHICLE GEAR
+ Fine heavy cannon [Load 2]: An excellent, slow firing cannon designed to
+bombard targets at long-range.
+ Special ammunition [Load 1]: Your vehicle is equipped with a non-standard
+ammunition type in addition to its standard round. It gives increased Effect against
+one target type but reduced Effect against others. You might have flak rounds to
+use against jets, armour piercing rounds for tanks, or incendiary rounds for infantry.
+You can change your ammo type the first time it's used each mission.
+ Magnification suite [Load 1]: Your vehicle is equipped with a wide variety of
+optical and digital zoom options to enhance the pilot’s view of far targets and also
+mark them for allies.
+ Drone carrier [Load 1]: can be used to launch several simple drones with a preset
+Loadout that are directed with the vehicle’s controls. Each drone can carry 2 Load
+of general Pilot gear, 2 Load of Scout Pilot Gear, or 1 Load of general Vehicle gear.
+All drones must have the same Load, and it doesn’t cost Materiel to change their
+Load between missions.
+SCOUT ABILITIES
+ Sharpshooter: When you push yourself in addition to the normal benefits you can do
+one of the following: make a ranged attack at extreme distance beyond what’s
+normal for the weapon—unleash a barrage of rapid fire to suppress the enemy—
+ricochet a shot to hit a target indirectly.
+ Focused: You may spend your Spark to resist a consequence of surprise or mental
+Harm (fear, confusion, losing track of someone) or to push yourself for ranged
+combat or tracking.
+ Terminator: Your well programmed hunter robot has additional systems installed. It
+has increased Effect when tracking or fighting machines, and gains a custom
+upgrade: Beast of Burden [+1 Load, and it’s stronger], Mind-Link [can be directed
+with the pilot’s mind], or Quick and Quiet [is faster and nearly silent]. Take the ability
+again for an additional custom upgrade.
+ Ranger: When you gather info to locate a target, you get +1 Effect. When you hide in
+a prepared Position or use camouflage, you get +1d to rolls to avoid detection.
+ Survivor: From hard won experience or specialized training, you are able to subsist
+on what any environment provides and you can function on the barest sustenance.
+You get +1 Stress box.
+ Lay of the Land: When a Pilot takes advantage of terrain you have scouted, they get
++1d to resist consequences (or spends 1 fewer Quirk). When you scout as a
+91
+
+
+===== PÁGINA 92 =====
+
+flashback Set Up action, spend 1 less stress than normal.
+ Determination: When you roll a failure on a risky or controlled action you can
+choose to make that a partial success by changing the Position to desperate.
+This does not grant XP for taking a desperate action.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ What are they really feeling?
+ Where are they vulnerable?
+ Where did [X] go?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING SCOUT BELIEFS
+ They would be lost without me.
+ They make me feel like part of the team.
+ They want to survive and I can teach them how.
+ They’re in constant danger, so I’ll keep them safe.
+EXAMPLE SCOUT ALLIES AND RIVALS
+ Teucer, a veteran sniper
+ Layla, a humane tracker
+ Here, an eager mortician
+ Holly, a cold squire
+EXAMPLE SCOUT STARTING BUILDS
+ Pursuer: Determination, Study +1, Struggle +1, Consort +1, Wreck +1
+ Pathfinder: Ranger, Prowl +2, Survey +1, Maneuver +1
+ Sniper: Sharpshooter, Bombard +1, Study +1, Prowl +1, Survey +1
+ Bonded: Terminator, Command +2, Struggle +1, Engineer +1
+92
+
+
+===== PÁGINA 93 =====
+
+93
+
+
+===== PÁGINA 94 =====
+
+THE SOLDIER
+A mightily, violent warrior.
+The War touches everyone demanding some form of violence be committed on its behalf.
+Those who become very good at the most primal form are the Soldiers. While others perform
+violence, they ARE violence. They reek of blood, and gunpowder, and dominance. Even
+when they don't wound their victims they staple fear onto their bloody, beating hearts.
+When do you refuse to employ violence? When do you refuse to refrain from violence? How
+have these stances hurt you?
+SOLDIER ACTION RATINGS
++2 Struggle, +1 Command
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with violence or coercion.
+SOLDIER SPECIALIST PILOT GEAR
+ Fine melee weapon [Load 1]: A knife, sword, hammer, shield, or other one handed
+melee weapon of excellent Quality.
+ Fine assault rifle [Load 2]: A well made rifle capable of single, burst, or automatic
+fire.
+ Anti-armour weapon [Load 2]: A heavy weapon designed to penetrate the kind of
+heavy armour found on many vehicles.
+ Frag, flash, or smoke grenades (3 uses) [Load 1]: A few grenades that can be
+thrown or launched from a suitable firearm which either explode in shrapnel, sound
+and light, or smoke.
+ Handcuffs or zipties [Load 0]: A tool designed to restrain the limbs.
+ Stimpack [Load 0]: An injector filled with a drug cocktail giving a burst of energy,
+resilience, and aggression. This will modify your Position and Effect as suitable.
+Gain two consequences “Can’t Tell Friend From Foe” and “Destroy Everything”
+which can be resisted as normal. The modified Position and Effect, and any
+unresisted consequences last until the end of the next scene.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+94
+
+
+===== PÁGINA 95 =====
+
+needs. It’s represented by the vehicle entry on your pilot sheet.
+SOLDIER SPECIALIST VEHICLE GEAR
+ Fine melee weapon [Load 1]: A finely crafted melee weapon that is well balanced
+for your vehicle.
+ Fine heavy melee weapon [Load 2]: A well made and heavy melee weapon able
+to strike with greater reach or force.
+ Scary weapon or tool [Load 1]: An unusual weapon or tool that has increased
+Effect when used for intimidation but standard Effect for dealing damage.
+ A tangle gun [Load 1]: A weapon that launches some kind of round that impedes
+or removes the mobility of a struck target.
+SOLDIER ABILITIES
+ Battleborn: You may spend your Spark to reduce Harm from an attack in combat
+or to push yourself during a fight.
+ Bodyguard: When you protect someone, take +1d to your resistance roll (or
+exhaust 1 fewer Quirk for vehicle resistance). When you gather info to anticipate
+possible threats in the current situation, you get +1 Effect.
+ Robot Fighter: You know the weak points of the inanimate and you gain increased
+Effect in combat against machines.
+ Tough as Nails: Penalties from Harm are one level less severe (though level 4
+Harm is still fatal).
+ Mule: Your pilot Load limits are higher. Light: 5. Normal: 7. Heavy: 8.
+ Not to be Trifled With: When you push yourself in addition to the normal benefits
+you can do one of the following: perform a feat of physical force that verges on the
+superhuman—engage a small gang on equal footing in close combat.
+ Brutal: When you unleash physical violence, it's especially frightening. When you
+Command a frightened target, take +1d.
+ Vigorous: You recover from Harm faster. Permanently fill in one of your healing
+clock segments. Take +1d to healing treatment rolls.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+95

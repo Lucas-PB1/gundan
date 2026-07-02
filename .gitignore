@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+.vercel
+
+# PDF do jogo — não versionar (direitos autorais + ~7 MB)
+Beam-Saber.pdf
+doc/
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.log

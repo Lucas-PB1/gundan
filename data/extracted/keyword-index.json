@@ -1,0 +1,961 @@
+{
+  "totalPages": 331,
+  "textLength": 601396,
+  "matches": [
+    {
+      "keyword": "PILOT CREATION",
+      "index": 5866,
+      "line": "PILOT CREATION..................................39"
+    },
+    {
+      "keyword": "PILOT CREATION",
+      "index": 90802,
+      "line": "PILOT CREATION"
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 33694,
+      "line": "The Pilot Playbooks can be found here:"
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 46825,
+      "line": " Printed or digital copies of the Pilot Playbooks for each character, a Squad"
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 78333,
+      "line": "Each Pilot Playbook has a list of questions that might be useful for them to have"
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 558306,
+      "line": " Bureaucrat Playbook added to the Pilot Playbooks document."
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 558574,
+      "line": " Pilot Playbooks, Squads, and Lore documents changed to 1.5 spacing for better"
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 564455,
+      "line": " Added Standard Vehicle Gear, and Standard Pilot Gear to the Pilot Playbook"
+    },
+    {
+      "keyword": "Pilot Playbook",
+      "index": 577218,
+      "line": " Added example Rivals and Allies to the Pilot Playbooks document."
+    },
+    {
+      "keyword": "PLAYBOOK",
+      "index": 8067,
+      "line": "PILOT PLAYBOOKS...................................59"
+    },
+    {
+      "keyword": "PLAYBOOK",
+      "index": 17051,
+      "line": "PLAYBOOKS.......................................127"
+    },
+    {
+      "keyword": "PLAYBOOK",
+      "index": 18506,
+      "line": "SQUAD PLAYBOOKS..............................158"
+    },
+    {
+      "keyword": "PLAYBOOK",
+      "index": 133521,
+      "line": "PILOT PLAYBOOKS"
+    },
+    {
+      "keyword": "PLAYBOOK",
+      "index": 237081,
+      "line": "CHANGING SQUAD OR PILOT PLAYBOOKS"
+    },
+    {
+      "keyword": "PLAYBOOK",
+      "index": 300648,
+      "line": "SQUAD PLAYBOOKS"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 2463,
+      "line": "the character sheets, or any other stumbling blocks during play, I want to hear about"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 42837,
+      "line": "like a pilot, the Squad gets a “character sheet”."
+    },
+    {
+      "keyword": "character sheet",
+      "index": 68205,
+      "line": "vehicle. When armor is spent, tick the appropriate box on the character sheet; Armor or"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 68679,
+      "line": "spending a pilot’s Spark through ticking its box on the character sheet. Once the Spark is"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 105513,
+      "line": "On your pilot’s character sheet there will be a separate 4-tick clock for each other"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 123026,
+      "line": "pilot mark 1 XP box next to “Playbook” on the character sheet. When a pilot’s"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 222875,
+      "line": "A temporary vehicle is one that does not replace the vehicle on the pilot’s character sheet."
+    },
+    {
+      "keyword": "character sheet",
+      "index": 224213,
+      "line": "exhausted and Damage taken is marked on the owner’s character sheet the same as if they"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 570938,
+      "line": "and appears on their character sheet."
+    },
+    {
+      "keyword": "character sheet",
+      "index": 587171,
+      "line": "vehicle.” That item entry specifically states that it’s the one on your character sheet."
+    },
+    {
+      "keyword": "character sheet",
+      "index": 593935,
+      "line": " Corrected the Logistics digital character sheet so that Renegades no longer has a"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 594065,
+      "line": " Corrected the Soldier digital character sheet so that the move “Savage” has been"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 594194,
+      "line": " Corrected the digital pilot character sheets to have the correct descriptions for"
+    },
+    {
+      "keyword": "character sheet",
+      "index": 595478,
+      "line": " Updated the Technician character sheets to reflect the new abilities."
+    },
+    {
+      "keyword": "Character Sheet",
+      "index": 33837,
+      "line": "The Pilot Character Sheets can be found here:"
+    },
+    {
+      "keyword": "VEHICLE CREATION",
+      "index": 15475,
+      "line": "VEHICLE CREATION ..........................112"
+    },
+    {
+      "keyword": "VEHICLE CREATION",
+      "index": 204260,
+      "line": "VEHICLE CREATION"
+    },
+    {
+      "keyword": "SQUAD CREATION",
+      "index": 16938,
+      "line": "SQUAD CREATION ............................125"
+    },
+    {
+      "keyword": "SQUAD CREATION",
+      "index": 232894,
+      "line": "SQUAD CREATION"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 8342,
+      "line": "ACE ABILITIES..................................61"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 8940,
+      "line": "BUREAUCRAT ABILITIES.................66"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 9574,
+      "line": "EMPATH ABILITIES...........................70"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 10152,
+      "line": "ENVOY ABILITIES.............................75"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 10731,
+      "line": "HACKER ABILITIES..........................79"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 11352,
+      "line": "INFILTRATOR ABILITIES..................83"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 12004,
+      "line": "OFFICER ABILITIES.........................87"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 12583,
+      "line": "SCOUT ABILITIES.............................91"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 13223,
+      "line": "SOLDIER ABILITIES.........................95"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 13842,
+      "line": "TECHNICIAN ABILITIES.................100"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 18695,
+      "line": "CONSULATE ABILITIES..................159"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 18997,
+      "line": "FRONTLINE ABILITIES...................162"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 19302,
+      "line": "LOGISTICS ABILITIES....................165"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 19606,
+      "line": "MECHANIZED CAVALRY ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 19987,
+      "line": "PROFITEERS ABILITIES................171"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 20306,
+      "line": "RECON ABILITIES..........................174"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 20566,
+      "line": "R&D ABILITIES................................177"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 20836,
+      "line": "REDACTED ABILITIES...................180"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 136039,
+      "line": "ACE ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 141099,
+      "line": "BUREAUCRAT ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 146696,
+      "line": "EMPATH ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 151978,
+      "line": "ENVOY ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 156799,
+      "line": "HACKER ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 161127,
+      "line": "INFILTRATOR ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 165330,
+      "line": "OFFICER ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 170604,
+      "line": "SCOUT ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 175576,
+      "line": "SOLDIER ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 180667,
+      "line": "TECHNICIAN ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 301104,
+      "line": "CONSULATE ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 303188,
+      "line": "FRONTLINE ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 305340,
+      "line": "LOGISTICS ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 307723,
+      "line": "MECHANIZED CAVALRY ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 310186,
+      "line": "PROFITEERS ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 312416,
+      "line": "RECON ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 314371,
+      "line": "R&D ABILITIES"
+    },
+    {
+      "keyword": "ABILITIES",
+      "index": 317004,
+      "line": "REDACTED ABILITIES"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 6223,
+      "line": "PILOT ACTIONS....................................42"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 6277,
+      "line": "INSIGHT ACTIONS...........................42"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 6322,
+      "line": "PROWESS ACTIONS........................42"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 6364,
+      "line": "RESOLVE ACTIONS.........................43"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 7333,
+      "line": "PILOT ACTIONS IN DEPTH...................54"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 8176,
+      "line": "ACE ACTIONS..................................60"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 9385,
+      "line": "EMPATH STARTING ACTIONS.........69"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 14426,
+      "line": "USE ACTIONS HONORABLY..............104"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 15580,
+      "line": "VEHICLE ACTIONS.............................113"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 15630,
+      "line": "EXPERTISE ACTIONS....................113"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 15668,
+      "line": "ACUITY ACTIONS...........................113"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 16319,
+      "line": "VEHICLE ACTIONS IN DEPTH............121"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 16877,
+      "line": "THE SQUADS AND FACTIONS...............125"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 16923,
+      "line": "PILOTS, SQUADS AND FACTIONS....125"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 21148,
+      "line": "GM ACTIONS.......................................184"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 21747,
+      "line": "CREATING FACTIONS AND SQUADS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 29471,
+      "line": "LIST OF FACTIONS.............................261"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 96888,
+      "line": "PILOT ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 97474,
+      "line": "INSIGHT ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 97765,
+      "line": "PROWESS ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 98026,
+      "line": "RESOLVE ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 126374,
+      "line": "PILOT ACTIONS IN DEPTH"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 134147,
+      "line": "ACE ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 145263,
+      "line": "EMPATH STARTING ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 187765,
+      "line": "USE ACTIONS HONORABLY"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 205677,
+      "line": "VEHICLE ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 206240,
+      "line": "EXPERTISE ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 206435,
+      "line": "ACUITY ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 224546,
+      "line": "VEHICLE ACTIONS IN DEPTH"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 231500,
+      "line": "THE SQUADS AND FACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 231528,
+      "line": "PILOTS, SQUADS AND FACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 324541,
+      "line": "GM ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 350428,
+      "line": "CREATING FACTIONS AND SQUADS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 480320,
+      "line": "LIST OF FACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 521290,
+      "line": "Roll INSIGHT PROWESS RESOLVE VEHICLE ACTIONS"
+    },
+    {
+      "keyword": "ACTIONS",
+      "index": 530656,
+      "line": "ACTIONS"
+    },
+    {
+      "keyword": "STRESS",
+      "index": 6652,
+      "line": "STRESS.................................................47"
+    },
+    {
+      "keyword": "STRESS",
+      "index": 14515,
+      "line": "USE YOUR STRESS AND QUIRKS....105"
+    },
+    {
+      "keyword": "STRESS",
+      "index": 15132,
+      "line": "STRESS...............................................109"
+    },
+    {
+      "keyword": "STRESS",
+      "index": 107655,
+      "line": "STRESS"
+    },
+    {
+      "keyword": "STRESS",
+      "index": 189005,
+      "line": "USE YOUR STRESS AND QUIRKS"
+    },
+    {
+      "keyword": "STRESS",
+      "index": 198863,
+      "line": "THE PURPOSES OF DANGERS & STRESS"
+    },
+    {
+      "keyword": "HARM",
+      "index": 5088,
+      "line": "CONSEQUENCES AND HARM.............25"
+    },
+    {
+      "keyword": "HARM",
+      "index": 59926,
+      "line": "CONSEQUENCES AND HARM"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 79381,
+      "line": "by selecting Rules of Engagement, a Target, an Objective, an Employer, a Loadout, and a"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 80473,
+      "line": "Tactic, and a Loadout. Select them in that order before the mission begins."
+    },
+    {
+      "keyword": "Loadout",
+      "index": 85584,
+      "line": "The Loadout is the amount of gear that each pilot is bringing on the mission. Each pilot"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 170325,
+      "line": "Loadout that are directed with the vehicle’s controls. Each drone can carry 2 Load"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 461910,
+      "line": "Standard Loadout: Three AWV machine guns, with limited armor."
+    },
+    {
+      "keyword": "Loadout",
+      "index": 462628,
+      "line": "Standard Loadout: Cargo Space, Grapnel Anchor Tool"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 463402,
+      "line": "Standard Loadout: Cargo Space, Analytics Suite, Destruction Tools"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 464597,
+      "line": "Standard Loadout: A massive two-handed sword, heavy armour, and powerful rocket"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 465502,
+      "line": "Standard Loadout: A full flight system, machine guns, and the Medium Load variant has"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 466278,
+      "line": "Standard Loadout: A holo-projector, broadcast system, cargo and passenger space, and an"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 467202,
+      "line": "Standard Loadout: A holo-projector, machine gun, and shield."
+    },
+    {
+      "keyword": "Loadout",
+      "index": 467915,
+      "line": "Standard Loadout: A head mounted heavy energy cannon, side mounted directed energy"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 468742,
+      "line": "Standard Loadout: A mobility suite, armor, and a weapon appropriate for the mission."
+    },
+    {
+      "keyword": "Loadout",
+      "index": 469596,
+      "line": "Standard Loadout: Heavy"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 470277,
+      "line": "Standard Loadout: A wave fin mobility system, cargo space"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 471068,
+      "line": "Standard Loadout: An industrial tool used as a melee weapon, an anchor system, a shield,"
+    },
+    {
+      "keyword": "Loadout",
+      "index": 585906,
+      "line": "Loadouts but that changing the Loadouts doesn’t cost Materiel between missions."
+    },
+    {
+      "keyword": "Loadout",
+      "index": 585937,
+      "line": "Loadouts but that changing the Loadouts doesn’t cost Materiel between missions."
+    },
+    {
+      "keyword": "MECHA",
+      "index": 19465,
+      "line": "THE MECHANIZED CAVALRY............168"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 19587,
+      "line": "MECHANIZED CAVALRY ABILITIES"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 19676,
+      "line": "MECHANIZED CAVALRY UPGRADES"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 19772,
+      "line": "EXAMPLE MECHANIZED CAVALRY"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 307395,
+      "line": "THE MECHANIZED CAVALRY"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 307704,
+      "line": "MECHANIZED CAVALRY ABILITIES"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 308770,
+      "line": "MECHANIZED CAVALRY UPGRADES"
+    },
+    {
+      "keyword": "MECHA",
+      "index": 309523,
+      "line": "EXAMPLE MECHANIZED CAVALRY CONTACTS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 3752,
+      "line": "THE PILOTS..........................................16"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 5810,
+      "line": "THE PILOTS...............................................38"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 5866,
+      "line": "PILOT CREATION..................................39"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 6217,
+      "line": "PILOT ACTIONS....................................42"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 7022,
+      "line": "PILOT LOOKS.......................................50"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 7195,
+      "line": "PILOT ADVANCEMENT.........................53"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 7240,
+      "line": "PILOT VS PILOT AND PLAYER VS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 7249,
+      "line": "PILOT VS PILOT AND PLAYER VS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 7327,
+      "line": "PILOT ACTIONS IN DEPTH...................54"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 8027,
+      "line": "STANDARD PILOT GEAR.....................56"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 8061,
+      "line": "PILOT PLAYBOOKS...................................59"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 8285,
+      "line": "ACE SPECIALIST PILOT GEAR.......60"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 8783,
+      "line": "BUREAUCRAT SPECIALIST PILOT"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 9472,
+      "line": "EMPATH SPECIALIST PILOT GEAR 69"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 10039,
+      "line": "ENVOY SPECIALIST PILOT GEAR. .74"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 10629,
+      "line": "HACKER SPECIALIST PILOT GEAR 78"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 11193,
+      "line": "INFILTRATOR SPECIALIST PILOT"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 11842,
+      "line": "OFFICER SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 12470,
+      "line": "SCOUT SPECIALIST PILOT GEAR. .90"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 13061,
+      "line": "SOLDIER SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 13686,
+      "line": "TECHNICIAN SPECIALIST PILOT"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 14304,
+      "line": "EMBRACE THE PILOT'S LIFE.............103"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 16903,
+      "line": "PILOTS, SQUADS AND FACTIONS....125"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 17045,
+      "line": "CHANGING SQUAD OR PILOT"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 30530,
+      "line": "RANDOM PILOT GENERATION..........276"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 41129,
+      "line": "THE PILOTS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 90375,
+      "line": "THE PILOTS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 90389,
+      "line": "INSERT PILOT CHAPTER ART HERE"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 90802,
+      "line": "PILOT CREATION"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 96882,
+      "line": "PILOT ACTIONS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 115031,
+      "line": "PILOT LOOKS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 122690,
+      "line": "PILOT ADVANCEMENT"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 124036,
+      "line": "PILOT VS PILOT AND PLAYER VS PLAYER"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 124045,
+      "line": "PILOT VS PILOT AND PLAYER VS PLAYER"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 126368,
+      "line": "PILOT ACTIONS IN DEPTH"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 130373,
+      "line": "STANDARD PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 133515,
+      "line": "PILOT PLAYBOOKS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 134294,
+      "line": "ACE SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 139660,
+      "line": "BUREAUCRAT SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 145410,
+      "line": "EMPATH SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 150358,
+      "line": "ENVOY SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 155229,
+      "line": "HACKER SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 159855,
+      "line": "INFILTRATOR SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 164074,
+      "line": "OFFICER SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 168484,
+      "line": "SCOUT SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 173904,
+      "line": "SOLDIER SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 178527,
+      "line": "TECHNICIAN SPECIALIST PILOT GEAR"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 185187,
+      "line": "EMBRACE THE PILOT'S LIFE"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 231508,
+      "line": "PILOTS, SQUADS AND FACTIONS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 237075,
+      "line": "CHANGING SQUAD OR PILOT PLAYBOOKS"
+    },
+    {
+      "keyword": "PILOT",
+      "index": 509807,
+      "line": "RANDOM PILOT GENERATION"
+    }
+  ]
+}

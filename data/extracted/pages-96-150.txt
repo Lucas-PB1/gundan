@@ -1,0 +1,1917 @@
+
+
+===== PÁGINA 96 =====
+
+EXAMPLE GATHER INFORMATION
+ How can I hurt them?
+ Who's most afraid of me?
+ Who's most dangerous here?
+ What do they intend to do?
+ How can I get them to [X]?
+ Are they telling the truth?
+ What's really going on here?
+EXAMPLE STARTING SOLDIER BELIEFS
+ Their hesitance to inflict violence will Harm the squad.
+ They rely too much on their technology.
+ The Squad needs a better fitness regimen and I will start with them.
+ We’ve fought side by side in the past and I can trust them at my back.
+EXAMPLE SOLDIER ALLIES AND RIVALS
+ Ibex, a disciplined warrior
+ Alice, a frenzied demolitionist
+ Elliot, a quiet NCO
+ Alix, a jovial medic
+EXAMPLE SOLDIER STARTING BUILDS
+ Vanguard: Battleborn, Command +1, Maneuver +1, Prowl +1, Battle +1
+ Tough: Not To Be Trifled With, Battle +2, Command +1, Consort +1
+ Terror: Brutal, Wreck +2, Destroy +1, Battle +1
+ Anti-Armor: Robot Fighter, Hunt +2, Prowl +2
+96
+
+
+===== PÁGINA 97 =====
+
+97
+
+
+===== PÁGINA 98 =====
+
+THE TECHNICIAN
+A savvy technician and vandal.
+Technology runs the world and it will all fall apart sooner or later. Will it be repaired or
+replaced? Regardless of the choice someone with specialized skills will have to tackle the
+challenge. Technicians have that know how. They are the ones that push the bounds of what
+science can accomplish, and also keep the lights on while they are at it. Of course, any skill
+that can create can be used to destroy. Just ask Oppenheimer.
+How did you afford to develop your skills in the rationing of the War? Do you prefer to create
+or destroy?
+TECHNICIAN ACTION RATINGS
++2 Engineer, +1 Wreck
+XP TRIGGER
+At the end of a session take XP if you addressed a challenge with technical skill or mayhem.
+TECHNICIAN SPECIALIST PILOT GEAR
+ Fine engineering tools [Load 1]: Expertly made tools used for fine mechanical
+work.
+ Fine demolition tools [Load 2]: Well crafted tools for destruction and sabotage.
+ Air-gun, darts and syringes [Load 1]: A near silent gun that shoots darts using
+compressed air. The darts can be filled with drugs, chemicals, or biological agents.
+ Bandolier [Load 1 per 3 uses]: A belt worn on the hip or chest that can hold bombs
+or containers filled with chemicals, drugs, or biological agents. Choose an Effect
+from the list below for each use.
+○ Neutralize the Effects of other chemicals.
+○ Permanently fuse two surfaces until parted with a neutralizer or extreme
+(and damaging effort)
+○ Cause an incapacitating sensation of drowning.
+○ Cause blindness for a few minutes.
+○ Burst into intense flame on contact with air.
+○ Explode into shrapnel.
+98
+
+
+===== PÁGINA 99 =====
+
+○ Take Level 2 Harm “Obsessive” and +1d to your next Interface roll.
+○ Cause incapacitating full body muscle cramps.
+○ Create a cloud of smoke that stings the eyes and is difficult to breathe.
+○ Become imbued with a mild electrical charge and a feeling of vigour.
+○ Cause temporary paralysis.
+○ Become calm and enter a suggestible mental state.
+ Gadgets [Load 1 each]: Items created during Downtime.
+ Your custom vehicle [Load 0]: The vehicle assigned to you suitable to your
+needs. It’s represented by the vehicle entry on your pilot sheet.
+TECHNICIAN SPECIALIST VEHICLE GEAR
+ Fine Modding tools [Load 1]: Excellent tools for modifying large objects on the fly.
+ Fine Destruction tools [Load 2]: Finely made tools for smashing buildings,
+vehicles, and other large objects.
+ PayLoad bay [Load 1 for 3 uses]: can contain 3 special warheads containing
+chemicals, incendiaries, acids, or biological agents. These can be fired by a
+weapon on the vehicle designated at the time it is first used. Uses refill at the start
+of a mission.
+ Assisted repair system [Load 1]: spend a Materiel point to make a repair check
+while on mission.
+ Analytics suite [Load 1]: a collection of scanners useful for determining the
+comPosition of solids, liquids, and gasses.
+TECHNICIAN ABILITIES
+ Simulation: +1d to engagement rolls. You can decide what consequence you
+suffer on 4-5s with Action Rolls; the GM will make it fit the narrative.
+ Jury Rig: Spend two Stress to reduce the Effect (but not level) of a vehicle’s
+damage until the end of the mission. If you have Doctor you can also use this on a
+pilot’s Harm. Level 4 Damage or Harm can be affected by this ability, but the
+vehicle will be destroyed or the pilot killed at the end of the mission.
+ Researcher: When you invent or craft a creation, take +1 result level to your roll.
+You begin with one special design already known.
+ Fortitude: You may spend your Spark to resist a consequence of fatigue,
+weakness, or chemical Effects, or to push yourself when working with technical skill
+99
+
+
+===== PÁGINA 100 =====
+
+or handling chemicals.
+ Road Master: You know how to Wreck or Destroy an area with experimental
+substances and methods so it is either impassable or good terrain to infantry,
+vehicles, or Apps (your choice).
+ Doctor: You can use Engineer with bones, blood, and organs to treat wounds or
+stabilize the dying. You may study a malady or corpse. Everyone in your Squad
+gets +1d to their recovery rolls.
+ Saboteur: When you Wreck, the work is much quieter than it should be and the
+damage is hidden from casual inspection. If you use placed explosives instead of
+wrecking tools the work is not any quieter but you get +1d to the action.
+ Custom Implant: Choose a chemical, or gadget you have already researched and
+can build. That delivery system of the chemical or the gadget itself is perfectly
+concealed inside of your body and has 0 Load. Spend 1 Stress to use the implant.
+Changing the implant is a 4 section Long Term Project.
+ Veteran: Choose a special ability from another source. Can be taken up to three
+times.
+EXAMPLE GATHER INFORMATION
+ What do they intend to do?
+ How can I get them to [X]?
+ Are they telling the truth?
+ What can I tinker with here?
+ What might happen if I [X]?
+ How can I find [X]?
+ What's really going on here?
+EXAMPLE STARTING TECHNICIAN BELIEFS
+ They show promise, so I will support their endeavours.
+ They are not sufficiently interested in the results I could achieve.
+ My data indicates they could be so much more but choose not to be.
+ They’ve insulted my methods. They aren’t very bright.
+100
+
+
+===== PÁGINA 101 =====
+
+EXAMPLE TECHNICIAN ALLIES AND RIVALS
+ Dee, a surly professor
+ Isa, a faceless spy
+ Taylor, a diligent monk
+ Martinus, a kind psychologist
+EXAMPLE TECHNICIAN STARTING BUILDS
+ Medic: Doctor, Consort +1, Finesse +1, Study +2
+ Sapper: Saboteur, Prowl +2, Wreck +1, Study +1
+ Cyborg: Custom Implant, Struggle +1, Prowl +1, Hunt +1, Survey +1
+ Gearhead: Researcher, Manipulate +1, Maneuver +1, Interface +2
+101
+
+
+===== PÁGINA 102 =====
+
+PLAYERS’ PRINCIPLES
+You’ve just read a lot of rules that explain the mechanics of being a pilot. This section
+provides principles to embrace that will guide you in how to use those rules. To get the most
+out of being a Beam Saber pilot follow these principles.
+PROTECT YOUR COMRADES
+The subject matter of Beam Saber can be both dark and heavy at times. The themes
+surrounding war, and the relationships that develop because of them, are very intense. Even
+the most intentionally lighthearted Cut Loose scene can become affecting as the pilots
+stumble into, or around, the topic of the last mission.
+It’s ok that what is happening in game is influencing the mood of the people at the
+table. However, it is up to you, and everyone else, to make sure that it doesn’t Harm any of
+the players (including the GM). You need to work to make sure that Lines and Veils (see
+page ??) are maintained. If you think one is being breached, or suspect a player is
+uncomfortable, take a moment to check in with everyone. Make sure that what is happening
+in character is alright. An important reason to ask is that feeling strong emotions in play can
+be enjoyable (just look at horror movies), but it isn’t always clear when they become
+Harmful.
+If something is causing Harm to a player, the table has many options. Cut out the
+detail causing Harm by saying that it never happened. Back away from the topic by dropping
+the subject and talking about something else. Pause and discuss what just happened, but
+keep in mind that no one is owed an explanation by the diStressed player. Quietly skip
+ahead if everyone is comfortable with the event happening but not with depicting it. Use any
+combination of these to protect yourself and each other.
+EMBRACE THE PILOT'S LIFE
+A pilot’s life is not easy. In the best circumstances, they are given difficult tasks with
+insufficient support, and lives they don’t know about are at stake with every mission. Even
+when things go well they are rewarded with more challenges and not enough supplies, and
+now have the ire of those they’ve wronged in the course of duty. Their Quirks will run out,
+Stress will build up, entanglements will provide unpleasant surprises, and all this will happen
+regardless of how competent the pilots are. The War is wildly unfair.
+Yet they persist because someone has to hold the line. We will watch as terrible
+things happen to them, their loved ones, and their plans. In doing so we must remember that
+they are not us. We can and should be emotionally invested in what happens to the them
+102
+
+
+===== PÁGINA 103 =====
+
+because they are admirable for their efforts, no matter how doomed, but their failures do not
+reflect on the players. So it’s fine if they falter, fail, and fall because the mechanics ensure
+that those are temporary unless we as players want them to be permanent. Besides, they
+might succeed and wouldn’t it be glorious to witness that moment?
+GO INTO DANGER, FALL IN LOVE WITH TROUBLE
+You will never be completely safe. You’re a pilot surrounded by massive war machines
+(some of which are trying to kill you) in a war that predates your birth and won’t conclude in
+your lifetime. You don’t have the option to be risk averse since you’ve got the tough missions
+due to the fact that you’re expendable, skilled, passionate, or all of the above. It’ll take big
+plans and big actions to fulfill the big dream of a happy ending.
+Embrace risky ideas. Go for what sounds fun, exciting, and probably dangerous. The
+rules help make impossible challenges manageable, and there will always be possible
+consequences like “there could be collateral damage.” Dare to be interesting, don’t fear peril.
+Trying to avoid every little danger won’t build up the pilots’ Stress, it’ll build up the players’!
+Consequences aren’t failures. Remember that a result of 4-6 means that you succeed at
+what you were trying to do. There will likely be unintended consequences, but you will have
+succeeded nonetheless!
+When consequences do befall you don’t hate them. Exciting things happen when
+they appear. Someone gets Harm, a vehicle takes Damage, new challenges arrive, and
+much more! All of these will give you opportunities to take exciting actions to achieve your
+dreams. Telling stories about gripping moments is why you are playing this game; don’t back
+away from them.
+USE ACTIONS HONORABLY
+Players get to choose the action that they will roll when attempting to overcome an obstacle,
+but that comes with the duty of being honest in your choice. Choose the action that best
+suits what you are doing, not just the action you have the most points in. If you are
+demolishing a building with your vehicle be honest and roll Destroy or maybe Battle. Don’t
+try to claim you can use Manipulate or Scan because you’re targeting the main support
+columns. Of course you might use Scan for a setup action by finding where the Load bearing
+structures are for increased Effect or improved Position on the follow up action.
+TAKE RESPONSIBILITY
+Everyone playing is responsible for the narrative that comes from the game. This includes
+tone, themes, style, descriptions, and much more. You participate in both a tactical role and,
+103
+
+
+===== PÁGINA 104 =====
+
+just as importantly, an expressive one. You do this by having your pilot embody what you
+want to see in the game. If you want The War to be deadly, take serious Harm when it’s
+offered. If you want political complexity, seek out and implement schemes of your own. If you
+want emotionally flawed characters, lean into that with your own. Be the story you want to
+see.
+USE YOUR STRESS AND QUIRKS
+The War is harsh on everyone and especially on the pilots who carry the hopes of their
+Faction, not to mention their own dreams. Your pilot’s Stress and vehicle’s Quirks are a
+resource that you have to break through the challenges that you face. By pushing yourself
+and getting an assist from a squadmate you can get at least 2 dice in any action, and if you
+don’t get a 6 you can negate any consequence with a resist roll. If you don’t spend your
+resources the challenges may seem insurmountable.
+ADVOCATE FOR THE SCENES YOU WANT
+There will be times where you’ll imagine an interesting scene that you think would benefit the
+narrative. Sometimes they’ll happen on their own as the pieces fall into place, but a far more
+reliable way to have those scenes happen is for you to advocate for them. Talk to the GM
+about setting up scenes with the NPCs you want to role play with. Talk to the other players
+about having your pilots encounter each other or working together. Talk to the whole group
+about setting up missions centred on the stories you want to pursue. Remember to return
+the favor.
+DON'T TALK YOURSELF OUT OF FUN
+When you’re Planning the Mission, or just deciding what to do next, do what seems like it will
+be the most fun. Your pilot might be invested in coming up with the “best” plan but remember
+that you are here to have fun. Your precious time is being spent with this game because you
+want to see dramatic confrontations between vehicle pilots in The War. Embody those
+moments, hold steady, and engage!
+BUILD YOUR CHARACTER THROUGH PLAY
+When you start your pilot’s first mission they’ll be a handful of details. A History, Tragedy,
+Opening, Rival, Ally, and Beliefs about the other pilots. Those say who the pilot was, not who
+they are or who they will become. Those will be revealed as you play through the choices
+you make, the orders you follow, who you leave behind, and when you rebel. Allow yourself
+to be convinced over the course of your game that maybe your pilot isn’t who they thought
+104
+
+
+===== PÁGINA 105 =====
+
+they were, or who you thought they were.
+HUSTLE TO GET AHEAD
+After a couple sessions you might notice that the Squad is barely staying afloat with the
+costs of Quirks, repairs, recovery, and all the other places your hard earned Supply Points
+go. This is because the power structures of the Factions in Beam Saber don’t exist to
+improve the lives of the pilots. They are there so that the Faction can continue to fight The
+War.
+If a pilot wants to get enough Drive to change their circumstances, or a Squad wants
+to get enough Supply Points to increase its Tier, they are going to have to find alternate
+income sources. Scavenge, loot, steal, “requisition,” extort, and sell. If you rely on the end of
+mission Supply Roll you’ll never get ahead.
+BREAK THE RULES WITH LONG TERM PROJECTS
+While Long Term Projects can be used for tasks like improving the Quality of a weapon or
+infiltrating an enemy squad, they can be used for literally anything. They could break the
+rules of the game (for example by adding an extra level 3 Harm box to a pilot, making it so
+that all of a vehicle’s Load becomes undeclared at the start of a mission for free, or by
+removing Scars), completely change the direction of the campaign (a pilot could start a
+project to become the leader of their Faction, or upLoad their consciousness into their
+vehicle), or drastically alter the setting (starting a new ice age by pushing the planet farther
+from the sun, or setting up a resonant electro-magnetic field in the orbiting debris field to
+destroy all electronics).
+Anything is possible, however, the ultimate goal of the project should be discussed
+with other players and GM. Drastic changes like this will likely require that multiple 8 tick
+Clocks be filled, each one completing a step in the overall project. Remember that this is an
+option, and not an obligation. If you like that game as it is, stick with it.
+ACT NOW, PLAN LATER
+There's a tendency for players to hugely over plan when they have the initiative to act. They
+come up with a good simple plan, and then start poking holes in it which are increasingly
+unlikely occurrences. These holes then need plans to patch them up, and those have holes,
+and this continues far longer than it needs to dragging play to a halt.
+Flashbacks and undeclared Load help to alleviate this. If you or another player starts
+down the plan spiral, stop it, take action, and when you need to deal with an obstacle have a
+Flashback or declare an item. This will keep up the momentum.
+105
+
+
+===== PÁGINA 106 =====
+
+FICTION-FIRST GAMING
+Fiction First is a term that refers to the practice of using the game’s narrative to determine
+what mechanics are used, rather than using mechanics to decide what happens in the
+fiction. In many games a player will take an action by saying something like “I shoot the
+target,” they roll to shoot, and any description (such as “I peak around the corner and fire a
+quick shot”) that comes out of the situation is an afterthought. Ultimately the fiction takes a
+back seat to the mechanics, and the game could be played without any narration at all.
+Fiction First makes the mechanics flow from the narrative.
+The way this works in Beam Saber is that rather than saying the action used, a
+player describes what their pilot does and then the circumstances help determine what
+mechanics are used. Anyone playing can provide suggestions for this. If a player wants to
+shoot a target, we must determine the surrounding situation. Here are some examples. If the
+shot is:
+ At a target range and the pilot is just practicing, that’s probably the Train Downtime
+activity. There’s no risk in taking the shot and no benefit for being exceptionally
+accurate.
+ Part of a laser tag match with a friend, that’s probably a Cut Loose Downtime
+activity. There’s no risk, and the purpose of doing it is to have fun.
+ At a bullseye during a competition, that’s probably a Fortune Roll. There’s no risk,
+but a stronger performance will provide greater benefits.
+ Part of a heated battle inside an apartment, that’s probably an Action Roll using
+Struggle. Bad things will happen if the shot misses, and the range is most suitable
+for the Struggle action.
+ At an unaware target a few feet away, that’s probably an Action Roll using Prowl.
+Bad things will happen if the shot misses, and the sneaky nature of the attack
+makes Prowl ideal.
+ Through a vehicle at a munitions factory with the goal of levelling the facility, that’s
+probably an Action Roll using Destroy. Bad things will happen if the shot misses,
+and the scale of the destructive force involved means that Destroy is best.
+There are any number of scenarios this activity could occur in, and it’s up to the
+players to consider the narrative circumstances that will affect the mechanics. Trying to pick
+the mechanic first and then applying a narrative can make the process messy. You’ll likely
+find that establishing the fiction will be streamline choosing the mechanics.
+If things do become confused back out from the mechanics and up to the fictional
+106
+
+
+===== PÁGINA 107 =====
+
+layer. Ask the following questions:
+ What’s happening?
+ What is the player trying to accomplish?
+ What mechanic supports that goal?
+Remember that while there may be a mechanic that is an obvious answer for
+accomplishing a goal, there’s nothing wrong with choosing one for stylistic reasons. The
+mechanics exist to support the fiction after all.
+TRIGGERING THE ACTION ROLL
+Now that we’ve established why fiction comes first in Beam Saber, here’s when the
+mechanics are used.
+Most of the play in the game will take the form of a conversation between the people
+playing. That might be talking in character, describing actions, making plans, and all the fun
+that comes of spending time gaming with friends. There will come a time for dice though,
+and it is primarily the GM’s responsibility (though anyone can suggest it) to determine when
+it’s time to roll. Here are a few situations when an Action Roll is necessary:
+ A pilot attempts an activity that is dangerous, or has the potential for another
+repercussion.
+ A pilot leads one or more NPCs in (or orders them to do) a dangerous or
+challenging activity.
+ A player is really excited to make a roll!
+At this point the process described in the Action Roll section (see page ??) triggers,
+but remember to listen to the suggestions of everyone at the table for each step. This will
+determine if the action is a failure (1-3), a full success (6), or a bit of both (4-5).
+Some people are uncomfortable with the idea of having a consequence as part of
+their success on a 4-5. In Beam Saber action rolls determine the outcome for both the pilot’s
+action and their opposition’s action. The type of dramatic situations that call for Action Rolls
+mean that the enemy is attempting to achieve their goals at the same time as the pilot! A
+partial success means that the opposition has found success alongside the pilot. A single
+action roll covers a back and forth exchange of blows, words, maneuvers, or whatever form
+the conflict takes; so the wounds inflicted apply to both sides.
+HOW TO CHOOSE AN ACTION
+When an Action Roll is required, the action that should be rolled will often be clear because
+of what the pilot is doing in the fiction. However, a player is always allowed to change what
+107
+
+
+===== PÁGINA 108 =====
+
+Action they are doing so long as what the pilot is doing in the fiction also changes to better fit
+the new Action. A player cannot choose an Action that clearly does not fit the situation, such
+as using Struggle to “grapple” with the words of an opponent during a debate. There will be
+times where multiple Actions suitably fit the fiction. In these instances the player chooses
+what Action to use, and the GM chooses the appropriate Position and Effect.
+THE PURPOSES OF DANGERS & STRESS
+To some GMs the ability of players to negate any consequences with a Resistance roll
+seems incredibly powerful, perhaps too powerful. This is intentional. The odds stacked
+against the pilots are intense and they need resources like Stress and Resistance rolls to
+overcome them. Even with those they will often fail, and decide that they might need to have
+the Stress later, rather than spend it now.
+Even when negated by Resistance Rolls, Harm and Damage still serve an important
+purpose. The act of describing how pilots and their vehicles are wounded builds tension. As
+the GM narrates a massive chainsaw tearing through the cockpit towards the pilot inside, the
+players get scared. The stakes are raised, emotionally investing them in what is happening.
+Since they’re so invested they spend that Stress. They say “No! I hit the gas and dodge out
+of the chainsaw’s path.” They reduce the severity of the consequence, or negate it entirely,
+and doing so requires them to describe how they do it. The player gets to show just how
+formidable their pilot is, which makes them feel powerful! That feeling of power gives them
+hope in the face of the harsh challenges they must overcome.
+When Consequences, Stress, and Resistance Rolls are combined in play it creates
+an exciting narrative. The GM describes dangerous outcomes of the players’ rolls, and they
+counter by detailing how their awesome pilots avoid that terrible fate. This back and forth
+conversation will create some of the most dramatic exchanges in your campaign!
+THERE’S ALWAYS A CONSEQUENCE
+If dice are rolled in Beam Saber it’s because the fiction is changing. This might mean that the
+pilots change the world to suit them (6), something bad happens (on a 1-3), or both. There
+should never be an outcome where the result is “nothing happens.” The closest is a failure in
+a Controlled Position but that still results in the pilot acting riskier or realizing that their plan
+was too perilous.
+BUILD SLOWLY
+The rules are designed so that you only need Action rolls; just use a Risky Position and
+Standard Effect at first. As the players start asking questions about what they can do, that’s
+108
+
+
+===== PÁGINA 109 =====
+
+when the more complex rules should be explained. If a player wants more dice on a roll, it’s
+time to explain Stress and Pushing Yourself. When the Squad is outnumbered by foes or
+higher Tier foes, then tell them about Effect. The game works best when all the rules are in
+play, but the group can build up to that!
+This guideline should also be followed for the fiction. The whole world and plot don’t
+have to be figured out from the first session. Have enough for the first mission to make
+sense (which will likely be provided through the NPCs developed in Pilot and Squad
+creation) and then add detail when you need it. If you realize that you made a mistake in
+something you described, don’t worry about it! Just explain your mistake to the players and
+what you’re changing.
+SETTING PRECEDENTS
+The laws of reality need to be consistent between the Pilots and NPCs, or the fiction will
+break. If a NPC can shoot through a vehicle’s cockpit with a pilot’s rifle, then the Scout
+should be able to attempt that as well. Likewise if a PC is the only person who can pilot their
+customized vehicle, then the same is true for NPC vehicles.
+Every time that new facts for the world are introduced they become opportunities for
+everyone. It may become clear that these precedents need to be changed at some point in
+the game, just like creating the precedent changes the game. Don’t hesitate to make those
+changed, but remember that they apply for both Pilots and NPCs!
+ABSTRACTION VS DETAIL
+Everything doesn’t have to be described in exact detail for a story to be well told. Often it is
+less important to know exactly how far away something is, than it is to know whether you will
+get there in time. We don’t need to know the exact price of the bribe, just that it cost 1
+Personnel.
+Likewise there will be times when a player lacks the skills or knowledge that their
+pilot would certainly have. We don’t expect players to do the math behind an Engineer roll,
+and we should similarly give that level of abstraction to social scenes for players who aren’t
+comfortable acting them out in fine detail.
+The time when details should be described is when an action’s Position and Effect
+are being determined, as they rely on details. When trying to bribe the guard do they have
+their gun to your head, an arm’s length away, or still in their holster? The details are also
+important for any precedents that have been established as previously discussed.
+109
+
+
+===== PÁGINA 110 =====
+
+THE VEHICLES
+INSERT VEHICLES CHAPTER ART HERE
+110
+
+
+===== PÁGINA 111 =====
+
+Beam Saber is about Pilots AND their massive war machines. These vehicles are not just a
+means of engaging in war, they are representative of the pilot within. It will be as tied to the
+pilot’s reputation as their face and actions. Not only is it part of the pilot’s public identity, it
+also reflects who they are. Pilots that favour misdirection out of the cockpit will have vehicles
+that use similar methods. The vehicles piloted by those that consider themselves just pawns
+in the conflict will be basic workhorse models, and those who think they are grand will put
+capes and gold on their vehicle. Keep this in mind as you make and usevehicles, whether
+you’re the GM or a player.
+VEHICLE CREATION
+The directions that follow are useful for creating your vehicle step by step, however if you
+want to randomly generate your vehicle in part or in whole jump to The Playtesters
+Resources Random Tables link for methods to do that.
+1. Choose the look of your vehicle, and name its model and manufacturer.
+2. Choose your vehicle’s Load, but you don't detail what gear it has at this time.
+3. Assign 3 points by dividing them among the vehicle actions. A vehicle action cannot
+exceed 2 points at character creation.
+4. Create 4 Quirks for your vehicle.
+VEHICLE LOOKS
+Note that a vehicle in Beam Saber can be anything from a mech to a dump truck to a fighter
+jet to a tank. The rules and looks can work for any machine that is piloted by a person. Here
+are some suggestions for how to describe your vehicle’s look.
+ Mobility: bipedal, quadrupedal, flight, hover, wheeled, treads, anti-grav, rotor
+ Arms: none, humanoid, tentacle, industrial, hardpoint, wings, ornate
+ Hand: none, industrial, human, tentacle, weaponized, ornate
+ Core: armored, armed, light, bulky, practical, massive, ornate
+ Head: none, armored, armed, hi-tech, ornate, practical
+ Cockpit: sealed, open, armored, spacious, cramped, homey, customized
+ Shell: organic, hard light, ceramic, alloy, plastic, crystal.
+ Style: ornate, practical, improvised, custom, fashionable, sleek, powerful, artistic
+111
+
+
+===== PÁGINA 112 =====
+
+VEHICLE ACTIONS
+The abilities of a vehicle are as important to the outcome of an action as the skill of the pilot.
+When a pilot needs to roll an action that uses their vehicle they roll the relevant vehicle
+action rating. If a pilot tries to remotely pilot a vehicle or a vehicle that is not theirs they have
+reduced Effect.
+All vehicle action ratings max out at 4 points, but during pilot creation they can't have
+more than 2 points in an action. The mastery Squad upgrade is required to unlock the fourth
+point. Vehicles have access to the following actions:
+EXPERTISE ACTIONS
+These are actions that test the vehicle's physicality.
+Battle: for attacking at short range.
+Destroy: for razing with unsubtle methods.
+Maneuver: for moving swiftly and precisely.
+ACUITY ACTIONS
+These are actions that use the vehicle's awareness.
+Bombard: for blasting with long-range fire.
+Manipulate: for deftly handling objects.
+Scan: for quickly assessing a situation.
+All vehicle actions belong to the Expertise or Acuity attributes. These attributes are used to
+determine the number of Quirks it will cost your Vehicle to resist a Consequence (see
+page ??). They gain a point of XP when a Desperate vehicle action is performed with them,
+or a point of general XP is assigned to them. When the Vehicle Enhance track is filled
+through the Enhance Downtime Activity an additional point can be added to any Vehicle
+Action.
+QUIRKS
+Quirks are the unique qualities a vehicle possesses that a pilot familiar with it can use to
+their advantage. However these Quirks aren’t wholly positive and if all of them are applied
+without maintenance the vehicle will suffer a Breakdown.
+CREATING QUIRKS
+Every vehicle starts with 4 Quirks that the pilot is already familiar with. These first 4 Quirks
+112
+
+
+===== PÁGINA 113 =====
+
+are likely common to that model of vehicle. Up to 4 additional Quirks (for a total of 8) can be
+gained by filling the Enhance track with the Enhance Downtime activity, and these ones are
+unique to this specific vehicle.
+Each Quirk has 2 descriptors that determine when the Quirk can be used. These
+descriptors show how the pilot can push their vehicle in just the right way to get more out of
+it than designed for. For example a vehicle might have “Roaring Fast” and can be pushed for
+more speed or noise. When selecting your descriptors make sure that at least one of them
+can be interpreted as a disadvantage because struggling due to your Quirks provides XP at
+the end of the session.
+If you are having trouble thinking of Quirks you want, look at the Specialist Vehicle
+Gear available to playbooks other than your own. Think of a negative descriptor you can add
+to that gear, and take the two as a Quirk. For example you could have: Intermittent Optical
+Camo, Fragile Magnification Suite, or Cumbersome Electronic Filter. Doing this gives you
+gear from another playbook that can be used once per mission.
+If a player discovers that a Quirk isn’t a good fit for their vehicle they should speak
+with their GM about changing it. If the Quirk is bad because it’s rarely used and the player
+feels that a new one would be more useful, just change it and consider it no different than its
+previous version. If the narrative has changed the vehicle’s nature making the Quirk no
+longer applicable, then describe what changed, how it changed, and just change the Quirk.
+EXAMPLE QUIRKS
+ Ominous Appearance  Splintering Carapace
+ Flexible Structure  Mighty Clumsy
+ Slow and Heavy  Light Footed
+ Military Workhorse  Common Parts
+ Fixed Hardpoints  Redundant Systems
+ Blinding Boosters  Aggressive Targeters
+USING QUIRKS
+A pilot can push their vehicle by exhausting a Quirk for each of the following benefits: +1d to
+a vehicle Action Roll; Improved Effect with a vehicle action; or to take a vehicle action when
+the vehicle has level 3 damage. A Quirk can only be exhausted for pushing when one or
+more of its descriptors would be advantageous. When you exhaust a Quirk mark the box
+next to it.
+When a vehicle’s Quirks have all been exhausted (4 Quirks in most cases) its pilot
+can either send the vehicle limping home quietly or try to push past its limits.
+113
+
+
+===== PÁGINA 114 =====
+
+ If the pilot chooses to send their vehicle away it refreshes all Quirks, is removed
+from the scene and mission in a terrible state, then gains a Breakdown tick and
+the final Quirk exhausted has one of its descriptors worsened. The pilot does not
+have to leave the scene or mission. The vehicle becomes available again at an
+appropriate time, presumably after it has been refueled and polished.
+ If the pilot pushes their vehicle past its limits they take a Dire Action. If a Dire
+Action is taken the pilot can ignore any damage penalties the vehicle currently has
+for a single action. It cannot exhaust Quirks to take this action, nor can it resist
+Consequences, since all of its Quirks are exhausted. If it gets a 6 on its action it
+can take another vehicle action, potentially allowing it to have several fully
+successful actions. If a 5 or lower is rolled, or they choose to take no further action
+(other pilots can still act between the Dire Actions of the vehicle), that is its last
+action. On a result of less than 6 they suffer consequences as normal.
+After taking its last action, or if the scene ends, it receives an appropriate Level 3
+Damage, is removed from the scene and mission, then gains a Breakdown tick as
+normal.
+If they roll a crit they refresh 1 Quirk of their choice instead of having improved
+Effect, are no longer taking Dire actions, and instead return to acting normally.
+They avoid taking a Breakdown tick and the Level 3 Damage caused by the Dire
+Action.
+ If a pilot suffers the repercussions of their vehicle’s Quirks during a session, they
+can mark XP at the end of the session. This can occur through narrative play, such
+as missing opportunities or needlessly creating trouble, and also through
+Consequences on Action Rolls. When you see an opportunity for a Quirk to cause
+you trouble, tell the GM and they'll add an appropriate Consequence to your roll,
+regardless of the result.
+Instead of pushing their vehicle a pilot can use their vehicle’s Quirks to resist consequences.
+This is explained in the Resistance section (page ??)
+DAMAGE
+Damage is a major blow that impedes the function of the vehicle. Level 1 damage reduces
+the Effect of vehicle actions. Level 2 damage gives -1d to vehicle actions. Level 3 damage
+means the vehicle can’t act without being pushed by exhausting 1 Quirk. If a vehicle suffers
+level 4 damage (or fatal damage) it is destroyed beyond repair. The pilot immediately suffers
+appropriate level 3 Harm that can be resisted as normal. An Engineer action to salvage the
+114
+
+
+===== PÁGINA 115 =====
+
+best parts quickly can be done while on a mission, which generates 1 Supply Point with a
+success, or the entire vehicle can be towed away to be salvaged during Downtime.
+BREAKDOWN
+Breakdown is permanent damage to the vehicle where only the symptoms can be treated.
+They could potentially be fixed with a Long Term Project. When a vehicle acquires its fourth
+Breakdown tick it is damaged beyond repair or function and must be scrapped (or salvaged
+during Downtime).
+LOAD
+Load is the equipment that a vehicle has been outfitted with. It’s an abstraction of how much
+of the vehicle’s resources are occupied by its use. Resources such as weight, balance, bulk,
+and computing power. A vehicle has access to all the general vehicle gear and their class
+and squad’s specialist vehicle gear.
+At the start of the first mission decide if the vehicle is carrying a Light, Medium, or
+Heavy Load.
+ A Light vehicle is faster and less conspicuous giving it improved Effect when those
+features are advantageous, and has a max Load of 3. The advantage of taking a
+Light Vehicle is that it will be faster and stealthier than others, but it will have less
+versatility due to its lower Load. Light Vehicles are smaller allowing them to fit into
+places that others cannot, such as building interiors, or small caverns and tunnels.
+ A Medium vehicle looks like it’s geared up for trouble, and has a max Load of 5.
+Medium Vehicles seek to strike a balance between the two doctrines represented by
+Lights and Heavies. As their size is between the other types they often have access
+to the same options, but may require an Action Roll where smaller or larger Vehicles
+could automatically succeed.
+ A Heavy vehicle is slower and looks like it’s ready for war, thus giving it decreased
+Effect when those features are a problem, and has a max Load of 6. Heavy Vehicles
+have a great deal of versatility as they have double the Load of a Light, but this
+makes them less agile and more obvious. Heavy Vehicles larger than others meaning
+they can frequently reach places others cannot, and are also often out of reach for
+enemy operators.
+115
+
+
+===== PÁGINA 116 =====
+
+There will be times where the size of a Vehicle is important, such as trying to reach a
+person on a rooftop. In these situations remember that the fiction is important, so what is
+possible and what succeeds without an Action Roll can vary. If a player really wants to take
+advantage of their Vehicle's physicality, they should make Quirks (see page ??) related to its
+size and shape.
+Your vehicle has undeclared Load slots equal to your selected max Load. During a
+mission you can say that your vehicle has an item as part of its Load by writing the gear over
+a number of undeclared slots equal to the item’s Load. Some items will be Load 0 and don't
+fill any Load slots.
+Changing the gear that a vehicle is equipped with is an involved process, even for
+vehicles with quick release hardpoints or hands. Many pieces of gear have components that
+are integrated with the internals of the vehicle or communicate with its computer systems
+necessitating extensive calibrations and testing. Plus there’s the need to requisition the gear
+itself.
+Once a Load slot is declared it can only be changed back to undeclared during
+Downtime by spending Materiel equal to the number of slots occupied by the gear, but this
+change doesn’t require an action. Additionally Vehicles never change their Load category
+(Light, Medium, or Heavy), except as a possible benefit from an appropriate Long Term
+Project. If a consequence destroys a piece of gear it isn’t removed from the Load slot and
+continues to occupy the same Load slots but as useless “junk.”
+Stealing a piece of gear takes up an amount of Load as is suitable for the fiction. At the end
+of a mission that Load slot is returned to undeclared if it has only been carried, as the gear is
+removed from the vehicle’s storage capacity. If the gear is used then the vehicle was
+prepared for the possibility of its use and to change its slots back to undeclared Materiel
+points must be spent as normal.
+If a pilot steals a piece of gear of a higher Tier than the squad’s Tier it counts as a fine item
+for the rest of the mission, and the next mission. After the follow up mission the gear loses
+the fine Quality as the squad’s support infrastructure is not up to the task of maintaining that
+gear at its peak performance. A Long Term Project could be completed to upgrade the
+supporting infrastructure so that a piece of gear could permanently have the fine Quality.
+Using lower Tier gear provides no benefit and may in fact cause a worse Position or Effect
+as the fiction demands.
+116
+
+
+===== PÁGINA 117 =====
+
+STANDARD VEHICLE GEAR
+When changing your vehicle’s Load slots from undeclared to a specified item you can select
+from the items of your Playbook and from the following:
+ Supply reserves [Load 2]: Allows the Squad access to their Supply points during
+Downtime even if the fiction says that they should be unable to access them.
+ Armor [Load 2]: spend to reduce Damage by 1 level. Armor is restored at the start
+of Downtime at no cost. Armor can be taken multiple times, each costing 2 Load
+and able to be spent once per mission.
+ A melee weapon or two [Load 1]: A vehicle-mounted melee weapon such as tire
+spikes, a plow, or hand held blade.
+ A rack of missiles or rockets [Load 1]: A case full of guided or unguided self
+propelled explosives that often cause unintended destruction.
+ A machine gun [Load 1]: A heavy machine gun Effective against vehicles, and
+devastating against infantry, at relatively short ranges.
+ A heavy cannon [Load 2]: a large bore cannon designed for penetrating heavy
+armor that has a low rate of fire but a long-range.
+ A flamethrower [Load 1]: a nozzle that fires a stream of burning liquid and is
+terrifyingly Effective against unarmoured or lightly armoured targets.
+ A directed energy weapon [Load 1]: a device that coalesces a highly visible beam
+of thermal energy useful for melting through targets but prone to overheating.
+ A shield or forcefield [Load 1]: a pilot directed thick alloy plating, or
+electromagnetic barrier held at a distance from the vehicle’s body to protect from
+incoming attacks. Does not count as Armor for reducing Damage.
+ A holo-projector [Load 1]: can be used to visualize the AR or specific images.
+ A spotlight or flare mortar [Load 1]: a source of illumination mounted on the
+vehicle; the former offers directed light while the latter illuminates a wide area for
+several minutes by launching into the air.
+ Mobility Suite [Load 2]: A full flight system, dash thrusters, all terrain suspension,
+or some other modification providing extra mobility to the vehicle.
+ Grapnel anchor tool [Load 1]: Harpoons that stabilize a vehicle to prevent it from
+shifting Position, or allow it to rappel and slowly climb vertical surfaces.
+ Intrusion Countermeasures Program (ICP) [Load 1]: Dedicated computer
+systems for preventing hacking.
+117
+
+
+===== PÁGINA 118 =====
+
+ Coding Program [Load 0]: Some vehicles come with a limited code editor as part
+of their OS.
+ Retrieval Program [Load 0]: Some vehicles have programs for searching through
+connected databases.
+ Cargo space [Load 1]: a contained area suitable for moving a large amount of
+objects or a few large objects.
+ Anti-infantry defences [Load 1]: a close range shrapnel launcher that shreds flesh
+and light materials but does little to sturdy objects.
+ Passenger space [Load 1]: a contained area suitable for a few to travel in comfort,
+or many to travel in cramped conditions. A vehicle without passenger space can
+uncomfortably fit two people, including the pilot, in the cockpit or equivalent.
+ Modding tools [Load 1]: Tools for modifying large objects on the fly.
+ Destruction tools [Load 2]: Tools for smashing buildings, vehicles, and other large
+objects.
+VEHICLE ADVANCEMENT
+As pilots move through their careers what their vehicles can do will improve as they put work
+into upgrading them, and experience more harrowing situations. To do this a pilot must
+perform Desperate Vehicle Actions, or the Enhance Downtime Activity.
+When a Desperate Vehicle Action is rolled put 1 XP into the the attribute that the action falls
+under. When that attribute reaches 6 XP one point can be added to any of its actions to a
+max of 3 (or 4 if the Squad has the Mastery upgrade). Then the Attribute’s XP resets to zero.
+If the Enhance Downtime Activity is performed add 1 mark to the Vehicle Enhance track. If
+the Squad has the Testing Facility upgrade, the vehicle being Upgraded receives 2 marks
+instead. When that track fills (6 marks), a point can be added to any Vehicle Action OR a
+new Quirk can be gained. Then the Enhance track resets to zero.
+ACQUIRING A NEW VEHICLE
+There will be times when a pilot uses a vehicle other than the one they had at character
+creation. This may be due to any number of reasons but generally falls into one of three
+categories: a replacement vehicle, a temporary vehicle, or a borrowed vehicle.
+REPLACEMENT VEHICLES
+When a pilot’s vehicle is destroyed from suffering level 4 damage or receiving its fourth
+Breakdown tick it must be replaced with great cost and effort. If a vehicle is replaced before
+118
+
+
+===== PÁGINA 119 =====
+
+it is destroyed the same methods for acquiring a replacement are used. If the newly acquired
+vehicle comes from a Squad with a different Tier than the pilots its Tier becomes the same
+as the pilots. This is due to the Squad either improving its systems to bring it up to their
+standards, or they lack the infrastructure to maintain it at a higher Quality.
+To purchase a new vehicle the pilot must first have a patron Faction or contact that can sell
+them a vehicle. Then they must spend Materiel points equal to the new vehicle’s Load plus 1
+Materiel per level of the squad’s Tier so that it is fully Loaded and maintained to the squad’s
+standards.
+Alternatively a vehicle may be acquired through less honest means with a Long Term Project
+or mission. Vehicles acquired this way start with the level 2 damage “Unfamiliar” in addition
+to any other damage sustained while it was being obtained. It’s Load and declared gear is
+determined by the GM based on the established fiction, and it cannot have any undeclared
+Load. It starts with no Quirks exhausted.
+All replacement vehicles are created using the normal vehicle creation rules.
+TEMPORARY VEHICLES
+A temporary vehicle is one that does not replace the vehicle on the pilot’s character sheet.
+This may be because it has been hijacked from an enemy, or is too mundane to bother
+keeping extensive notes on. When a pilot is in a temporary vehicle they have improved
+Effect to vehicle actions if the vehicle is of a higher Tier than the squad, and reduced Effect if
+it has a lower Tier.
+Temporary vehicles do not track Quirks or damage, instead they have a progress Clock that
+represents their ability to continue functioning. When the Clock fills the vehicle is destroyed
+in a probably spectacular fashion. Pilots can push temporary vehicles by adding two ticks to
+this destruction Clock and resist consequences by adding three ticks. Either may overfill the
+Clock. When a temporary vehicle sustains damage the GM adds a number of ticks to the
+destruction Clock according to the consequence list. Mundane vehicles (such as a sedan,
+shuttle, jet ski, etc.) have a 4 tick destruction Clock, while enemy vehicles (such as a tank,
+mech, fighter jet, etc.) have a 6 tick destruction Clock.
+BORROWED VEHICLES
+When a pilot gets into a squadmate’s vehicle their own vehicle is generally not replaced. If
+this is indeed a hand me down, use the rules for Replacement Vehicles above. The pilot
+uses the vehicle’s declared gear, but only the owner can declare new gear. Quirks
+exhausted and Damage taken is marked on the owner’s character sheet the same as if they
+were in the cockpit. The pilot in the vehicle uses their own vehicle actions as they will be
+able to nudge the vehicle in unexpected ways, however they may also be unfamiliar with
+119
+
+
+===== PÁGINA 120 =====
+
+certain systems and thus cannot take advantage of the owner’s vehicle action ratings.
+VEHICLE ACTIONS IN DEPTH
+This section contains extended descriptions of each Vehicle Action.
+BATTLE
+When you Battle, you engage in vehicular close quarters combat. You might lash out with
+your scoop arm. You might fire your Gatling gun in a dogfight. In a Flashback you might have
+feigned an attack to increase security. You could perform a PIT maneuver (but Maneuver
+might be better).
+BOMBARD
+When you Bombard, you use vehicular weapons designed to attack targets beyond human
+sight. You might designate long-range missile targets. You might shoot a railgun through a
+skyscraper at an enemy. In a Flashback you might have taken out a ship full of enemy
+reinforcements. You could use saturation bombardment (but Destroy might be better).
+DESTROY
+When you Destroy, you employ overwhelming destruction through your vehicle. You might
+carpet bomb a military base. You might smash a building with a wrecking ball. In a Flashback
+you might have collapsed a roadway tunnel along the route ahead. You could attack using a
+bus as a weapon (but Battle might be better).
+MANEUVER
+When you Maneuver, you move your vehicle with skill and agility. You might fly through the
+valley between skyscrapers. You might creep across an unsteady bridge. In a Flashback you
+might have snuck your vehicle into a disused subway tunnel. You could gently nudge
+another vehicle into a specific Position (but Manipulate might be better).
+MANIPULATE
+When you Manipulate, you deftly move things with your vehicle. You might remove a primed
+warhead from a missile. You might pick up a baby in its carriage. In a Flashback you might
+have destroyed a vehicle’s mobility suite while keeping the damage hidden. You could
+reattach a damaged arm (but Engineer might be better).
+SCAN
+When you Scan, you broadly observe the situation around you through your vehicle. You
+120
+
+
+===== PÁGINA 121 =====
+
+might identify the model of approaching vehicles. You might spot the heat signature of an
+active generator. In a Flashback you might have noticed the seismic readings from an
+incoming tunneling vehicle. You could try to judge a building’s Stress points (but Study might
+be better).
+VEHICLES IN THE WORLD
+A vehicle in Beam Saber is not a common piece of equipment. While many citizens have
+access to automobiles of varying styles and sizes (and even some civilian versions of pilot
+vehicles), vehicles available to pilots are in a different league. They are larger, tougher, more
+versatile, and have built in life support. All of this is mechanically represented by the rules,
+but those don’t explain what that means in the fiction.
+LIGHT VEHICLES
+Light vehicles are generally about 30 feet in length or height, depending on the nature of the
+vehicle. Some are smaller though all are designed such that the pilot remains entirely
+contained within the vehicle’s cockpit. Although commonly larger than automobiles, Light
+vehicles aren’t always conspicuous, especially when their civilian equivalents can be similar
+in appearance. This is similar to how public transit buses stand out in a sea of cars, but they
+rarely get a second look.
+MEDIUM VEHICLES
+Medium vehicles average approximately 45 feet in length or height, give or take 5 feet.
+These are always notable when seen and arouse curiosity in onlookers. The reactions to a
+Medium is comparable to the presence of a police command vehicle: it occupies a lot of
+space physically and mentally. It’s not inherently dangerous but something serious is going
+down if it’s here.
+HEAVY VEHICLES
+Heavy vehicles max out at 60 feet in length or height. Anything larger is too big to be
+controlled by a single pilot, and starts to require a full crew (putting it beyond the scope of
+this game). Heavies are always a sign that someone’s day is about to be ruined, and unless
+presented in an exceedingly friendly manner will be given a wide berth by the public.
+Imagine a missile truck located in a public space and you start to get the idea of how much a
+heavy vehicle stands out.
+THE HISTORY OF VEHICLES
+The relationship that characters in the setting have with the vehicles of Beam Saber is a
+121
+
+
+===== PÁGINA 122 =====
+
+point that should be considered as it will colour the nature of the campaign. Here are some
+questions to help determine their place in your world.
+Are vehicles heirlooms passed down from parent to child?
+In a culture where vehicles are inherited, through bloodlines or other tradition, it implies a
+number of expectations. First is that the vehicles are incredibly valuable, monetarily,
+historically, and emotionally. Second is that pilots are likely expected to provide their own
+vehicles when they join the War. This in turn means that the ruling body’s military power is
+dispersed amongst its citizens or at least those powerful enough to own these vehicles.
+Fourth is that vehicles instantly become an obvious symbol of both wealth and power, so the
+populace’s reaction to a vehicle will be colored by their relationship with people of wealth
+and power. Additionally, those who have vehicles will have access to people with the skills to
+maintain them (further cementing their wealth). Lastly, the vehicles are probably old. They
+may be lovingly maintained, dilapidated, full of improvised fixes, or some combination of the
+above. It could be that new ones aren’t being made anymore and parts need to be salvaged
+from other vehicles.
+Are vehicles fresh off the line?
+If the vehicles are being made regularly then a manufacturing base exists in the setting.
+Further, powerful organizations will widely use vehicles to maintain and expand their
+influence. Low ranking and inexperienced pilots will be given access to them. They may be
+used more frivolously as they can be easily replaced.
+Are they seen as heroic, cowardly, monstrous or something else?
+A culture in your campaign might portray those vehicles as the modern equivalent of
+chivalrous knights, valiantly fighting to protect the homeland. Perhaps they are disdained for
+taking much of the human element out of battle, becoming symbols of a world too eager to
+indulge in massive battles. Maybe their raw destructive power is emphasized in the public’s
+mind, so they become monsters, mechanical beasts that can easily kill a person accidentally
+and just as easily kill swathes of people intentionally. Could be they’re just tools, most aren’t
+armed and are considered little more than bulldozers with legs.
+Have they been introduced to The War recently, or have they existed for generations?
+122
+
+
+===== PÁGINA 123 =====
+
+If the types of vehicles available to pilots are a new part of The War then there’ll be more
+uncertainty about them. Commanders won’t know how to make use of them, people won’t
+know how dangerous they are, and parts may be difficult to obtain because the supporting
+infrastructure isn’t in place yet. Conversely, if they’ve existed for a while most of those
+problems will be absent, and there will be a certain mundanity to vehicles.
+123
+
+
+===== PÁGINA 124 =====
+
+THE SQUADS AND FACTIONS
+PILOTS, SQUADS AND FACTIONS
+In Beam Saber there are three levels of actors: the Pilot, the Squad, and the Faction.
+ The Pilot is the individual role filled by the players and NPCs. Not all pilots control
+vehicles, it’s just the common parlance for those active in The War. Generally
+speaking their influence doesn’t extend much further than those they can
+personally interact with. Sometimes the right person in the right place at the right
+time can change the fate of worlds, but the vast majority of the time the best a pilot
+can do in The War is survive and keep those close to them safe.
+ The Squad is comprised of multiple pilots and their support staff. Some squads
+number fewer than 10, while the largest can be hundreds of people in the same
+command structure. However a Squad is still people. People can be persuaded,
+betrayed, killed, seduced, deceived, and generally acted upon directly. In short
+squads can be overcome.
+ The Faction is an organizational entity on a scale so large it has become more of
+an idea than anything physical. It’s made up of countless squads and an
+unimaginable amount of people. It has transcended beyond the material and
+cannot be touched. Which is also its weakness. Factions are slow to act in The War
+and must do so through their squads. While a Faction can never be destroyed its
+squads can be removed which eliminates its ability to act.
+SQUAD CREATION
+The directions that follow are useful for creating your Squad step by step, however if you
+want to randomly generate your Squad in part or in whole jump to Appendix A for methods to
+do that.
+1. Choose your squad's patron Faction. The Faction will determine what bonus supplies
+you get for completing missions (see Reward section), and guide what goal your Faction is
+working on (see Faction Goals section). The possible options are:
+○ Autocracy
+○ Corporatocracy
+○ Democracy
+○ Independent
+○ Oligarchy
+124
+
+
+===== PÁGINA 125 =====
+
+○ Theocracy
+Note that while the squad’s patron Faction does not necessarily own the squad, it
+does expect them to follow its orders and work towards its interests. Additionally the
+Independent Faction is purposefully more challenging than other patron Factions.
+This is to represent the challenge of working against the established systems, the
+structures that support them, and acting without those same supports.
+2. Set your Relationship with each Faction to 0. They don’t know or care the Squad
+is until they’ve performed some missions for or against them. Set your Trust with
+each Faction to 0 for the same reason.
+3. Create a NPC who is the Direct Superior of the squad. This is someone that the
+GM can often use to assign the Squad missions, and who the Squad will have a
+connection to (for good or ill). One Squad is friendly with the Direct Superior so
+take +1 Status with them and describe the connection. Another Squad dislikes the
+Direct Superior; take -1 Status with them and describe the issue. See Direct
+Superior for suggestions.
+4. Choose a goal for your patron Faction. Things to consider in this decision are
+the amount of politics, combat, and brutality everyone wants, as well as themes
+they might want to explore. Independent squads skip this step. See the Faction
+Goals section for more details. The possible options are:
+○ Assault the Foe
+○ Divided They Fall
+○ Golden Streets
+○ Hearts and Minds
+○ Hostile Takeover
+○ Intelligence Coup
+○ Manufacture Heroes
+○ Secure the Borders
+5. Choose a Squad Playbook. This will determine the nature of most of your
+missions and some common training everyone in the Squad has.
+6. Choose an initial reputation and Forward Operating Base (FOB). When you
+reinforce your reputation on a mission the Squad marks 1xp. Your starting FOB will
+be small and unimpressive. See Squad Reputation for suggestions.
+7. Choose a Squad ability. This is a special trick everyone in the Squad can call
+upon.
+125
+
+
+===== PÁGINA 126 =====
+
+8. Choose two upgrades. These are tools, Personnel, and facilities the Squad can
+use. Each Squad Playbook has two pre-selected upgrades (for example Profiteers
+always have Resolve Training and Secure FOB) and the Squad also gets to
+choose two more from the Squad Playbook or the general Squad upgrades. A
+Squad helped you get the upgrades; take +1 Status with them. Another Squad was
+denied those upgrades because you have them; take -1 Status with them. Each of
+these squads can be from the same Faction as the players’ Squad and/or from a
+different Faction.
+9. Name your squad. This might be your official designation or it might be a group
+call sign. Other squads and Factions will know you by this name.
+SQUAD ADVANCEMENT
+At the end of a session look at the squad’s XP triggers and take 1 Squad XP for each trigger
+that happened this session. For each item that happened multiple times or in a dramatic
+fashion, take 2 XP instead. The Squad XP triggers are:
+ Your Squad Playbook’s XP trigger. Every Squad Playbook gets XP for doing
+missions that suit their specialty.
+ Face off against challenges above your pay grade. If you were opposed by
+obstacles or foes of a higher Tier take XP.
+ Reinforce your squad’s reputation or gain a new one. Did the squad’s actions
+promote what they’re known for, or did they become known for something new?
+ Express the goals, drives, inner conflict, or instincts of the squad. This one is
+all about playing to what makes your Squad unique and interesting. Don’t be too
+picky about awarding XP for this.
+When the Squad reaches 8 XP reset the XP to zero and then take either two Squad
+upgrades or one Squad ability.
+CHANGING SQUAD OR PILOT PLAYBOOKS
+There might be a time where a player wants to change their pilot Playbook (an Ace becomes
+a Soldier) or all the players want to change the squad’s Playbook (Profiteers become
+Logistics). There are two options for doing this and they depend on the reason for the
+change.
+ If the change is because the player or group realize that their Playbook doesn’t fit
+126
+
+
+===== PÁGINA 127 =====
+
+what they want to do, then make the pilot or Squad over from the beginning, but
+keep the same number of advances that have been earned.
+ If the switch is because the nature of the pilot or Squad has changed in the
+narrative, then transfer the action ratings or Squad upgrades to the new Playbook
+(you don’t get the starting action points or Squad upgrades though). Keep the
+special abilities already earned as Veteran abilities (it’s alright if you end up with
+more than three).
+DIRECT SUPERIOR
+The squad’s Direct Superior is the NPC that they will probably be interacting with the most.
+This person will be higher rank than the pilots, give them orders, and assign them missions.
+They should have a title suitable to the Faction they belong to, and a brief description of their
+appearance and personality. If the PCs lack a patron Faction and are Independent their
+superior might be from another squad, a mysterious source, or someone else with unofficial
+authority over the pilots.
+Regardless of how the Pilots feel about their Direct Superior there will be another Squad that
+likes them, and another that dislikes them. Increase the Squad Status with the Squad that
+likes the Direct Superior by 1, and detail an appropriate descriptor. Decrease by 1 the Squad
+Status with the Squad that has a problem with the Direct Superior, and add a suitable
+descriptor.
+Ultimately the purpose of the direct superior is not to boss around the pilots. They are there
+as a direct representative of the squad’s patron Faction, to embody the link between the
+patron and the squad, and as a way for the GM to provide missions to the players. They
+should rarely be the focus of the narrative but almost always be a narrative tool for the GM.
+EXAMPLE DIRECT SUPERIORS
+ Carberry, a shady and cruel fixer.
+ Scratch, a cheerful and energetic Proxy.
+ Project Lead Walker, an ambitious and hard working manager.
+ Executive Assistant McEvoy, a Stressed and organized worker.
+ Captain Martinez, a weary and grumpy officer.
+ Quartermaster Hawkins, a sentimental and thoughtful trooper.
+ Bishop Acampora, a patient and caring member of the clergy.
+ Confessor Tebbel, an inquisitive and meticulous theologian.
+127
+
+
+===== PÁGINA 128 =====
+
+ Councillor Swan, a hard hearted and calculating bureaucrat.
+ Alderperson Drake, a fiery and passionate politician.
+ Virtue de Quidt, an experienced and crafty noble.
+ Margrave Takeyuki, a paranoid and meek leader.
+SQUAD REPUTATION
+The squad’s reputation is the idea that immediately springs to mind when a potential
+employer thinks about them. It should be a word or phrase that the Squad either already
+embodies or strives for, but does not directly speak to their competence. “Skilled” is a bad
+reputation, try “Daring” instead. By living up to their reputation the Squad gets to mark XP at
+the end of the session.
+EXAMPLE SQUAD REPUTATIONS
+ Ambitious  Honorable
+ Amoral  Professional
+ Menacing  Savvy
+ Daring  Subtle
+ Destructive  Strange
+GENERAL SQUAD UPGRADES
+The following upgrades are available to any Squad regardless of their type. Two of these are
+selected when creating the squad, and whenever the Squad fills its XP track they can take
+two more upgrades (from this list or their Playbook) or one Squad ability from the squad's
+Playbook. Alternatively a Squad Upgrade can be obtained with a suitable Long-Term Project,
+or as the Objective of a Mission.
+A Squad Upgrade is a location or piece of infrastructure with features the Squad can
+take advantage of for narrative and mechanical bonuses. However the conditions created by
+The War means that every Upgrade is already held and used by another squad. Only one
+Squad at a time can take advantage of an Upgrade's limited resources, even if the Squads
+are on friendly terms.
+If the Squad Upgrade is outside of the Region the Squad's FOB is located in, there
+may need to be additional tasks completed before capturing the Squad Upgrade can be
+attempted. These tasks might involve finding the Squad Upgrade, securing a route between
+the Squad Upgrade and FOB, or establishing security at the site. These additional tasks are
+probably Long Term Projects or gather information actions, but in certain circumstances may
+128
+
+
+===== PÁGINA 129 =====
+
+be additional missions.
+Once any preparations are completed, the Squad can plan a mission with the
+Objective of taking control of the Squad Upgrade. If the mission is successful the Squad
+immediately gains access to the benefits of the Upgrade.
+Once the Squad has control of an Upgrade its safety is not guaranteed. Other
+Squads may attempt to capture Upgrades for themselves, or, if desperate enough, try to
+destroy them. The Squad can try to defend what is theirs, negotiate with the aggressor, or
+simply hand over the Upgrade as the situation requires. If the squad's FOB is lost they lose
+the benefits of all Squad Upgrades until the FOB is re-established.
+GENERAL SQUAD UPGRADE LIST
+ Airfield: The first level provides 1 Supply Point at the start of Downtime Activities.
+The second level provides an additional 1 Supply Point (total 2).
+ Barracks: Choose one of your Fire Team Cohorts. It get +1 Scale. Extra room
+means larger fire teams.
+ Blacksite: +1d to Command on-site. Grisly business, but effective.
+ CCTV Network: +1d to Survey on-site. With cameras and audio bugs everywhere
+you’ve got the advantage.
+ Cohort: Gain a fire team (a group of agents) or specialist (an especially skilled
+agent) that works for the squad. Requires 2 Squad upgrades to purchase.
+ Collection Agency: Once per Downtime, roll dice equal to your Tier. You earn
+Materiel equal to the highest result, minus your most negative Faction status.
+Some of the locals are terrified of you and will gladly pay for “protection.”
+ Commissary: You get +1d to Consort rolls on-site. Some rationed items and
+friendly conversation can go a long way.
+ Cover Business: You reduce trust lost from a mission’s target by 2. The cover of
+a civilian operation helps deflect some of the attention from those you’ve hurt.
+ Factory: You get +1d to Fix rolls. Any factory can churn out military parts.
+ Forgers’ Workshop: You get +1d to the engagement roll for deception plans.
+False identities help confuse the opposition.
+ Guerilla Hideout: You get +1d to the engagement roll for assault plans. The
+independent fighters around here help you out now.
+ Hack Lab: You get +1d to Interface rolls on-site. A hack lab provides tools, both
+physical and digital, for making superb AR works.
+129
+
+
+===== PÁGINA 130 =====
+
+ Hidden FOB: The squad's FOB is hidden from even intensive searches. If it's
+discovered a Long Term Project will be required to once again conceal it.
+ Holo-grid: You get +1d to Consort with AR entities on-site. This room simplifies
+communication between humans and AR entities by bridging their differences.
+ Infirmary: You get +1d to Recover rolls. The infirmary has beds for long-term
+convalescence and medical automation.
+ Lighthouse Satellite: Safe passage in space. When you head into the dark and
+can contact this satellite, you can’t become lost.
+ Loyal Bar: You get +1d to gather information about the current or upcoming
+mission. Your eyes and ears on the streets are always on the lookout for you.
+ Luxury Venue: +1d to Sway rolls on-site. Silks, paintings, and crystal impress the
+clientele.
+ Mastery: unlocks 4th action points. Requires 4 Squad upgrades to activate.
+ Motor Pool: A first level Motor Pool means you no longer need to pay the Materiel
+cost when acquiring new vehicles. At second level the Squad and its Cohorts gain
+access to Load 3 temporary vehicles for free.
+ Personal Clothier: You get +1d to the engagement roll for social plans. You
+always arrive on the scene in the most current and alluring fashions.
+ Propaganda Radio: You reduce trust lost from a mission’s employer by 2.
+Factions don’t want any trouble from you; they look the other way.
+ Public Works: You get +1 Heart on your Rep track. You can have up to 6 Public
+Works. This location supports the locals, so they have your back.
+ Quality: Choose a type of item. Those items are better Quality in addition to the
+Quality bonuses from the squad's Tier and the fine descriptor. Options are:
+Documents, Gear, Programs, Supplies, Tools, Pilot Weapons, and Vehicle
+Weapons.
+ Quarters: Your FOB has comfortable sleeping space for everyone. Otherwise the
+squad’s pilots sleep away from the FOB in vulnerable locations.
+ Radar Station: +1d to Scan rolls on-site. Tapping into a much larger sensor array
+gives you the advantage.
+ Refit Station: One of the squad’s vehicles may remove a piece of gear, changing
+Load slots occupied by it to undeclared at the start of a mission for free. This
+automated arrangement of catwalks and cranes make swapping parts easy.
+130
+
+
+===== PÁGINA 131 =====
+
+ Regional Records: You get +1d to the engagement roll for stealth plans. You
+can use blueprints and other documents to determine a good approach for
+infiltrations.
+ Scrapyard: One of the Squad's Vehicles may refresh 1 Quirk at the start of a
+mission for free. Spare parts on the cheap!
+ Secret Routes: You get +1d to the engagement roll for transport plans. You
+might have access to long-forgotten underground subways, little known mountain
+paths, or some other route of your choosing.
+ Secure FOB: Your FOB has perimeter defenses such as automated turrets, trip
+wire explosives, or a sturdy wall. This helps protect your Squad against attacks
+while at home. This can be taken twice, with the defenses becoming more effective
+with the second upgrade.
+ Side Business: Once per Downtime, roll dice equal to your Tier. You earn
+Personnel equal to the highest result, minus your most negative Faction status.
+What kind of legitimate business is this? How do you get paid in secret?
+ Storage: The first level of this upgrade allows the Squad to store up to 8 of all
+Supply point types. The second level increases the storage to 16.
+ Supercomputer: You get +1d to the engagement roll for scientific plans. Its
+running simulations for you.
+ Testing Facilities: when taking the Enhance Downtime Activity the vehicle mark 2
+boxes on the Enhance track instead of 1.
+ Training: Choose Insight, Prowess, Resolve, or Playbooks. When taking the Train
+Downtime Activity in the chosen category take 2XP instead of 1.
+ Training Course: Choose a type of Fire Team. All your Cohorts are that type in
+addition to their normal type. Now there’s never a shortage of pilots.
+ Transmitter Array: -1 Stress cost for all digital powers and app usage. This effect
+applies to the entire Squad, everywhere. You don’t have to be at the array to
+benefit from it.
+ Trophies Room: You get +1 Rep per mission. Word of your accolades, earned or
+“collected,” gets around, and your boldness boosts your Rep in the military.
+ Tunnels: +1d to Prowl rolls on-site. These hidden passages allow you to move
+around unseen.
+ Warehouses: You get +1d to acquire asset rolls. You have space to hold all the
+131
+
+
+===== PÁGINA 132 =====
+
+various spoils you end up with after your battles. It can be useful on its own or for
+barter when you need it.
+ Workshop: The FOB has a space filled with tools, materials, and a database such
+that the Long Term Project, Salvage, and Fix Downtime Activities can be worked on
+without leaving the FOB.
+HEART
+Heart is an abstraction of the support and control the Squad has in the areas they administer
+and operate in. This provides stability to the squad's Rep meaning that fewer Rep points are
+required to increase the squad's hold and Tier. For each point of Heart, the Squad requires
+one fewer point of Rep to develop, up to a maximum of 6 points of Heart. So if the Squad
+has 3 Heart, only 9 points of Rep are required. Additionally when the squad's Rep resets to
+zero upon development the Heart does not reset allowing for quicker development in the
+future. Heart is gained by acquiring the Public Works Squad Upgrade.
+COHORTS
+A Cohort is a fire team (a group of agents) or a specialist (an especially skilled agent) that
+works for the Squad and is directed by the pilots. Acquiring a new Cohort costs 2 Squad
+upgrades.
+Creating a Cohort:
+1. Choose to make a Fire Team (Fire teams have Quality and scale equal to the squad’s
+Tier.) or Specialist (Specialists have Quality equal to the squad’s Tier+1 and scale of 0).
+2. Choose your Cohort’s expertise.
+○ Fire teams can be Adepts (Academics, scientists, mechanics, etc.), Rooks
+(spies, con artists, socialites, etc.), Rovers (drivers, astronauts, urban
+spelunkers, etc.), Skulks (thieves, scouts, infiltration, etc.), or Toughs
+(killers, bouncers, warriors, etc.).
+○ Specialists can be any type of expert. Doctor, assassin, chemist, sniper,
+and navigator are all acceptable but far from the only options.
+3. Choose 1 or 2 Edges for the Cohort from the following:
+○ Fearsome (terrifying in aspect and notoriety)
+○ Independent (able to make good decisions and take action without direct
+orders)
+○ Loyal (can't be bribed or turned against the squad)
+132
+
+
+===== PÁGINA 133 =====
+
+○ Tenacious (won't be deterred from a task)
+4. Choose as many Flaws for the Cohort as it has Edges from the following:
+○ Brutal (excessively violent and cruel)
+○ Eager (will act without orders for “the squad’s best interests)
+○ Principled (has an ethic or value it won't betray)
+○ Obligation (not always available due to other responsibilities, chronic
+illness, etc.)
+○ Wild (drunken, debauchery, and loud mouthed)
+An additional expertise can be added to a Cohort by spending 2 Squad upgrades. A Squad
+can have a maximum of 2 types of expertise. A Cohort will have items appropriate to its
+expertise and Quality.
+When a Cohort is sent to achieve a goal covered by its expertise it rolls its Quality to
+determine the outcome. If the action is outside its expertise it counts as having a Quality of
+zero. If a pilot directs the Cohort with orders, roll Command. If a pilot participates alongside
+the Cohort, they make an Action Roll with the Cohort’s scale and Quality affecting the
+Position and Effect.
+If a Cohort suffers Harm, its Harm level increases from 1 to 4 in the following manner.
+1. Weakened: the Cohort has reduced Effect.
+2. Impaired: the Cohort has reduced Quality (-1d)
+3. Broken: the Cohort cannot act until it recovers.
+4. Dead: the Cohort is destroyed.
+If a Cohort’s environment is suitable for healing, it removes a level of Harm during a
+Downtime phase. A pilot can help them Recover by spending a Downtime action, which
+heals the Cohort an additional level of Harm.
+Only Rovers and Specialists with an appropriate expertise start with vehicles. They
+have vehicles that suit their expertise and the squad’s Playbook. For access to a different
+type of vehicle, or to give a vehicle to a Cohort that doesn’t start with one, a pilot should
+Acquire an Asset during Downtime or the Squad should get a second level Motor Pool.
+Cohort vehicles have Load equal to their Tier if that becomes relevant.
+A Cohort can be reformed if destroyed. The Squad must spend Personnel points
+equal to the squad's Tier + 2 to restore it, and also spend two Downtime Activities finding
+new fire team members or a new specialist.
+If the Squad mistreats a Cohort (physical or emotional violence, needlessly
+133
+
+
+===== PÁGINA 134 =====
+
+dangerous tasks, forcing them to fight while wounded, etc.) they may retaliate if it is
+narratively appropriate and suits the tone of your game. Likely they won't retaliate after a
+singular instance of mistreatment, but a second occurrence (and certainly a third) may have
+them looking to make a change.
+If you find it useful, consider making a 4-Tick Clock to represent the retaliation that
+the Cohort will enact. Add 1 or 2 Ticks (depending on severity) each time a Pilot mistreats a
+Cohort. For each tick added the Cohort should retaliate in increasingly dramatic fashion.
+Here are some examples of ways that a Cohort could retaliate:
+ Grumbling: The Cohort complains about the mistreatment to other NPCs of similar
+social status. For Fire Teams this may be completely internal as the Fire Team's
+members complain to each other.
+ "A word, sir": The Cohort speaks candidly about the mistreatment to someone in a
+position of authority. This may be a Pilot who has not mistreated them, but may also
+be the Squad's Direct Superior.
+ Work To Rule: The Cohort does the bare minimum required of them. Maybe they
+don't work overtime to make sure the Pilots' Vehicles are fixed, or they refuse orders
+that don't make sense to them.
+ Strike: The Cohort refuses to work until their demands are met. What those
+demands are depends on the nature of the mistreatment they have faced.
+ Fragging: When the opportunity presents itself, the Cohort will put those who have
+mistreated them in danger. This may be "accidental" friendly fire, not defending
+against enemy attacks, or an off duty beating.
+ Betrayal: If the mistreatment has gotten severe enough, The Cohort will lose faith in
+the Squad and start working for someone else. This may be covert (such as sneaking
+away at night or feeding the enemy intel) or dramatic (an assassination attempt or
+ambush with enemy assistance). Either way, the Cohort will be removed as an Asset.
+Mending the relationship with a mistreated Cohort is not fixed in a single day. It will require a
+Long Term Project, and the more aggrieved the Cohort is, the more Ticks the project will
+have. Completing the project should involve dealing with the demands of the Cohort, and
+addressing the mistreatment. Or you could just cycle out all the staff for fresh faces who
+don't know about the abuse they're about to encounter.
+If the retaliation of the Cohort becomes too much for the Squad to deal with (or the
+Squad just doesn't like a Cohort), they can dismiss the Cohort. This removes them from the
+Squad sheet, and thus can no longer be called upon for assistance. Depending on how
+unhappy the Cohort is when it's dismissed, and the manner of their dismissal, they may
+simply disappear into the world or they might hold a grudge and return to make the Pilots
+suffer.
+134
+
+
+===== PÁGINA 135 =====
+
+TIER
+Every notable Squad (including the players’ squad) has a Tier that indicates the size,
+renown, and power of that squad. The most powerful squads are Tier V and Tier VI. The
+players’ Squad starts at Tier 0 with strong hold (represented by an "S" after their Tier value).
+The squad's Tier is rolled when acquiring an asset, and for fortune rolls where success is
+primarily based on the squad's resources and fame. The Quality of a squad's items is
+determined by Tier, and so is the Quality and scale of the squad's fire teams. This can help
+guide the narrative with how well made a squad's gear is and how many people are brought
+to bear when a fire team is deployed.
+When a Fire Team is deployed their scale by Tier:
+ Tier V: Massive (roughly 80 people)
+ Tier IV: Huge (roughly 40 people)
+ Tier III: Large (roughly 20 people)
+ Tier II: Medium (roughly 10 people)
+ Tier I: Small (roughly 5 people)
+ Tier 0: 1 or 2 people
+SQUAD DEVELOPMENT
+To move up the ranks and develop your squad, you need Rep. Rep is a measure
+of clout and renown. When you accrue enough Rep, Factions and other squads take you
+more seriously and you attract the support needed to develop and grow.
+You need 12 Rep to fill the Rep tracker on your Squad sheet. When you fill the
+tracker, do one of the following:
+ If your hold is weak (represented by a "W" after their Tier value), it becomes strong.
+Reset your Rep to zero.
+ If your hold is strong, you can pay to increase your Squad Tier by one. This costs
+an amount of each Supply Point type equal to the squad's new Tier times 4. For
+example if a Squad is increasing to Tier II it must spend 8 Personnel, and 8
+Materiel. As long as your Rep tracker is full, you don’t earn new Rep (12 is the
+max). Once you pay and increase your Tier, reset your Rep to zero and reduce
+your hold to weak.
+When your Tier increases the Squad experiences several changes.
+ All of the squad's items now count as a Tier higher when their Quality comes into
+135
+
+
+===== PÁGINA 136 =====
+
+play.
+ When the squad's Tier is used for a Fortune Roll where its power and notoriety are
+paramount a number of dice equal to the Tier is rolled.
+ The scale and Quality of the squad's fire teams increases to the new Tier.
+FACTION GOALS
+A Faction’s goal is the current strategic objective that they are trying to fulfill on their path of
+dominance in The War. The players and GM discuss which Faction goal makes sense for
+their patron Faction to have at the start of the game. Things to consider in this decision are
+the amount of politics, combat, and brutality everyone wants, as well as themes they might
+want to explore.
+Each goal is represented by a 4 Tick Clock. Squads add Ticks by taking actions
+during missions that work towards the goal, however only a single tick is added to the Clock
+at the end of the Mission. No matter how hard or how often the Squad works towards the
+Faction Goal, it is too big to get substantial progress during a single mission.
+When the Clock fills all squads patronized by the Faction receive specialist training
+giving them a unique benefit. The players and GM then consider the current situation of The
+War and select a new and different goal as each goal can only be completed once.
+The list of goals for a Faction to have follows:
+ Assault the Foe: Soften up a specific enemy held region in preparation for
+capture. This can be done by brazenly attacking that region, cutting that area off
+from reinforcements, gaining intel about the district’s weak points, etc.
+○ Benefit: Vengeful. Your squad’s righteous anger empowers their actions.
+When making an Action Roll against a Squad that employs any player’s
+Rival, take improved Effect.
+ Divided They Fall: Manipulate the enemy’s plans. This can be done by planting
+false orders and intelligence, disrupting communications, pitting enemies against
+each other, etc.
+○ Benefit: 4D Chess. You and your Faction’s agents synergize to pull off
+incredible feats of manipulation. Once per mission a pilot can manipulate an
+active Clock. Describe how you manipulated the situation to your liking. The
+pilot may spend up to 3 Stress to move that many ticks into any other
+Clocks. If the Clock being emptied has a negative outcome when filled, then
+the ticks must be transferred only to Clocks that also have a negative
+136
+
+
+===== PÁGINA 137 =====
+
+outcome. If the Clock being emptied has a positive outcome when filled,
+then the ticks must be transferred only to Clocks that also have a positive
+outcome.
+ Golden Streets: Improve the Supply situation of the patron Faction. This can be
+done by improving the Wealth rating of Regions, giving supplies to your patron
+Faction, refusing Supply rolls from your patron, etc.
+○ Benefit: Beggars Can Be Choosers. The Squad knows how to beg,
+barter, and steal for more supplies when they really want to. If each pilot
+that participated in the mission spends 1 Stress the mission’s Supply roll is
+rolled again and the Squad gets the higher result. This can be chosen after
+the initial roll is made. This does not apply to the Bureaucrat’s Cook The
+Books ability.
+ Hearts and Minds: Change the popular opinion of a Faction in a manner that
+benefits your patron Faction. This can be done by protecting the populace from
+marauders in your patron’s name, publicizing the corruption of an enemy Faction,
+shifting musical tastes in support of your patron, etc.
+○ Benefit: Recruitment Drive. The people have seen the glory of your
+Faction and want to be a part of it. Cohorts now cost 1 Squad upgrade
+instead of 2, as the populace flock to recruitment centers.
+ Hostile Takeover: Deny the enemy supplies. This can be done by blockading
+imports, destroying infrastructure, turning enemy Supply sources to working for
+your patron Faction, etc.
+○ Benefit: Level The Playing Field. You’ve worked hard to deny the enemy
+what it needs to continue The War, and your efforts have begun to wear
+down their squads. Choose a Faction. All of the squads belonging to that
+Faction permanently lose 1 hold going from Strong to Weak at their current
+Tier, or Weak to Strong but at a lower Tier (Weak Tier 1 squads become
+strong Tier zero squads).
+ Intelligence Coup: Steal valuable information from the enemy. This can be done
+by acquiring VIPs, retrieving actionable intel, stealing technological advances, etc.
+○ Benefit: Big Brother. Between advances in technology and an extensive
+spy network you can get the answers you want. Once per session a pilot
+may spend 2 Stress to ask the GM a question. The GM must answer
+honestly. This does not provide improved Effect, improved Position, or
+additional dice.
+137
+
+
+===== PÁGINA 138 =====
+
+ Manufacture Heroes: Act against a specific Squad at least 2 Tiers higher than the
+players’ squad. This can be done by attacking regions controlled by that squad,
+denying that Squad mission objectives, luring that Squad into acting irrationally,
+etc.
+○ Benefit: Poster Child. Now that you’re heroes, your Faction needs to keep
+you alive without removing you from the action. A pilot can push themself
+for only 1 Stress a number of times per session equal to their squad’s Tier
+(minimum 1) by revealing how another Squad belonging to their patron
+Faction assisted them.
+ Secure the Borders: Take proactive measures to protect the patron Faction. This
+can be done by removing enemy agents acting within the patron Faction,
+weakening neighbouring regions, constructing defenses, etc.
+○ Benefit: Nano Laminate Armor. Molecule thin layers of ceramic-alloy
+composite are electro magnetically bonded to each other to create armor
+that is half the weight of standard vehicle armor but maintains the same
+durability. Each vehicle can have one NLA declared. Functions as normal
+armor but is Load 1.
+When a Faction’s goal is fulfilled every Squad that currently has it as their patron gains the
+appropriate benefit. When a Faction other than the pilots’ patron completes a goal, describe
+to the players the sweeping changes they hear about that are caused by the goal’s
+completion. Look to the goal’s benefit for inspiration as to the changes that occur.
+Remember that the fictional Positioning of the game alters the Position and Effect of player
+rolls.
+SUPPLY POINTS
+A Squad can’t function if it doesn’t have the supplies it needs. These could be boots,
+ammunition, bandages, armor plating, intel, targeting computers, or even a few soccer balls
+to kick around. All of the things your Squad needs will be abstracted into the catch all term
+Supply Points.
+Your Squad will get Supply Points, or one of its subtypes, through mission rewards,
+the salvage Downtime action, or another fictionally appropriate means. However, Supply
+Points can’t be used themselves; they must be converted to a subtype at the start of
+Downtime Activities requiring no action to do so. Each type of Supply Point has its own uses,
+but all of them are also used in increasing the squad’s Tier (see Squad Development). The
+different subtypes are Materiel and Personnel.
+138
+
+
+===== PÁGINA 139 =====
+
+A Squad can only have 4 of each Supply Point handy in its FOB; however, with the
+Storage upgrade this amount can be increased to 8 and then 16. The squad’s excess Supply
+Points must be spent or they are taken by your superiors and disappear.
+ 1 Supply Point is equivalent to a week’s pay for a blue collar worker. Possibly a
+week’s worth of rationed material on the black market.
+ 2 Supply Points is the weekly income of a small business. A full tailored outfit, a
+fine weapon, or an exquisite luxury item.
+ 4 Supply Points is that blue collar worker’s monthly income. Possibly the full cost a
+of an older used vehicle.
+ 6 Supply Points might be high end jewellery, or a briefcase full of contraband.
+ 8 Supply Points is a strong monthly profit for a small business, or a rare luxury
+commodity.
+ 10 Supply Points is the value of a significant asset such as a luxury vehicle or small
+piece of property.
+MATERIEL
+Represents everything necessary to keep a squad’s vehicles running, if not operating at
+optimal levels. Materiel is used to:
+ Take an additional Acquire Asset, Enhance, Fix, Manufacture, Salvage, or Upkeep
+Downtime Activity by spending 1 Materiel.
+ Add +1d to an Acquire Asset, Fix, Manufacture, or Salvage Downtime Activity, or
+increase the result 1 level.
+ Change vehicle Load slots to undeclared during Downtime (this does not expend
+an activity).
+ Acquire new vehicles.
+ Take the Upkeep Downtime Activity, add +1d to the Upkeep activity, or increase the
+result 1 point.
+ Increase the squad’s Tier (see Squad Development section).
+ Avoid certain Squad Entanglements.
+ Purchase Personnel by spending 2 Materiel for 1 Personnel (buying on the black
+market), or by spending 1 Materiel for 1 Personnel during the Collect Downtime
+Activity (forcibly buying from locals).
+139
+
+
+===== PÁGINA 140 =====
+
+PERSONNEL
+Represents various forms of labour and supplies that keep the pilots fit and equipped to
+complete missions. Personnel is used to:
+ Take an additional Collect, Cut Loose, Long-Term Project, Recover, Schmooze, or
+Train Downtime Activity by spending 1 Personnel.
+ Replace destroyed Cohorts. The cost is equal to the squad’s Tier+2 and two
+Downtime Activities.
+ Have Flashbacks that utilize allied squads or Cohorts. Spend 1 Personnel in place
+of 1 Stress. The Flashback’s cost can be paid entirely in Personnel, stres s, or a
+mix of both.
+ Add +1d to a Collect, Cut Loose, Long-Term Project, Recover, or Schmooze
+Downtime Activity, or increase the result 1 level.
+ Have a Flashback to gather information. Spend 1 Personnel in place of 1 Stress.
+The Flashback cost can be paid entirely in Personnel, entirely in Stress, or in a mix
+of both.
+ Add +1d to a gather information roll.
+ Increase the squad’s Tier (see Squad Development section)
+ Avoid certain Squad Entanglements.
+ Purchase Materiel by spending 2 Personnel for 1 Materiel (buying on the black
+market), or by spending 1 Personnel for 1 Materiel during the Collect Downtime
+Activity (forcibly buying from locals).
+If the fiction indicates that the Squad wouldn’t have access to their Supply Points during
+Downtime (because their FOB is lost, they are on an extended campaign behind enemy
+lines, they are doing back to back missions without a chance to resupply, etc.) then they can
+not be used. Fixing the problem in the fiction will restore access to the squad’s Supply
+Points.
+WHAT ABOUT MONEY?
+All Factions now use electronic currency organized by centralized servers, and this works
+well for most people living under them. The term cash has stuck around to mean assets that
+might be exchanged for goods or services but which aren’t easily tracked by one of the
+Factions.
+A pilot or squad’s day to day expenditures aren’t tracked by the players. If a pilot
+wants to spend a small amount to achieve a small goal (have nice clothes, bribe a
+140
+
+
+===== PÁGINA 141 =====
+
+bureaucrat, have specific furniture) use the Squad's Tier for a fortune roll. If a large purchase
+is necessary Personnel or Materiel will need to be used.
+MISSION COMPLETED
+When the Squad completes a mission follow this process:
+1. Resolve the squad’s REWARD. They’ll get Supply Points and Rep.
+2. Update the squad’s TRUST. They’ll be more and less liked by other squads and their
+Factions.
+3. Determine the ENTANGLEMENTS that affect the squad. Life is unfair and harsh.
+4. Play through the Downtime ACTIVITIES. The Squad has some time to tend to their
+needs.
+REWARD
+To resolve the squad’s Reward follow this procedure.
+1. Take a Supply Roll from the Employer Faction, unless the mission was Independent.
+Roll dice equal to the Target's Tier + Employer Faction Status, to a minimum of
+zero (roll 2d and take the lowest). Gain Supply Points equal to the highest die. If a
+crit is rolled take 9 Supply Points.
+2. Take your Employer Faction's Supply roll bonus.
+○ Autocracy: +1 Materiel, +1 Trust with the Employer
+○ Corporatocracy: +2 Materiel
+○ Democracy: +1 Personnel, +1 Materiel
+○ Independent: +2 Rep
+○ Oligarchy: +1 Trust with the Employer, +1 Personnel
+○ Theocracy: +2 Personnel
+3. Assign the Supply Points as Materiel, or Personnel. Any Supply Points beyond the
+squad’s maximum storage capacity must be used by the end of the next Downtime
+phase or they are wasted.
+4. Each pilot checks to see if they did something that furthers their Drive. If they did,
+add 1 tick to a Drive clock.
+5. Every pilot can take a free Upkeep Downtime Activity, but must still spend the
+required Materiel.
+141
+
+
+===== PÁGINA 142 =====
+
+6. If the mission supports the Patron Faction's goal add a Tick to the goal's Clock. If
+the Clock is filled, all squads patronized by the Faction gain a benefit, then choose
+a new goal for the Faction.
+7. The Squad earns 2 Rep. If the target of the mission was higher Tier than the squad,
+take +1 Rep per Tier higher. If the target Squad was lower Tier, take -1 Rep per
+Tier lower (minimum zero). If the mission was completely hidden, take zero Rep
+instead of the above.
+When you complete a mission you get several benefits.
+First, you get free resupply from the Faction you worked for, with the exception of
+Independent missions, which is the Supply Roll. Roll a number of dice equal to your Patron
+Faction Status + the Squad that was targeted by the mission’s Tier, to a minimum of 0 (roll
+2d and take the lowest in this case). Select the highest result and gain that many Supply
+Points; you never know what HQ can spare. If two or more 6s are rolled take 9 Supply Points
+instead of 6.
+Each Faction provides additional Supply Point bonuses to the squad:
+ Autocracy: +1 Materiel, +1 Trust with the Employer
+ Corporatocracy: +2 Materiel
+ Democracy: +1 Personnel, +1 Materiel
+ Independent: +2 Rep without a Supply roll
+ Oligarchy: +1 Trust with the Employer, +1 Personnel
+ Theocracy: +2 Personnel
+Independent missions don't have a hiring Faction, and don't generate a free Supply roll
+unless the GM decides that they do. The same applies for squads that have a patron Faction
+but have completed a mission that was not assigned to them by their patron. Missions from
+non-patron Factions generate a Supply roll if the GM decides that they do.
+After a Supply roll the generated points must be assigned as Materiel, or Personnel
+before the next mission.
+Second each successful mission gives every involved pilot the opportunity to check if they
+furthered their Drive. If they did, they can add 1 tick to a Drive clock.
+Third if the mission supports the squad's patron Faction’s current goal then add a Tick to the
+142
+
+
+===== PÁGINA 143 =====
+
+goal’s Clock. If the Clock is filled, the Faction and all squads it controls gain the benefit of the
+goal’s reward. Then choose a new goal for the patron Faction.
+Lastly, the Squad earns 2 Rep for the mission. If the target Squad of the mission was higher
+Tier than you, take +1 Rep per Tier higher. If the target of the mission was lower Tier, you get
+-1 Rep per Tier lower (minimum zero). If you keep the operation completely quiet so no one
+knows about it, you earn zero rep. Mark the Rep on the Rep tracker on the Squad sheet.
+TRUST AND STATUS
+To update the squad’s Trust and Statuses follow this procedure.
+1. If a Squad benefited from the mission consider giving +1 to that squad's Status.
+2. If a Squad was Harmed by the mission consider giving -1 or -2 to that squad's
+Status depending on how bad the damage was.
+3. For every Squad Status point above or below zero, add a descriptor that expresses
+how that Squad views the players' squad.
+4. Adjust the trust of the Faction targeted by the mission.
+○ Important infrastructure damaged. -2 Trust
+○ A VIP was killed. -2 Trust
+○ Civilians died. -1 Trust
+○ Their corruption was exposed to their citizens. -2 Trust
+○ At least one of their squads took casualties. -1 Trust
+○ The mission's target was high profile or well connected. -1 Trust
+○ The Faction was attacked in a region they control. -1 Trust
+○ You have Vendetta with one of their squads at the start of the mission. That
+Squad does not have to be involved in the mission. -1 Trust
+5. Adjust the trust of the Faction that employed the Squad for the mission.
+○ Civilians died. -1 Trust
+○ The ROE was broken. -2 Trust
+○ Important infrastructure damaged that was not the mission's target. -2 Trust
+○ A Squad that was not the mission's Target and belongs to the Employer was
+Harmed. -2 Trust
+○ The mission was successful. +Trust equal to double the Target's Tier,
+minimum 1.
+○ At least one secondary objective was completed. +2 Trust
+143
+
+
+===== PÁGINA 144 =====
+
+○ You have Vendetta with one of their squads at the start of the mission. That
+Squad does not have to be involved in the mission. -1 Trust
+6. Adjust the trust of the squad's patron Faction.
+○ Another Faction was aided. -1 Trust
+○ The Patron's interests were Harmed. -2 Trust
+7. Adjust Faction statuses.
+○ When Trust reaches 9 that Faction's Status gets +1, Trust rolls over to 0,
+and any remaining Trust is then added.
+○ When Trust reaches zero that Faction's Status gets -1, Trust rolls over to 9,
+and any remaining Trust is then subtracted.
+STATUS
+The players’ Squad has a status rating with every other Squad and every Faction that
+indicates how much they like or hate them. Status can range from -3 (Hated) to +3 (Loved),
+with zero (neutral) being the default rating. If the rating is something other than a zero it is
+tracked on the Faction and Squad Sheet.
+STATUS LEVELS
+ +3: Allies. Groups with this rating will help the Squad even if it goes against their
+best interests, and they expect the same in return.
+ +2: Friendly. Groups with this rating will help the Squad if it doesn’t create serious
+problems for them, and they expect the same in return.
+ +1: Helpful. Groups with this rating will help the Squad if it doesn’t cost them
+anything, and they expect the same in return.
+ 0: Neutral.
+ -1: Interfering. Groups with this rating will look for opportunities to cause the
+Squad trouble (or profit from its misfortune) as long as it doesn’t cost them
+anything, and they expect the same behaviour in return.
+ -2: Hostile. Groups with this rating actively seek chances to Harm the Squad so
+long as it doesn’t create major problems for them. They expect similar retaliation
+and take precautions against the squad.
+ -3: Vendetta. Groups with this rating work to Harm the Squad even if it is against
+their best interests. They expect the Squad to do likewise and will take precautions
+against them. When the Squad has a vendetta with any number of groups, they will
+144
+
+
+===== PÁGINA 145 =====
+
+suffer additional Trust losses, temporarily lose 1 hold (possibly lowering their Tier
+by 1 until the vendetta ends), and pilots take one fewer Downtime Activity. If the
+players have multiple Vendettas, only apply the penalty from one at a time. The
+vendetta will end if the enemy is destroyed or a mutual agreement to establish a
+new status level is negotiated.
+SQUAD STATUS
+After a mission is completed consider the squads that were involved in the mission.
+If a Squad benefited from the mission the players should discuss if that was enough to
+increase their Status with them. Think about giving +1 to that Status.
+If a Squad was Harmed (physically, socially, financially, etc.) by the mission maybe
+their Status with the pilots will worsen. Consider giving -1 or - 2 to the Status depending on
+how harsh their damage was. Remember that it's easier to ruin a Status than to improve
+one.
+NPC squads that have a positive Status will have different expectations of the pilots
+based on their Tier. If the NPC Squad has a higher Tier they’ll expect deference from the
+pilots, and may be willing to provide protection. An equal Tier Squad will request that the
+pilots provide support, both on and off the battlefield, and they expect requests of a similar
+nature. Lower Tier squads will want the protection of the pilots, but may have little concept of
+how they can help the pilots.
+For every Squad status point above or below 0 the players will also assign a word
+that describes how that Squad views the players’ squad. This helps the GM characterize
+NPCs from that Squad while also giving players an idea of what to expect when interacting
+with them. Try to pick descriptors that suit the nature of the squad. For example a theocratic
+Squad might have “faithful,” an autocratic Squad “loyal,” a democratic Squad “patriotic,” and
+a corporatocratic Squad “invested.”
+EXAMPLE SQUAD STATUS DESCRIPTORS
+ Marketable  Effective
+ Tidy  Cheap
+ Amoral  Backpfeifengesicht
+ Soft  Aggravating
+ Honorless  Zealetous
+ Strained  Mighty
+145
+
+
+===== PÁGINA 146 =====
+
+FACTION RELATIONSHIP
+A Faction’s Relationship only changes after Trust has filled up or been sufficiently reduced
+representing that it's harder to make an impression on the larger organization, but when you
+get a Faction’s attention they can bring the weight of multiple squads on to you. Even a
+patron Faction will turn on a Squad it governs if that Squad becomes unruly enough. So kiss
+up to the boss, strike out on your own, or frame others for your misdeeds.
+Additionally the way that the average citizen of a Faction reacts to the Squad and its pilots is
+determined by the Faction’s Relationship with the squad. If the Relationship is positive the
+pilots may be seen as a good influence on the course of The War, and if it’s strong enough
+possible been seen as heroes. A negative Relationship will make citizens wary of the squad,
+or possibly form a violent mob if the status is low enough.
+Aside from the fictional Positioning of how the Faction and its citizens relate to the squad,
+Faction status affects Supply Rolls and Entanglements. The more positive a Relationship the
+Squad has with its patron Faction the more likely they are to receive additional supplies from
+their end of mission Supply roll, and the types of entanglements encountered will be less
+damaging. Negative Relationships with any Faction will increase the severity of
+entanglements.
+TRUST
+The Relationship between your Squad and the huge Factions operating squads in the game
+is determined by Trust. Squad Statuses are handled elsewhere.
+If the mission was kept completely quiet and the results can’t be traced back to your squad,
+skip Trust adjustments for the Target. Instead lose only 1 Trust with them as rumors filter
+back to them. After a mission the Faction whose Squad was targeted by the mission loses
+Trust with your Squad if:
+ there was damage to important infrastructure they wanted intact. (-2 Trust)
+ one of their VIPs was killed. (-2 Trust)
+ there were civilian deaths. (-1 Trust)
+ their own skulduggery was exposed to the citizenry. (-2 Trust)
+ one of their squads sustained casualties. (-1 Trust)
+ the target was high profile or well connected. (-1 Trust)
+ they were hit in a region they controlled. (-1 Trust)
+ you have a Vendetta with one of their squads at the start of the mission.
+That Squad does not have to be involved in the mission. (-1 Trust)
+146
+
+
+===== PÁGINA 147 =====
+
+The trust with your employer Faction also changes. The trust is adjusted if:
+ There were civilian deaths. (-1 Trust)
+ The mission’s Rules of Engagement, ROE, were broken. (-2 Trust)
+ There was damage to important infrastructure that was not the mission’s
+target. (-2 Trust)
+ The Squad caused damage or injury to a Squad belonging to the employer
+that was not the mission’s target. (-2 Trust)
+ The mission was completed successfully (+Trust equal to double target’s
+Tier, minimum 1)
+ At least one secondary objective was completed (+2 Trust)
+ you have a Vendetta with one of their squads at the start of the mission.
+That Squad does not have to be involved in the mission. (-1 Trust)
+Additionally the trust with your patron changes after a mission as well. If they were the
+Faction you were working for, the following trust modifiers are applied in addition to the
+employer trust.
+ You aided another Faction (-1 Trust)
+ You Harmed your patron Faction’s interests (-2 Trust)
+When your trust reaches 9 your Status with that Faction goes up by 1 and the Trust rolls
+over to 1, and any remaining Trust is then added. If Trust reaches 0 your Status with that
+Faction goes down by 1 and the Trust rolls over to 8, and any remaining Trust is then
+subtracted.
+ENTANGLEMENTS
+Entanglements exist because the world is unfair, the brass do things that seem random and
+incompetent, and your friends are vulnerable simply because they know you.
+After Reward and Trust are determined, the GM generates an Entanglement for the Squad
+using the charts below. Look at the Faction that the Squad has targeted during the mission
+to determine the Entanglements table that will be used. If the last mission targeted an
+Independent squad, use that squad’s status. If the Relationship is -3 roll on table A. If it’s -2
+or -1 roll on table B. If it’s 0 or higher roll on table C. Then roll a number of dice equal to 3
+minus the squad's Relationship level with their Patron Faction, or the Faction with the
+highest Relationship if they lack a patron, and take the highest result. If the total is 0 or
+147
+
+
+===== PÁGINA 148 =====
+
+higher roll 2d and take the lower result.
+The Squad can make use of a Region's criminal element if they choose to spend Personnel
+equal to the Region’s Crime rating before the Entanglement is rolled. If they do so they can
+adjust the result of the Entanglement by up to the Personnel spent. They bribe the local
+underworld, and it distracts attention off the squad. Unfortunately "legitimate" authorities
+aren't fond of this, so the Squad will lose Trust with their Patron Faction equal to the
+Personnel spent. If they are Independent, they lose Trust with the Faction that controls that
+Region.
+TABLE A
+1. Flipped OR roll on Table B: A Rival Squad arranges for one of your contacts,
+sponsors, clients, or a group of your customers to switch allegiances due to the attention
+on you. They’re loyal to another Faction now.
+2. Missing Supplies: Your supplier didn’t give you the supplies you were supposed to
+get, citing rerouted logistics. Lose 3 Supply points of any type, or try to browbeat logistics
+into giving you what you deserve and make a Fortune roll (1-3: -2 Trust with the Faction
+that last gave the Squad a Supply Roll, 4/5: -1 Trust instead, 6: no Trust lost) to see if they
+squeal.
+3. Toxic Gear: Scuttlebutt is that some of the gear you’ve been issued is unhealthy to be
+around. Choose to spend 1 Personnel for +1d or don’t, but either way make a Fortune Roll
+using the squad’s Tier (1-3: Everyone takes Level 1 Harm which can be resisted as
+normal, 4/5: Everyone spend 1 Materiel point to trade it away or take 2 Stress, 6: It’s not
+toxic).
+4. Desperate Civilians: A group of civilians mob the Squad demanding supplies. Give
+them 4 Supply Points, or make a Fortune Roll (1-3: Everyone takes two Level 1 Harms,
+4/5: lose 2 Supply points) to see how bad things get.
+5. SCRAMBLE!: A Squad you have a negative Status with makes a move against you (or
+a friend, contact, or other ally). The attack comes suddenly and with little warning; prepare
+to fight OR scatter and return after the attackers have done their damage.
+If you prepare to fight, immediately start a mission where the Squad's FOB is under attack.
+Take into consideration the Hidden, Secure, and Quarters FOB upgrades for the
+Engagement Roll. This mission cancels the previous mission’s Downtime phase, and upon
+completion follows the normal mission completed process, including Entanglements.
+If you scatter, lose 2 Squad upgrades as the attackers destroy large sections of your
+FOB.
+148
+
+
+===== PÁGINA 149 =====
+
+6. Show of Force: A Faction with whom you have a negative status has decided you
+need to be dealt with. Give them 1 Upgrade or gain Vendetta (drop to -3 status) with 2 of
+their Squads that you currently do not have Vendetta with. If you have no Upgrades, lose 1
+Hold instead.
+TABLE B
+1. AI Attention OR roll on Table C: An AI takes notice of your squad's actions and offers
+to cut a sinister deal with the squad. Accept the bargain, hide until it loses interest (forfeit 3
+Rep), or deal with it another way.
+2. Fire Team Trouble: One of your fire teams (or other Cohorts) causes trouble due to
+their flaw(s). You can lose face (forfeit Rep equal to your Tier+1), make an example of one
+of the fire team, or face reprisals from the wronged party.
+3. Lowest Bidder: Turns out your Squad’s gear was manufactured by the lowest bidder.
+All vehicles immediately suffer a level 2 Damage “Busted” and level 1 Damage “Low On
+Ammo” (each of which can be resisted separately), or each pilot can pay 1 Materiel to get
+the good stuff through back channels.
+4. Rivals: A Squad with Status zero throws their weight around. They threaten you, a
+friend, a contact, or other ally. Forfeit (1 Rep or 1 Personnel) per Tier of the Rival, or stand
+up to them and lose 1 Status with them.
+5. Debriefing: One of your Squad is questioned by your superiors. One of the pilots or a
+Cohort is taken in to be grilled. Make a Fortune Roll to see how well they resist the
+pressure (1-3: level 2 Harm, which can be resisted by pilots as normal, 4/5: -2 Trust) or
+bribe the grunts grabbing the person with 1 Personnel.
+6. Requisition: a Cohort, Squad upgrade, or acquired asset is requisitioned by another
+squad. Give up the item (take +2 Trust with that squad's patron Faction), bribe the caller
+with Personnel equal to your Tier +3, try to hide the object or fight back and lose 1 Status
+with that Squad AND their Faction. If you don’t have any Cohorts, upgrades, or assets you
+must select an option other than giving up the item as the caller doesn’t believe you don’t
+have it.
+TABLE C
+1. New Recruit: Someone the Squad wants safe at home is assigned to them as a new
+recruit. Describe who this person is and the details of their bond with the squad. Gain a
+Specialist with Loyal and Eager. Their Quality is equal to the squad's Tier -1 (minimum 0).
+2. Civil Unrest: spend Supply Points equal to the number of FOB Squad Upgrades you
+149
+
+
+===== PÁGINA 150 =====
+
+have, make a Fortune Roll using your Tier to put it down (1-3: all pilots take level 1 Harm
+“Roughed Up”; 4/5: Cohorts and Personnel points can’t be used in the next downtime and
+mission), or let it run its course (Regions your Patron controls lose 1 Wealth to a minimum
+of 0).
+3. Cooperation: a Squad with +3 Status asks for a favour. Agree to do it, or forfeit 1 Rep
+per Tier of the friendly squad, or lose 1 Status with them. This favour must be completed
+by the end of the next mission, and may take the form of a Long Term Project, mission
+objective, or secondary objective. If you don’t have a +3 Squad status, you avoid
+entanglements right now.
+4. Embedded Favourite: The Squad is burdened with an NPC that a superior is fond of
+and believes needs first hand field experience. The NPC must accompany you on your
+next mission and get out intact. If you refuse to take the NPC along take -2 trust with the
+Faction pressuring you to break them in. If the NPC dies take -3 Trust, and if they are
+injured take -1 Trust. The NPC is a temporary Specialist Cohort with Quality equal to the
+squad's Tier -1.
+5. Letter from home: One of the squad’s pilots receives a personal message with bad
+news. They must use a Downtime Activity to Cut Loose or suffer 3 Stress.
+6. Brass-holes: Your superiors issue mission objectives that don’t make sense to the
+squad. The Squad takes -1d on their next engagement roll. Additionally roll 1d to
+determine the tactic for the next mission (1: assault, 2: deception, 3: social, 4: transport, 5:
+science, 6: stealth). If the Squad decides not to use that tactic, take -1 Status with the
+Faction that assigned the mission, unless the mission is independent.
+150

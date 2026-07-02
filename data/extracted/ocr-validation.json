@@ -1,0 +1,24 @@
+{
+  "found": [
+    "pilot creation",
+    "choose a playbook",
+    "insight actions",
+    "prowess actions",
+    "resolve actions",
+    "the ace",
+    "the bureaucrat",
+    "the empath",
+    "the envoy",
+    "the hacker",
+    "the infiltrator",
+    "the officer",
+    "the scout",
+    "the soldier",
+    "connection clock",
+    "playbook xp"
+  ],
+  "missing": [
+    "the technician",
+    "vehicle creation"
+  ]
+}
