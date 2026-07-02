@@ -1,5 +1,7 @@
 import { useId, useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { createPortal } from 'react-dom';
+import { fade, hudSpring } from '../../motion/hudMotion';
 
 const TOOLTIP_WIDTH = 224;
 const GAP = 8;
@@ -10,6 +12,7 @@ export function InfoTip({ text }: { text: string }) {
   const id = useId();
   const btnRef = useRef<HTMLButtonElement>(null);
   const tipRef = useRef<HTMLSpanElement>(null);
+  const reduced = useReducedMotion();
 
   useLayoutEffect(() => {
     if (!open) return;
@@ -53,24 +56,31 @@ export function InfoTip({ text }: { text: string }) {
   const tooltip =
     open &&
     createPortal(
-      <span
-        ref={tipRef}
-        id={id}
-        role="tooltip"
-        style={style}
-        className="info-tip-popup"
-        onMouseEnter={() => setOpen(true)}
-        onMouseLeave={() => setOpen(false)}
-      >
-        {text}
-      </span>,
+      <AnimatePresence>
+        <motion.span
+          ref={tipRef}
+          id={id}
+          role="tooltip"
+          style={style}
+          className="info-tip-popup"
+          onMouseEnter={() => setOpen(true)}
+          onMouseLeave={() => setOpen(false)}
+          variants={fade}
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          transition={reduced ? { duration: 0 } : hudSpring}
+        >
+          {text}
+        </motion.span>
+      </AnimatePresence>,
       document.body,
     );
 
   return (
     <>
       <span className="inline-flex align-middle">
-        <button
+        <motion.button
           ref={btnRef}
           type="button"
           className="info-tip-btn"
@@ -82,9 +92,11 @@ export function InfoTip({ text }: { text: string }) {
           onFocus={() => setOpen(true)}
           onBlur={() => setOpen(false)}
           onClick={() => setOpen((v) => !v)}
+          whileHover={reduced ? undefined : { scale: 1.08 }}
+          whileTap={reduced ? undefined : { scale: 0.92 }}
         >
           ?
-        </button>
+        </motion.button>
       </span>
       {tooltip}
     </>

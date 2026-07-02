@@ -1,3 +1,5 @@
+import type { ReactNode } from 'react';
+import { motion, useReducedMotion } from 'motion/react';
 import type { PilotSheet } from '../../../domain/entities/PilotSheet';
 import {
   countCreationPending,
@@ -7,14 +9,62 @@ import {
 } from '../../../domain/creation/beamSaberCreationProgress';
 import type { PilotEditorNavigate } from '../../../shared/constants/pilotEditorTabs';
 import { CREATION_ANCHORS } from '../../../shared/constants/pilotEditorTabs';
+import { checklistRow, hudSpring, staggerList, tapScale } from '../../motion/hudMotion';
 import { sectionClass, sectionTitleClass } from './Field';
 
 function ProgressBar({ current, max }: { current: number; max: number }) {
-  const pct = max > 0 ? Math.round((current / max) * 100) : 0;
+  const pct = max > 0 ? (current / max) * 100 : 0;
+  const reduced = useReducedMotion();
+
   return (
     <div className="creation-checklist__bar" aria-hidden>
-      <div className="creation-checklist__bar-fill" style={{ width: `${pct}%` }} />
+      <motion.div
+        className="creation-checklist__bar-fill"
+        initial={false}
+        animate={{ width: `${pct}%` }}
+        transition={reduced ? { duration: 0 } : { type: 'spring', stiffness: 320, damping: 28 }}
+      />
     </div>
+  );
+}
+
+function PointCard({
+  label,
+  current,
+  max,
+  hint,
+  complete,
+  onClick,
+}: {
+  label: string;
+  current: number;
+  max: number;
+  hint: ReactNode;
+  complete: boolean;
+  onClick: () => void;
+}) {
+  const reduced = useReducedMotion();
+
+  return (
+    <motion.button
+      type="button"
+      className="creation-checklist__point-card creation-checklist__point-card--link"
+      onClick={onClick}
+      whileTap={reduced ? undefined : tapScale}
+      whileHover={reduced ? undefined : { y: -1 }}
+      transition={hudSpring}
+    >
+      <span className="creation-checklist__point-label">{label}</span>
+      <strong className="creation-checklist__point-value">
+        {current}/{max}
+      </strong>
+      <ProgressBar current={current} max={max} />
+      <p
+        className={`creation-checklist__point-hint ${complete ? 'creation-checklist__point-hint--ok' : ''}`}
+      >
+        {hint}
+      </p>
+    </motion.button>
   );
 }
 
@@ -29,18 +79,28 @@ export function CreationChecklist({
   const points = getDiscretionaryPoints(pilot);
   const complete = isCreationComplete(pilot);
   const pending = countCreationPending(pilot);
+  const reduced = useReducedMotion();
 
   return (
-    <section className={`${sectionClass} creation-checklist`}>
+    <motion.section
+      className={`${sectionClass} creation-checklist`}
+      initial={reduced ? false : { opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={reduced ? { duration: 0 } : hudSpring}
+    >
       <div className="creation-checklist__head">
         <h3 className={sectionTitleClass}>Checklist de criação</h3>
-        <span
+        <motion.span
           className={`creation-checklist__status ${
             complete ? 'creation-checklist__status--done' : 'creation-checklist__status--pending'
           }`}
+          key={complete ? 'done' : 'pending'}
+          initial={reduced ? false : { scale: 0.9, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={hudSpring}
         >
           {complete ? 'Pronto' : `${pending} pendente${pending === 1 ? '' : 's'}`}
-        </span>
+        </motion.span>
       </div>
 
       <p className="creation-checklist__intro">
@@ -48,51 +108,49 @@ export function CreationChecklist({
       </p>
 
       <div className="creation-checklist__points">
-        <button
-          type="button"
-          className="creation-checklist__point-card creation-checklist__point-card--link"
+        <PointCard
+          label="Pontos livres (piloto/robô)"
+          current={points.step7Spent}
+          max={CREATION_LIMITS_DISPLAY.step7}
+          complete={points.step7Remaining === 0}
           onClick={() => onNavigate('actions', CREATION_ANCHORS.actions)}
-        >
-          <span className="creation-checklist__point-label">Pontos livres (piloto/robô)</span>
-          <strong className="creation-checklist__point-value">
-            {points.step7Spent}/{CREATION_LIMITS_DISPLAY.step7}
-          </strong>
-          <ProgressBar current={points.step7Spent} max={CREATION_LIMITS_DISPLAY.step7} />
-          {points.step7Remaining > 0 ? (
-            <p className="creation-checklist__point-hint">
-              Faltam <strong>{points.step7Remaining}</strong> → aba Ações
-            </p>
-          ) : (
-            <p className="creation-checklist__point-hint creation-checklist__point-hint--ok">Completo</p>
-          )}
-        </button>
-        <button
-          type="button"
-          className="creation-checklist__point-card creation-checklist__point-card--link"
+          hint={
+            points.step7Remaining > 0 ? (
+              <>
+                Faltam <strong>{points.step7Remaining}</strong> → aba Ações
+              </>
+            ) : (
+              'Completo'
+            )
+          }
+        />
+        <PointCard
+          label="Pontos do robô"
+          current={points.vehicleCreationSpent}
+          max={CREATION_LIMITS_DISPLAY.vehicle}
+          complete={points.vehicleCreationRemaining === 0}
           onClick={() => onNavigate('actions', CREATION_ANCHORS.actions)}
-        >
-          <span className="creation-checklist__point-label">Pontos do robô</span>
-          <strong className="creation-checklist__point-value">
-            {points.vehicleCreationSpent}/{CREATION_LIMITS_DISPLAY.vehicle}
-          </strong>
-          <ProgressBar
-            current={points.vehicleCreationSpent}
-            max={CREATION_LIMITS_DISPLAY.vehicle}
-          />
-          {points.vehicleCreationRemaining > 0 ? (
-            <p className="creation-checklist__point-hint">
-              Faltam <strong>{points.vehicleCreationRemaining}</strong> → aba Ações
-            </p>
-          ) : (
-            <p className="creation-checklist__point-hint creation-checklist__point-hint--ok">Completo</p>
-          )}
-        </button>
+          hint={
+            points.vehicleCreationRemaining > 0 ? (
+              <>
+                Faltam <strong>{points.vehicleCreationRemaining}</strong> → aba Ações
+              </>
+            ) : (
+              'Completo'
+            )
+          }
+        />
       </div>
 
-      <ul className="creation-checklist__list">
+      <motion.ul
+        className="creation-checklist__list"
+        variants={staggerList}
+        initial="hidden"
+        animate="visible"
+      >
         {items.map((item) => (
-          <li key={item.id}>
-            <button
+          <motion.li key={item.id} variants={checklistRow}>
+            <motion.button
               type="button"
               className={`creation-checklist__item ${
                 item.warn
@@ -104,10 +162,19 @@ export function CreationChecklist({
                       : 'creation-checklist__item--pending'
               }`}
               onClick={() => onNavigate(item.tab, item.anchor)}
+              whileTap={reduced ? undefined : tapScale}
+              layout
             >
-              <span className="creation-checklist__check" aria-hidden>
+              <motion.span
+                className="creation-checklist__check"
+                aria-hidden
+                key={item.done ? 'done' : item.warn ? 'warn' : 'open'}
+                initial={reduced ? false : { scale: 0.6 }}
+                animate={{ scale: 1 }}
+                transition={hudSpring}
+              >
                 {item.warn ? '!' : item.skipped ? '—' : item.done ? '✓' : '○'}
-              </span>
+              </motion.span>
               <div className="creation-checklist__body">
                 <span className="creation-checklist__label-row">
                   <span className="creation-checklist__label">{item.label}</span>
@@ -120,11 +187,11 @@ export function CreationChecklist({
                   </span>
                 )}
               </div>
-            </button>
-          </li>
+            </motion.button>
+          </motion.li>
         ))}
-      </ul>
-    </section>
+      </motion.ul>
+    </motion.section>
   );
 }
 
@@ -140,11 +207,18 @@ export function CreationChecklistSummary({
   const points = getDiscretionaryPoints(pilot);
   const pending = countCreationPending(pilot);
   const totalRemaining = points.step7Remaining + points.vehicleCreationRemaining;
+  const reduced = useReducedMotion();
 
   if (pending === 0 && totalRemaining === 0) return null;
 
   return (
-    <div className="creation-checklist-summary hud-info-box">
+    <motion.div
+      className="creation-checklist-summary hud-info-box"
+      initial={reduced ? false : { opacity: 0, height: 0 }}
+      animate={{ opacity: 1, height: 'auto' }}
+      exit={{ opacity: 0, height: 0 }}
+      transition={reduced ? { duration: 0 } : hudSpring}
+    >
       <p className="m-0 text-[0.75rem]">
         <span className="font-semibold text-[var(--hud-accent)]">Criação:</span>{' '}
         {pending > 0 && (
@@ -175,6 +249,6 @@ export function CreationChecklistSummary({
           </>
         )}
       </p>
-    </div>
+    </motion.div>
   );
 }

@@ -1,5 +1,7 @@
+import { motion, useReducedMotion } from 'motion/react';
 import type { DiceRollResult, FortuneRollResult, ResistanceResult } from '../../../domain/dice/beamSaberDice';
 import { FORTUNE_LABELS, OUTCOME_LABELS } from '../../../domain/dice/beamSaberDice';
+import { popIn, hudTween } from '../../motion/hudMotion';
 import { DiceFace } from './DiceFace';
 
 function outcomeClass(outcome: string): string {
@@ -25,6 +27,8 @@ export function RollResultDisplay({
   result: DiceRollResult | ResistanceResult | FortuneRollResult | null;
   variant?: 'action' | 'resistance' | 'fortune';
 }) {
+  const reduced = useReducedMotion();
+
   if (!result) return null;
 
   const { dice, highest, poolSize } = result;
@@ -34,8 +38,18 @@ export function RollResultDisplay({
     outcomeText = FORTUNE_LABELS[result.fortuneOutcome];
   }
 
+  const outcomeKey =
+    variant === 'fortune' && 'fortuneOutcome' in result ? result.fortuneOutcome : result.outcome;
+
   return (
-    <div className={`roll-result ${outcomeClass(variant === 'fortune' && 'fortuneOutcome' in result ? result.fortuneOutcome : result.outcome)}`}>
+    <motion.div
+      key={`${label}-${poolSize}-${highest}-${dice.join(',')}`}
+      className={`roll-result ${outcomeClass(outcomeKey)}`}
+      variants={popIn}
+      initial="hidden"
+      animate="visible"
+      transition={hudTween(!!reduced)}
+    >
       <div className="roll-result__header">
         <span className="roll-result__label">{label}</span>
         <span className="roll-result__pool">{poolSize}d → maior: {highest || '—'}</span>
@@ -45,17 +59,31 @@ export function RollResultDisplay({
       ) : (
         <div className="roll-result__dice">
           {dice.map((d, i) => (
-            <DiceFace key={`${i}-${d}`} value={d} highlight={d === highest} />
+            <DiceFace key={`${i}-${d}`} value={d} highlight={d === highest} index={i} />
           ))}
         </div>
       )}
-      <p className="roll-result__outcome">{outcomeText}</p>
+      <motion.p
+        className="roll-result__outcome"
+        initial={reduced ? false : { opacity: 0, y: 4 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: reduced ? 0 : 0.12 }}
+      >
+        {outcomeText}
+      </motion.p>
       {variant === 'resistance' && 'stressCost' in result && (
         <p className="roll-result__stress">Estresse da resistência: <strong>{result.stressCost}</strong></p>
       )}
       {result.isCrit && (
-        <p className="roll-result__crit">CRÍTICO — dois ou mais 6!</p>
+        <motion.p
+          className="roll-result__crit"
+          initial={reduced ? false : { opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: reduced ? 0 : 0.18, type: 'spring', stiffness: 500, damping: 24 }}
+        >
+          CRÍTICO — dois ou mais 6!
+        </motion.p>
       )}
-    </div>
+    </motion.div>
   );
 }

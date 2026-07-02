@@ -1,5 +1,7 @@
 import { useEffect, type ReactNode } from 'react';
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import { createPortal } from 'react-dom';
+import { hudSpring, modalBackdrop, modalSheet } from '../../motion/hudMotion';
 
 export function HudModal({
   open,
@@ -12,6 +14,8 @@ export function HudModal({
   onClose: () => void;
   children: ReactNode;
 }) {
+  const reduced = useReducedMotion();
+
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
@@ -25,28 +29,44 @@ export function HudModal({
     };
   }, [open, onClose]);
 
-  if (!open) return null;
-
   return createPortal(
-    <div className="hud-modal-backdrop" role="presentation" onClick={onClose}>
-      <div
-        className="hud-modal"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="hud-modal-title"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <header className="hud-modal__header">
-          <h3 id="hud-modal-title" className="hud-modal__title">
-            {title}
-          </h3>
-          <button type="button" className="hud-modal__close hud-btn" onClick={onClose} aria-label="Fechar">
-            ×
-          </button>
-        </header>
-        <div className="hud-modal__body">{children}</div>
-      </div>
-    </div>,
+    <AnimatePresence>
+      {open && (
+        <motion.div
+          className="hud-modal-backdrop"
+          role="presentation"
+          onClick={onClose}
+          variants={modalBackdrop}
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          transition={reduced ? { duration: 0 } : { duration: 0.2 }}
+        >
+          <motion.div
+            className="hud-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="hud-modal-title"
+            onClick={(e) => e.stopPropagation()}
+            variants={modalSheet}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            transition={reduced ? { duration: 0 } : hudSpring}
+          >
+            <header className="hud-modal__header">
+              <h3 id="hud-modal-title" className="hud-modal__title">
+                {title}
+              </h3>
+              <button type="button" className="hud-modal__close hud-btn" onClick={onClose} aria-label="Fechar">
+                ×
+              </button>
+            </header>
+            <div className="hud-modal__body">{children}</div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>,
     document.body,
   );
 }

@@ -204,6 +204,7 @@ button {
 }
 
 .hud-tab {
+  position: relative;
   font-family: ui-monospace, monospace;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
@@ -217,9 +218,19 @@ button {
 
 .hud-tab--active {
   color: var(--hud-accent);
-  border-color: var(--hud-border);
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.hud-tab__indicator {
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--hud-accent);
   background: rgba(0, 212, 255, 0.1);
   box-shadow: inset 0 -2px 0 var(--hud-accent);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .hud-tab:hover:not(.hud-tab--active) {
@@ -728,9 +739,27 @@ button {
 }
 
 .hud-sidebar {
+  flex-shrink: 0;
+}
+
+.hud-sidebar--desktop {
   position: relative;
   width: 100%;
-  flex-shrink: 0;
+}
+
+.hud-sidebar--mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  height: 100%;
+  height: 100dvh;
+  width: min(100%, 18rem);
+  margin: 0;
+  padding-top: max(1rem, env(safe-area-inset-top, 1rem));
+  padding-bottom: max(1rem, env(safe-area-inset-bottom, 1rem));
+  overflow-y: auto;
+  box-shadow: 8px 0 32px rgba(0, 0, 0, 0.45);
 }
 
 .hud-sidebar__head {
@@ -795,7 +824,7 @@ button {
 }
 
 @media (min-width: 1024px) {
-  .hud-sidebar {
+  .hud-sidebar--desktop {
     width: 14rem;
   }
 
@@ -819,27 +848,6 @@ button {
 }
 
 @media (max-width: 1023px) {
-  .hud-sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 50;
-    height: 100%;
-    height: 100dvh;
-    width: min(100%, 18rem);
-    margin: 0;
-    padding-top: max(1rem, env(safe-area-inset-top, 1rem));
-    padding-bottom: max(1rem, env(safe-area-inset-bottom, 1rem));
-    overflow-y: auto;
-    transform: translateX(-105%);
-    transition: transform 0.22s ease;
-    box-shadow: 8px 0 32px rgba(0, 0, 0, 0.45);
-  }
-
-  .hud-sidebar--open {
-    transform: translateX(0);
-  }
-
   .hud-panel {
     padding: 0.85rem 0.9rem;
   }
@@ -1191,7 +1199,6 @@ button {
   height: 100%;
   background: var(--hud-accent);
   border-radius: 2px;
-  transition: width 0.2s ease;
 }
 
 .creation-checklist__list {
@@ -1276,21 +1283,6 @@ button {
   color: var(--hud-accent);
   text-decoration: underline;
   cursor: pointer;
-}
-
-.creation-anchor--flash {
-  animation: creation-flash 1.4s ease;
-}
-
-@keyframes creation-flash {
-  0%,
-  100% {
-    box-shadow: none;
-  }
-  15%,
-  45% {
-    box-shadow: 0 0 0 2px rgba(0, 212, 255, 0.55);
-  }
 }
 
 .creation-checklist__item--done {
