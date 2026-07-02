@@ -54,55 +54,61 @@ export function PilotEditor({
   };
 
   return (
-    <div className="flex flex-col gap-4">
-      <header className="hud-panel flex flex-wrap items-end justify-between gap-4 !pb-3">
-        <div>
-          <p className="mb-1 font-mono text-[0.6rem] tracking-[0.25em] text-[var(--hud-accent-dim)]">
+    <div className="flex flex-col gap-3 sm:gap-4">
+      <header className="hud-panel flex flex-col gap-3 !pb-3 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between sm:gap-4">
+        <div className="min-w-0">
+          <p className="mb-1 font-mono text-[0.55rem] tracking-[0.2em] text-[var(--hud-accent-dim)] sm:text-[0.6rem] sm:tracking-[0.25em]">
             DADOS DO PILOTO // UNIDADE {pilot.id.slice(0, 8).toUpperCase()}
           </p>
-          <h2 className="text-2xl font-bold tracking-tight text-white">
+          <h2 className="truncate text-xl font-bold tracking-tight text-white sm:text-2xl">
             {pilot.callSign || pilot.name || 'NOVO PILOTO'}
           </h2>
-          <p className="font-mono text-xs text-[var(--hud-muted)]">
+          <p className="truncate font-mono text-xs text-[var(--hud-muted)]">
             {playbook?.name ?? 'SEM ARQUÉTIPO'}
             {pilot.name && pilot.callSign ? ` · ${pilot.name}` : ''}
           </p>
         </div>
-        <div className="flex flex-col items-end gap-2">
-          <div className="flex flex-wrap gap-2">
-            <button type="button" onClick={exportJson} className="hud-btn">
+        <div className="flex w-full flex-col gap-2 sm:w-auto sm:items-end">
+          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
+            <button type="button" onClick={exportJson} className="hud-btn min-h-[44px]">
               {EXPORT_LABELS.exportJson}
             </button>
             <button
               type="button"
               onClick={exportPdf}
               disabled={exporting}
-              className="hud-btn hud-btn--primary"
+              className="hud-btn hud-btn--primary min-h-[44px]"
             >
               {exporting ? EXPORT_LABELS.exportPdfBusy : EXPORT_LABELS.exportPdf}
             </button>
-            <button type="button" onClick={handleReset} className="hud-btn hud-btn--danger">
+            <button
+              type="button"
+              onClick={handleReset}
+              className="hud-btn hud-btn--danger col-span-2 min-h-[44px] sm:col-span-1"
+            >
               Resetar ficha
             </button>
           </div>
-          <p className="font-mono text-[0.65rem] text-[var(--hud-muted)]">
+          <p className="font-mono text-[0.65rem] text-[var(--hud-muted)] sm:text-right">
             {savedAt ? `Salvo ${savedAt.toLocaleTimeString('pt-BR')}` : 'Salvando…'}
           </p>
-          {error && <p className="text-xs text-[var(--hud-warn)]">{error}</p>}
+          {error && <p className="text-xs text-[var(--hud-warn)] sm:text-right">{error}</p>}
         </div>
       </header>
 
-      <nav className="flex flex-wrap gap-1 border-b border-[var(--hud-border)] pb-2">
-        {TABS.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            onClick={() => setTab(t.id)}
-            className={`hud-tab ${tab === t.id ? 'hud-tab--active' : ''}`}
-          >
-            {t.label}
-          </button>
-        ))}
+      <nav className="hud-tab-bar" aria-label="Seções da ficha">
+        <div className="hud-tab-bar__scroll">
+          {TABS.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              onClick={() => setTab(t.id)}
+              className={`hud-tab ${tab === t.id ? 'hud-tab--active' : ''}`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
       </nav>
 
       {tab === 'identity' && <IdentityTab pilot={pilot} onChange={onChange} />}

@@ -1,11 +1,12 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { usePilotStorage } from './application/usePilotStorage';
 import { PilotEditor } from './presentation/components/PilotEditor';
-import { EXPORT_LABELS } from './shared/constants/exportLabels';
+import { PilotSidebar } from './presentation/components/PilotSidebar';
 import { getPlaybookById } from './shared/data/beamSaberPilotData';
 
 export default function App() {
   const importRef = useRef<HTMLInputElement>(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const {
     pilots,
     activePilot,
@@ -20,6 +21,22 @@ export default function App() {
     resetPilot,
   } = usePilotStorage();
 
+  const activeLabel = activePilot?.callSign || activePilot?.name || 'Sem piloto';
+  const activePlaybook = activePilot ? getPlaybookById(activePilot.playbookId)?.name : null;
+
+  useEffect(() => {
+    if (!sidebarOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setSidebarOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.body.style.overflow = '';
+    };
+  }, [sidebarOpen]);
+
   const handleImport = async (file: File) => {
     try {
       const text = await file.text();
@@ -29,77 +46,69 @@ export default function App() {
     }
   };
 
+  const handleSelectPilot = (id: string) => {
+    selectPilot(id);
+    setSidebarOpen(false);
+  };
+
+  const handleCreatePilot = () => {
+    createPilot();
+    setSidebarOpen(false);
+  };
+
   return (
-    <div className="min-h-screen">
-      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 lg:flex-row">
-        <aside className="hud-panel w-full shrink-0 lg:w-56">
-          <p className="mb-0.5 font-mono text-[0.55rem] tracking-[0.3em] text-[var(--hud-muted)]">
-            MECHA
-          </p>
-          <h1 className="hud-sidebar-title mb-1">BEAM SABER</h1>
-          <p className="mb-4 font-mono text-[0.6rem] text-[var(--hud-muted)]">REGISTRO DE PILOTOS · LOCAL</p>
-          <button type="button" onClick={createPilot} className="hud-btn mb-2 w-full">
-            + NOVO PILOTO
-          </button>
-          <button
-            type="button"
-            onClick={() => importRef.current?.click()}
-            className="hud-btn mb-4 w-full !text-[var(--hud-muted)]"
-          >
-            {EXPORT_LABELS.importJson}
-          </button>
-          <input
-            ref={importRef}
-            type="file"
-            accept="application/json,.json"
-            className="hidden"
-            onChange={(e) => {
-              const file = e.target.files?.[0];
-              if (file) void handleImport(file);
-              e.target.value = '';
-            }}
-          />
-          <ul className="space-y-1">
-            {pilots.map((p) => {
-              const pb = getPlaybookById(p.playbookId);
-              return (
-                <li key={p.id} className="group flex items-center gap-1">
-                  <button
-                    type="button"
-                    onClick={() => selectPilot(p.id)}
-                    className={`min-w-0 flex-1 border px-3 py-2 text-left transition-colors ${
-                      p.id === activeId
-                        ? 'border-[var(--hud-accent)] bg-[rgba(0,212,255,0.12)] text-[var(--hud-accent)]'
-                        : 'border-transparent text-[var(--hud-muted)] hover:border-[var(--hud-border)] hover:bg-[rgba(0,0,0,0.2)]'
-                    }`}
-                  >
-                    <div className="truncate font-mono text-sm font-semibold">
-                      {p.callSign || p.name || 'SEM NOME'}
-                    </div>
-                    {pb && (
-                      <div className="truncate font-mono text-[0.6rem] uppercase opacity-60">{pb.name}</div>
-                    )}
-                  </button>
-                  <button
-                    type="button"
-                    title="Excluir"
-                    onClick={() => {
-                      if (confirm('Excluir esta ficha?')) deletePilot(p.id);
-                    }}
-                    className="hud-btn hud-btn--danger px-1 opacity-0 group-hover:opacity-100"
-                  >
-                    ×
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-          {pilots.length > 0 && (
-            <p className="mt-4 font-mono text-[0.6rem] text-[var(--hud-muted)]">
-              UNIDADES: {pilots.length}
+    <div className="app-shell min-h-screen">
+      <header className="hud-mobile-bar lg:hidden">
+        <button
+          type="button"
+          className="hud-mobile-bar__menu hud-btn"
+          onClick={() => setSidebarOpen(true)}
+          aria-label="Abrir lista de pilotos"
+        >
+          ☰ Pilotos
+        </button>
+        <div className="hud-mobile-bar__title min-w-0">
+          <p className="truncate font-mono text-sm font-bold text-white">{activeLabel}</p>
+          {activePlaybook && (
+            <p className="truncate font-mono text-[0.6rem] uppercase text-[var(--hud-muted)]">
+              {activePlaybook}
             </p>
           )}
-        </aside>
+        </div>
+      </header>
+
+      {sidebarOpen && (
+        <button
+          type="button"
+          className="hud-sidebar-backdrop lg:hidden"
+          aria-label="Fechar menu"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
+      <div className="app-shell__inner mx-auto flex max-w-6xl flex-col gap-4 px-3 py-4 sm:px-4 sm:py-6 lg:flex-row lg:gap-6 lg:py-8">
+        <PilotSidebar
+          pilots={pilots}
+          activeId={activeId}
+          onSelect={handleSelectPilot}
+          onCreate={handleCreatePilot}
+          onDelete={deletePilot}
+          onImportClick={() => importRef.current?.click()}
+          onClose={() => setSidebarOpen(false)}
+          className={sidebarOpen ? 'hud-sidebar--open' : ''}
+        />
+
+        <input
+          ref={importRef}
+          type="file"
+          accept="application/json,.json"
+          className="hidden"
+          onChange={(e) => {
+            const file = e.target.files?.[0];
+            if (file) void handleImport(file);
+            e.target.value = '';
+          }}
+        />
 
         <main className="min-w-0 flex-1">
           {activePilot ? (
@@ -111,12 +120,12 @@ export default function App() {
               onReset={() => resetPilot(activePilot.id)}
             />
           ) : (
-            <div className="hud-panel p-12 text-center">
+            <div className="hud-panel p-8 text-center sm:p-12">
               <p className="mb-1 font-mono text-[0.65rem] tracking-widest text-[var(--hud-accent)]">
                 AGUARDANDO PILOTO
               </p>
               <p className="mb-4 text-[var(--hud-muted)]">Nenhuma unidade registrada.</p>
-              <button type="button" onClick={createPilot} className="hud-btn hud-btn--primary">
+              <button type="button" onClick={handleCreatePilot} className="hud-btn hud-btn--primary">
                 Inicializar piloto
               </button>
             </div>
