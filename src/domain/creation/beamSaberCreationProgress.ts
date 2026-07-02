@@ -16,7 +16,28 @@ export const CREATION_LIMITS = {
   step7FreePoints: 2,
   vehicleCreationPoints: 3,
   maxRatingAtCreation: 2,
+  maxRatingInCampaign: 3,
   playbookPoints: 3,
+} as const;
+
+export const CREATION_RATING_HELP = {
+  title: 'Limite de nível nas ações',
+  summary:
+    'Na criação, nenhuma ação pode passar de 2. Isso é o teto de “especialista” antes de jogar — você ainda rola 2d na ação, o que já é sólido na mesa.',
+  scale: [
+    { level: 0, label: 'Sem treino' },
+    { level: 1, label: 'Treinado' },
+    { level: 2, label: 'Especialista — máximo na criação' },
+    { level: 3, label: 'Mestre — máximo na campanha (XP de atributo)' },
+  ],
+  sources: [
+    'Arquétipo: +3 pontos (já distribuídos pelo playbook)',
+    'História e Abertura: +1 cada em uma ação de piloto ou robô',
+    'Passo 7: +2 pontos livres (máx. 2 por ação)',
+    'Robô: +3 pontos extras só em ações do veículo',
+  ],
+  campaign:
+    'Depois da criação, o XP de atributo sobe uma ação por vez até 3 (salvo upgrade do esquadrão). Esforço, assistência e peculiaridades ainda aumentam o pool de dados.',
 } as const;
 
 export interface CreationCheckItem {

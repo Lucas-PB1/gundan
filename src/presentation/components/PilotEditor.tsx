@@ -9,7 +9,6 @@ import {
 } from '../../shared/constants/pilotEditorTabs';
 import { usePilotPdfExport } from '../hooks/usePilotPdfExport';
 import { flashCreationAnchor, hudSpring, tapScale } from '../motion/hudMotion';
-import { PilotPdfContent } from './export/PilotPdfContent';
 import { ActionsTab } from './tabs/ActionsTab';
 import { ConditionTab } from './tabs/ConditionTab';
 import { ConnectionsTab } from './tabs/ConnectionsTab';
@@ -19,7 +18,6 @@ import { LoadoutTab } from './tabs/LoadoutTab';
 import { VehicleTab } from './tabs/VehicleTab';
 import { RollsTab } from './tabs/RollsTab';
 import { AnimatedTabPanel } from './ui/AnimatedTabPanel';
-import '../styles/pilot-pdf.css';
 
 export function PilotEditor({
   pilot,
@@ -38,7 +36,7 @@ export function PilotEditor({
   const [scrollAnchor, setScrollAnchor] = useState<string | null>(null);
   const reduced = useReducedMotion();
   const playbook = getPlaybookById(pilot.playbookId);
-  const { pdfRef, exportPdf, exportJson, exporting, error } = usePilotPdfExport(pilot);
+  const { exportPdf, exportJson, exporting, error } = usePilotPdfExport(pilot);
 
   const navigateTo = useCallback((nextTab: PilotEditorTabId, anchor?: string) => {
     setTab(nextTab);
@@ -177,12 +175,6 @@ export function PilotEditor({
       </nav>
 
       <AnimatedTabPanel tabKey={tab}>{tabContent}</AnimatedTabPanel>
-
-      <div className="bs-pdf-root" aria-hidden>
-        <div ref={pdfRef}>
-          <PilotPdfContent pilot={pilot} />
-        </div>
-      </div>
     </div>
   );
 }

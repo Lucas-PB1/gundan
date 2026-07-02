@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState } from 'react';
+import { useCallback, useState } from 'react';
 import {
   exportPilotSheetPdf,
   pilotSheetPdfFilename,
@@ -9,20 +9,16 @@ import type { PilotSheet } from '../../domain/entities/PilotSheet';
 import { EXPORT_LABELS } from '../../shared/constants/exportLabels';
 
 export function usePilotPdfExport(pilot: PilotSheet) {
-  const pdfRef = useRef<HTMLDivElement>(null);
   const [exporting, setExporting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const exportPdf = useCallback(async () => {
-    const node = pdfRef.current;
-    if (!node) return;
-
     setExporting(true);
     setError(null);
 
     try {
       const filename = pilotSheetPdfFilename(pilot.callSign, pilot.name);
-      await exportPilotSheetPdf(node, filename);
+      await exportPilotSheetPdf(pilot, filename);
     } catch {
       setError(EXPORT_LABELS.exportError);
     } finally {
@@ -35,5 +31,5 @@ export function usePilotPdfExport(pilot: PilotSheet) {
     downloadPilotJson(pilot, filename);
   }, [pilot]);
 
-  return { pdfRef, exportPdf, exportJson, exporting, error, clearError: () => setError(null) };
+  return { exportPdf, exportJson, exporting, error, clearError: () => setError(null) };
 }
